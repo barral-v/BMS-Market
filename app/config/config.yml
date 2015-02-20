@@ -28,6 +28,9 @@ fos_user:
     db_driver: orm
     firewall_name: main
     user_class: Utilisateurs\UtilisateursBundle\Entity\Utilisateurs
+    registration:
+        form:
+            type: bms_user_registration
 
 # Twig Configuration
 twig:

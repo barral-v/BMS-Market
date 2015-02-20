@@ -3,7 +3,7 @@ parameters:
     database_driver: pdo_mysql
     database_host: 127.0.0.1
     database_port: null
-    database_name: ecommerce
+    database_name: bms-market
     database_user: root
     database_password: null
     mailer_transport: smtp
@@ -15,7 +15,7 @@ parameters:
     secret: ThisTokenIsNotSoSecretChangeIt
 twig:
     globals:
-        telephone: '02 35 00 00 00'
-        fax: '02 35 00 00 00'
-        adresse: 'Paris 75 000 - 3 rue des jardins'
-        pathDefault: 'http://localhost/ecommerce/web/'
+        telephone: '06 06 06 06 06'
+        fax: '06 06 06 06 07'
+        adresse: '42 rue des champs elysée'
+        pathDefault: 'http://localhost/bms-market/web/'
