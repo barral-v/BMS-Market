@@ -16,10 +16,10 @@ class GetFacture
         $html = $this->container->get('templating')->render('UtilisateursBundle:Default:layout/facturePDF.html.twig', array('facture' => $facture));
         
         $html2pdf = new \Html2Pdf_Html2Pdf('P','A4','fr');
-        $html2pdf->pdf->SetAuthor('DevAndClick');
+        $html2pdf->pdf->SetAuthor('Business Management Software');
         $html2pdf->pdf->SetTitle('Facture '.$facture->getReference());
-        $html2pdf->pdf->SetSubject('Facture DevAndClick');
-        $html2pdf->pdf->SetKeywords('facture,devandclick');
+        $html2pdf->pdf->SetSubject('Facture Business Management Software');
+        $html2pdf->pdf->SetKeywords('facture,Business Management Software');
         $html2pdf->pdf->SetDisplayMode('real');
         $html2pdf->writeHTML($html);
         

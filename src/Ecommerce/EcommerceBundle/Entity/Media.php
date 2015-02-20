@@ -37,8 +37,8 @@ class Media
     {
         $this->updateAt = new \DateTime();
     }
-    
-    /**
+
+        /**
      * @ORM\Column(type="string",length=255) 
      * @Assert\NotBlank
      */
@@ -128,5 +128,12 @@ class Media
     public function getName()
     {
         return $this->name;
+    }
+    public function setName($name) {
+        $this->name = $name;
+    }
+
+    public function setPath($path) {
+        $this->path = $path;
     }
 }

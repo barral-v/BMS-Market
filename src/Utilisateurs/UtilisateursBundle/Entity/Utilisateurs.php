@@ -3,6 +3,7 @@ namespace Utilisateurs\UtilisateursBundle\Entity;
 
 use FOS\UserBundle\Model\User as BaseUser;
 use Doctrine\ORM\Mapping as ORM;
+use Symfony\Component\Validator\Constraints as Assert;
 
 /**
  * @ORM\Entity(repositoryClass="Utilisateurs\UtilisateursBundle\Repository\UtilisateursRepository")
@@ -16,12 +17,50 @@ class Utilisateurs extends BaseUser
      * @ORM\GeneratedValue(strategy="AUTO")
      */
     protected $id;
+    
+    /**
+     * @ORM\Column(name="name_company", type="string", length=255, nullable=true)
+     *
+     * @Assert\Length(
+     *     min=3,
+     *     max="255",
+     *     minMessage="The company name is too short.",
+     *     maxMessage="The company name is too long."
+     * )
+     */
+    protected $nameCompany;
 
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="type_account", type="string", length=30)
+     */
+    protected $typeAccount;
+
+    public function getNameCompany() {
+        return $this->nameCompany;
+    }
+
+    public function getTypeAccount() {
+        return $this->typeAccount;
+    }
+
+    public function setNameCompany($nameCompany) {
+        $this->nameCompany = $nameCompany;
+    }
+
+    public function setTypeAccount($typeAccount) {
+        $this->typeAccount = $typeAccount;
+    }
+
+        
     public function __construct()
     {
         parent::__construct();
         $this->commandes = new \Doctrine\Common\Collections\ArrayCollection();
         $this->adresses = new \Doctrine\Common\Collections\ArrayCollection();
+        //$this->roles
+        //if ($this->getTypeAccount() == ''
     }
     
     /**
