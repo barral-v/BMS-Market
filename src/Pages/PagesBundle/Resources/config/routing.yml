@@ -3,5 +3,5 @@ PagesBundle_adminPages:
     prefix:   /admin/pages/
 
 page:
-    pattern:  /page/{id}
+    pattern:  /page/{slug}
     defaults: { _controller: PagesBundle:Pages:page }

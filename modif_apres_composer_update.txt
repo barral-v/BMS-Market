@@ -1,0 +1,5 @@
+Gedmo\Translatable\Entity
+	add
+	use Doctrine\ORM\Mapping as ORM;
+	 * @ORM\Table(
+	 

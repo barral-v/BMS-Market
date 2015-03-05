@@ -2,6 +2,14 @@ adminPages:
     pattern:  /
     defaults: { _controller: "PagesBundle:PagesAdmin:index" }
 
+adminDeletedPages:
+    pattern:  /deleted
+    defaults: { _controller: "PagesBundle:PagesAdmin:deletedPages" }
+
+adminRestorePage:
+    pattern:  /{id}/restore
+    defaults: { _controller: "PagesBundle:PagesAdmin:restore" }
+
 adminPages_show:
     pattern:  /{id}/show
     defaults: { _controller: "PagesBundle:PagesAdmin:show" }

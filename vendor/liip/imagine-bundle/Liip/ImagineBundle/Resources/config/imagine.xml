@@ -41,6 +41,7 @@
         <parameter key="liip_imagine.filter.loader.background.class">Liip\ImagineBundle\Imagine\Filter\Loader\BackgroundFilterLoader</parameter>
         <parameter key="liip_imagine.filter.loader.upscale.class">Liip\ImagineBundle\Imagine\Filter\Loader\UpscaleFilterLoader</parameter>
         <parameter key="liip_imagine.filter.loader.auto_rotate.class">Liip\ImagineBundle\Imagine\Filter\Loader\AutoRotateFilterLoader</parameter>
+        <parameter key="liip_imagine.filter.loader.interlace.class">Liip\ImagineBundle\Imagine\Filter\Loader\InterlaceFilterLoader</parameter>
 
         <!-- Data loaders' classes -->
 
@@ -64,6 +65,12 @@
         <!-- Form types -->
 
         <parameter key="liip_imagine.form.type.image.class">Liip\ImagineBundle\Form\Type\ImageType</parameter>
+
+        <!-- Post processors' classes -->
+        <parameter key="liip_imagine.filter.post_processor.jpegoptim.class">Liip\ImagineBundle\Imagine\Filter\PostProcessor\JpegOptimPostProcessor</parameter>
+
+        <parameter key="liip_imagine.jpegoptim.binary">/usr/bin/jpegoptim</parameter>
+
     </parameters>
 
     <services>
@@ -175,6 +182,10 @@
             <tag name="liip_imagine.filter.loader" loader="auto_rotate" />
         </service>
 
+        <service id="liip_imagine.filter.loader.interlace" class="%liip_imagine.filter.loader.interlace.class%">
+            <tag name="liip_imagine.filter.loader" loader="interlace" />
+        </service>
+
         <!-- Data loaders -->
 
         <service id="liip_imagine.binary.loader.prototype.filesystem" class="%liip_imagine.binary.loader.filesystem.class%">
@@ -198,6 +209,7 @@
         </service>
 
         <service id="liip_imagine.cache.resolver.prototype.aws_s3" class="%liip_imagine.cache.resolver.aws_s3.class%" public="true" abstract="true">
+            <argument><!-- will be injected by AwsS3ResolverFactory --></argument>
             <argument><!-- will be injected by AwsS3ResolverFactory --></argument>
             <argument><!-- will be injected by AwsS3ResolverFactory --></argument>
             <argument><!-- will be injected by AwsS3ResolverFactory --></argument>
@@ -247,6 +259,12 @@
 
         <service id="liip_imagine.cache.signer" class="%liip_imagine.cache.signer.class%">
             <argument>%kernel.secret%</argument>
+        </service>
+
+        <!-- Post processors -->
+        <service id="liip_imagine.filter.post_processor.jpegoptim" class="%liip_imagine.filter.post_processor.jpegoptim.class%">
+            <argument>%liip_imagine.jpegoptim.binary%</argument>
+            <tag name="liip_imagine.filter.post_processor" post_processor="jpegoptim" />
         </service>
     </services>
 </container>

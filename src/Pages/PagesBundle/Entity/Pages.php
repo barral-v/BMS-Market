@@ -2,12 +2,14 @@
 
 namespace Pages\PagesBundle\Entity;
 
+use Gedmo\Mapping\Annotation as Gedmo;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
  * Pages
  *
  * @ORM\Table("pages")
+ * @Gedmo\SoftDeleteable(fieldName="deletedAt", timeAware=false)
  * @ORM\Entity(repositoryClass="Pages\PagesBundle\Repository\PagesRepository")
  */
 class Pages
@@ -20,7 +22,36 @@ class Pages
      * @ORM\GeneratedValue(strategy="AUTO")
      */
     private $id;
-
+    
+    /**
+     * @ORM\Column(name="deletedAt", type="datetime", nullable=true)
+     */
+    private $deletedAt;
+    
+    /**
+     * @Gedmo\Slug(fields={"titre"})
+     * @ORM\Column(length=128, unique=true)
+     */
+    private $slug;
+    
+    /**
+     * @Gedmo\Timestampable(on="create")
+     * @ORM\Column(type="datetime")
+     */
+    private $created;
+    
+    /**
+     * @Gedmo\Timestampable(on="update")
+     * @ORM\Column(type="datetime")
+     */
+    private $updated;
+    
+    /**
+     * @Gedmo\Timestampable(on="change", field={"titre"})
+     * @ORM\Column(name="titleChanged", type="datetime", nullable=true)
+     */
+    private $titleChanged;
+    
     /**
      * @var string
      *
@@ -81,6 +112,19 @@ class Pages
 
         return $this;
     }
+    
+    /**
+     * Set deletedAt
+     *
+     * @param string $deletedAt
+     * @return Pages
+     */
+    public function setdeletedAt($deletedAt)
+    {
+        $this->deletedAt = $deletedAt;
+
+        return $this;
+    }
 
     /**
      * Get contenu
@@ -90,5 +134,15 @@ class Pages
     public function getContenu()
     {
         return $this->contenu;
+    }
+    
+    /**
+     * Get slug
+     *
+     * @return string 
+     */
+    public function getSlug()
+    {
+        return $this->slug;
     }
 }

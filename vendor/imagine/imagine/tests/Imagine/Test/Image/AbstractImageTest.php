@@ -556,6 +556,19 @@ abstract class AbstractImageTest extends ImagineTestCase
         $this->assertEquals('#0082a2', (string) $color);
     }
 
+    public function testStripImageWithInvalidProfile()
+    {
+        $image = $this
+            ->getImagine()
+            ->open('tests/Imagine/Fixtures/invalid-icc-profile.jpg');
+
+        $color = $image->getColorAt(new Point(0, 0));
+        $image->strip();
+        $afterColor = $image->getColorAt(new Point(0, 0));
+
+        $this->assertEquals((string) $color, (string) $afterColor);
+    }
+
     public function testGetColorAt()
     {
         $color = $this
@@ -669,6 +682,18 @@ abstract class AbstractImageTest extends ImagineTestCase
         $this->assertNotSame($originalMetadata, $clone->metadata(), 'The image\'s metadata is the same after cloning the image, but must be a new instance.');
     }
 
+    public function testImageSizeOnAnimatedGif()
+    {
+        $imagine = $this->getImagine();
+
+        $image = $imagine->open('tests/Imagine/Fixtures/anima3.gif');
+
+        $size = $image->getSize();
+
+        $this->assertEquals(300, $size->getWidth());
+        $this->assertEquals(200, $size->getHeight());
+    }
+
     /**
      * @dataProvider provideVariousSources
      */
@@ -695,6 +720,28 @@ abstract class AbstractImageTest extends ImagineTestCase
             array(__DIR__.'/../../Fixtures/example.svg'),
             array(__DIR__.'/../../Fixtures/100-percent-black.png'),
         );
+    }
+
+    public function testFillAlphaPrecision()
+    {
+        $imagine = $this->getImagine();
+        $palette = new RGB();
+        $image = $imagine->create(new Box(1, 1), $palette->color("#f00"));
+        $fill = new Horizontal(100, $palette->color("#f00", 17), $palette->color("#f00", 73));
+        $image->fill($fill);
+
+        $actualColor = $image->getColorAt(new Point(0, 0));
+        $this->assertEquals(17, $actualColor->getAlpha());
+    }
+
+    public function testImageCreatedAlpha()
+    {
+        $palette = new RGB();
+        $image = $this->getImagine()->create(new Box(1, 1), $palette->color("#7f7f7f", 10));
+        $actualColor = $image->getColorAt(new Point(0, 0));
+
+        $this->assertEquals("#7f7f7f", (string) $actualColor);
+        $this->assertEquals(10, $actualColor->getAlpha());
     }
 
     abstract protected function getImageResolution(ImageInterface $image);

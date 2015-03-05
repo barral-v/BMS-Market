@@ -12,4 +12,11 @@ use Doctrine\ORM\EntityRepository;
  */
 class PagesRepository extends EntityRepository
 {
+    public function findByDeleted() {
+        $gb = $this->createQueryBuilder('u')
+                ->select('u')
+                ->where('u.deletedAt IS NOT NULL');
+        
+        return $gb->getQuery()->getResult();
+    }
 }

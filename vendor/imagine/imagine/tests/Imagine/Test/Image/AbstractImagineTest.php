@@ -13,6 +13,7 @@ namespace Imagine\Test\Image;
 
 use Imagine\Image\Box;
 use Imagine\Image\Color;
+use Imagine\Image\Point;
 use Imagine\Test\ImagineTestCase;
 use Imagine\Image\Palette\RGB;
 use Imagine\Image\ImagineInterface;
@@ -71,6 +72,14 @@ abstract class AbstractImagineTest extends ImagineTestCase
 
         $this->setExpectedException('Imagine\Exception\InvalidArgumentException', sprintf('File %s does not exist.', $invalidResource));
         $this->getImagine()->open($invalidResource);
+    }
+
+    public function testShouldFailOnInvalidImage()
+    {
+        $source = 'tests/Imagine/Fixtures/invalid-image.jpg';
+
+        $this->setExpectedException('Imagine\Exception\RuntimeException', sprintf('Unable to open image %s', $source));
+        $this->getImagine()->open($source);
     }
 
     public function testShouldOpenAnHttpImage()
@@ -152,6 +161,15 @@ abstract class AbstractImagineTest extends ImagineTestCase
         $factory = $this->getImagine();
 
         $this->assertEquals($this->getEstimatedFontBox(), $factory->font($path, 36, $black)->box('string'));
+    }
+
+    public function testCreateAlphaPrecision()
+    {
+        $imagine = $this->getImagine();
+        $palette = new RGB();
+        $image   = $imagine->create(new Box(1, 1), $palette->color("#f00", 17));
+        $actualColor = $image->getColorAt(new Point(0, 0));
+        $this->assertEquals(17, $actualColor->getAlpha());
     }
 
     abstract protected function getEstimatedFontBox();

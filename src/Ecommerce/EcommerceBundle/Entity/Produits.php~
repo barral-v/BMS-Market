@@ -3,6 +3,7 @@
 namespace Ecommerce\EcommerceBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
+use Utilisateurs\UtilisateursBundle\Entity\Utilisateurs;
 
 /**
  * Produits
@@ -22,19 +23,25 @@ class Produits
     private $id;
 
     /**
+     * @ORM\ManyToOne(targetEntity="Utilisateurs\UtilisateursBundle\Entity\Utilisateurs", inversedBy="produits")
+     * @ORM\JoinColumn(nullable=false)
+     */
+    private $utilisateur;
+    
+    /**
      * @ORM\OneToOne(targetEntity="Ecommerce\EcommerceBundle\Entity\Media", cascade={"persist","remove"})
      * @ORM\JoinColumn(nullable=false)
      */
     private $image;
 
     /**
-     * @ORM\ManyToOne(targetEntity="Ecommerce\EcommerceBundle\Entity\Categories", cascade={"persist","remove"})
+     * @ORM\ManyToOne(targetEntity="Ecommerce\EcommerceBundle\Entity\Categories", cascade={"persist"})
      * @ORM\JoinColumn(nullable=false)
      */
     private $categorie;
     
     /**
-     * @ORM\ManyToOne(targetEntity="Ecommerce\EcommerceBundle\Entity\Tva", cascade={"persist","remove"})
+     * @ORM\ManyToOne(targetEntity="Ecommerce\EcommerceBundle\Entity\Tva", cascade={"persist"})
      * @ORM\JoinColumn(nullable=false)
      */
     private $tva;
@@ -168,5 +175,97 @@ class Produits
     public function getDisponible()
     {
         return $this->disponible;
+    }
+
+    /**
+     * Set image
+     *
+     * @param \Ecommerce\EcommerceBundle\Entity\Media $image
+     * @return Produits
+     */
+    public function setImage(\Ecommerce\EcommerceBundle\Entity\Media $image)
+    {
+        $this->image = $image;
+
+        return $this;
+    }
+
+    /**
+     * Get image
+     *
+     * @return \Ecommerce\EcommerceBundle\Entity\Media 
+     */
+    public function getImage()
+    {
+        return $this->image;
+    }
+
+    /**
+     * Set categorie
+     *
+     * @param \Ecommerce\EcommerceBundle\Entity\Categories $categorie
+     * @return Produits
+     */
+    public function setCategorie(\Ecommerce\EcommerceBundle\Entity\Categories $categorie)
+    {
+        $this->categorie = $categorie;
+
+        return $this;
+    }
+
+    /**
+     * Get categorie
+     *
+     * @return \Ecommerce\EcommerceBundle\Entity\Categories 
+     */
+    public function getCategorie()
+    {
+        return $this->categorie;
+    }
+
+    /**
+     * Set tva
+     *
+     * @param \Ecommerce\EcommerceBundle\Entity\Tva $tva
+     * @return Produits
+     */
+    public function setTva(\Ecommerce\EcommerceBundle\Entity\Tva $tva)
+    {
+        $this->tva = $tva;
+
+        return $this;
+    }
+
+    /**
+     * Get tva
+     *
+     * @return \Ecommerce\EcommerceBundle\Entity\Tva 
+     */
+    public function getTva()
+    {
+        return $this->tva;
+    }
+
+    /**
+     * Set utilisateur
+     *
+     * @param \Utilisateurs\UtilisateursBundle\Entity\Utilisateurs $utilisateur
+     * @return Produits
+     */
+    public function setUtilisateur(\Utilisateurs\UtilisateursBundle\Entity\Utilisateurs $utilisateur)
+    {
+        $this->utilisateur = $utilisateur;
+
+        return $this;
+    }
+
+    /**
+     * Get utilisateur
+     *
+     * @return \Utilisateurs\UtilisateursBundle\Entity\Utilisateurs 
+     */
+    public function getUtilisateur()
+    {
+        return $this->utilisateur;
     }
 }

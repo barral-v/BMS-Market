@@ -14,7 +14,7 @@ class RegistrationFormType extends AbstractType
             'required' => false));
         $builder->add('type_account', 'choice', array(
             'choices' => array(
-                'user' => 'Utilisateurs',
+                'user' => 'Utilisateur',
                 'dev' => 'Développeur')));
     }
 

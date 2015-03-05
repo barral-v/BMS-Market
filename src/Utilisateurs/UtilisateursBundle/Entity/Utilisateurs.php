@@ -1,7 +1,7 @@
 <?php
 namespace Utilisateurs\UtilisateursBundle\Entity;
 
-use FOS\UserBundle\Model\User as BaseUser;
+use FOS\UserBundle\Entity\User as BaseUser;
 use Doctrine\ORM\Mapping as ORM;
 use Symfony\Component\Validator\Constraints as Assert;
 
@@ -59,8 +59,6 @@ class Utilisateurs extends BaseUser
         parent::__construct();
         $this->commandes = new \Doctrine\Common\Collections\ArrayCollection();
         $this->adresses = new \Doctrine\Common\Collections\ArrayCollection();
-        //$this->roles
-        //if ($this->getTypeAccount() == ''
     }
     
     /**

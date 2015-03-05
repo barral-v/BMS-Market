@@ -22,13 +22,35 @@ class PagesAdminController extends Controller
     public function indexAction()
     {
         $em = $this->getDoctrine()->getManager();
-
         $entities = $em->getRepository('PagesBundle:Pages')->findAll();
 
         return $this->render('PagesBundle:Administration:pages/layout/index.html.twig', array(
             'entities' => $entities,
         ));
     }
+    
+    public function deletedPagesAction()
+    {
+        $em = $this->getDoctrine()->getManager();
+        $em->getFilters()->disable('softdeleteable');
+        $entities = $em->getRepository('PagesBundle:Pages')->findByDeleted();
+
+        return $this->render('PagesBundle:Administration:pages/layout/deletedPages.html.twig', array(
+            'entities' => $entities,
+        ));
+    }
+    
+    public function restoreAction($id) {
+        $em = $this->getDoctrine()->getManager();
+        $em->getFilters()->disable('softdeleteable');
+        $entity = $em->getRepository('PagesBundle:Pages')->find($id);
+        $entity->setDeletedAt(null);
+        $em->persist(($entity));
+        $em->flush();
+        
+        return $this->redirect($this->generateUrl('adminDeletedPages'));
+    }
+    
     /**
      * Creates a new Pages entity.
      *
