@@ -3,13 +3,6 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/1"/>
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group>
-            <file>file:/E:/wamp/www/BMS-Market/composer.json</file>
-            <file>file:/E:/wamp/www/BMS-Market/app/AppKernel.php</file>
-            <file>file:/E:/wamp/www/BMS-Market/vendor/autoload.php</file>
-            <file>file:/E:/wamp/www/BMS-Market/src/Ecommerce/EcommerceBundle/Resources/views/Default/produits/layout/produits.html.twig</file>
-            <file>file:/E:/wamp/www/BMS-Market/app/config/parameters.yml</file>
-            <file>file:/E:/wamp/www/BMS-Market/app/autoload.php</file>
-        </group>
+        <group/>
     </open-files>
 </project-private>

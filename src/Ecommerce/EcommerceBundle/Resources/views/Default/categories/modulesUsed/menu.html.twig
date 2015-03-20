@@ -1,5 +1,5 @@
 {% for categorie in categories %}
-    <li>
-        <a href="{{ path('categorieProduits', { 'categorie' : categorie.id }) }}">{{ categorie.nom }}</a>
+    <li class="dropdown menu-item">
+        <a href="{{ path('categorieProduits', { 'categorie' : categorie.id }) }}" class="dropdown-toggle" data-toggle="dropdown">{{ categorie.nom }}</a>
     </li>
 {% endfor %}
