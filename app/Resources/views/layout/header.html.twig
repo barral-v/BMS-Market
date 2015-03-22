@@ -7,11 +7,11 @@
                     <div class="header-top-inner">
                         <div class="cnt-account">
                             <ul class="list-unstyled">
-                                <li><a href="#"><i class="icon fa fa-user"></i>My Account</a></li>
+                                <li><a href="{{ path('fos_user_profile_show') }}"><i class="icon fa fa-user"></i>My Account</a></li>
                                 <li><a href="#"><i class="icon fa fa-heart"></i>Wishlist</a></li>
                                 <li><a href="#"><i class="icon fa fa-shopping-cart"></i>My Cart</a></li>
                                 <li><a href="#"><i class="icon fa fa-key"></i>Checkout</a></li>
-                                <li><a href="#"><i class="icon fa fa-sign-in"></i>Login</a></li>
+                                <li><a href="{{ path('fos_user_security_login') }}"><i class="icon fa fa-sign-in"></i>Login</a></li>
                             </ul>
                         </div><!-- /.cnt-account -->
 
@@ -47,7 +47,7 @@
                         <div class="col-xs-12 col-sm-12 col-md-3 logo-holder">
                             <!-- ============================================================= LOGO ============================================================= -->
                             <div class="logo">
-                                <a href="index.php?page=home">
+                                <a href="{{ path('produits') }}">
 
                                     <img src="{{ asset('images/logo.png') }}" alt="">
 
@@ -120,12 +120,12 @@
                                             <div class="row">
                                                 <div class="col-xs-4">
                                                     <div class="image">
-                                                        <a href="index.php?page=detail"><img src="images/cart.jpg" alt=""></a>
+                                                        <a href="{{ path('panier') }}"><img src="images/cart.jpg" alt=""></a>
                                                     </div>
                                                 </div>
                                                 <div class="col-xs-7">
 
-                                                    <h3 class="name"><a href="index.php?page-detail">Simple Product</a></h3>
+                                                    <h3 class="name"><a href="{{ path('panier') }}">Simple Product</a></h3>
                                                     <div class="price">$600.00</div>
                                                 </div>
                                                 <div class="col-xs-1 action">
@@ -176,114 +176,10 @@
                                 <div class="nav-outer">
                                     <ul class="nav navbar-nav">
                                         <li class="active dropdown yamm-fw">
-                                            <a href="index.php?page=home" data-hover="dropdown" class="dropdown-toggle" data-toggle="dropdown">Home</a>
-                                            <ul class="dropdown-menu">
-                                                <li>
-                                                    <div class="yamm-content">
-                                                        <div class="row">
-                                                            <div class="col-md-8 col-sm-8">
-                                                                <div class="row">
-                                                                    <div class="col-md-12">
-
-                                                                        <div class="col-xs-12 col-sm-6 col-md-3">
-                                                                            <h2 class="title">Computer</h2>
-                                                                            <ul class="links">
-                                                                                <li><a href="#">Lenovo</a></li>
-                                                                                <li><a href="#">Microsoft </a></li>
-                                                                                <li><a href="#">Fuhlen</a></li>
-                                                                                <li><a href="#">Longsleeves</a></li>
-                                                                            </ul>
-                                                                        </div><!-- /.col -->
-
-                                                                        <div class="col-xs-12 col-sm-6 col-md-3">
-                                                                            <h2 class="title">Camera</h2>
-                                                                            <ul class="links">
-                                                                                <li><a href="#">Fuhlen</a></li>
-                                                                                <li><a href="#">Lenovo</a></li>
-                                                                                <li><a href="#">Microsoft </a></li>                   
-                                                                                <li><a href="#">Longsleeves</a></li>
-                                                                            </ul>
-                                                                        </div><!-- /.col -->
-
-                                                                        <div class="col-xs-12 col-sm-6 col-md-3">
-                                                                            <h2 class="title">Apple Store</h2>
-                                                                            <ul class="links">
-                                                                                <li><a href="#">Longsleeves</a></li>
-                                                                                <li><a href="#">Fuhlen</a></li>
-                                                                                <li><a href="#">Lenovo</a></li>
-                                                                                <li><a href="#">Microsoft </a></li>                                       
-                                                                            </ul>
-                                                                        </div><!-- /.col -->
-
-                                                                        <div class="col-xs-12 col-sm-6 col-md-3">
-                                                                            <h2 class="title">Smart Phone</h2>
-                                                                            <ul class="links">
-                                                                                <li><a href="#">Microsoft </a></li> 
-                                                                                <li><a href="#">Longsleeves</a></li>
-                                                                                <li><a href="#">Fuhlen</a></li>
-                                                                                <li><a href="#">Lenovo</a></li>
-
-                                                                            </ul>
-                                                                        </div><!-- /.col -->
-
-                                                                    </div>
-
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-sm-4">
-                                                            </div>
-                                                        </div><!-- /.row -->
-
-{#                                                        <!-- ============================================== WIDE PRODUCTS ============================================== -->
-                                                        <div class="wide-banners megamenu-banner">
-                                                            <div class="row">
-                                                                <div class="col-sm-12 col-md-8">
-                                                                    <div class="row">
-                                                                        <div class="col-md-12">
-                                                                            <div class="col-sm-6 col-md-6">
-                                                                                <div class="wide-banner cnt-strip">
-                                                                                    <div class="image">
-                                                                                        <img class="img-responsive" src="assets/images/banners/4.jpg" alt="">
-                                                                                    </div>  
-                                                                                    <div class="strip">
-                                                                                        <div class="strip-inner text-right">
-                                                                                            <h3 class="white">new trend</h3>
-                                                                                            <h2 class="white">apple product</h2>
-                                                                                        </div>  
-                                                                                    </div>
-                                                                                </div><!-- /.wide-banner -->
-                                                                            </div><!-- /.col -->
-
-                                                                            <div class="col-sm-6 col-md-6">
-                                                                                <div class="wide-banner cnt-strip">
-                                                                                    <div class="image">
-                                                                                        <img class="img-responsive" src="assets/images/banners/5.jpg" alt="">
-                                                                                    </div>  
-                                                                                    <div class="strip">
-                                                                                        <div class="strip-inner text-left">
-                                                                                            <h3 class="white">camera collection</h3>
-                                                                                            <h2 class="white">new arrivals</h2>
-                                                                                        </div>  
-                                                                                    </div>
-                                                                                </div><!-- /.wide-banner -->
-                                                                            </div><!-- /.col -->
-                                                                        </div>
-
-                                                                    </div><!-- /.row -->
-                                                                </div>
-                                                                <div class="col-sm-12 col-md-4 hidden-xs hidden-sm">
-                                                                    <p class="text ">LenovoProin gravida nibh vel velit auctor aliquet es  Aenean sollicitudin,lorem quis bibendu auctor,nisi elit consequat ipsum auctor.</p>
-                                                                </div>
-                                                            </div>
-                                                        </div><!-- /.wide-banners -->
-
-                                                        <!-- ============================================== WIDE PRODUCTS : END ============================================== -->
-#}
-                                                    </div><!-- /.yamm-content -->					</li>
-                                            </ul>
+                                            <a href="{{ path('produits') }}" data-hover="dropdown" class="dropdown-toggle" data-toggle="dropdown">Home</a>
                                         </li>
                                         <li class="dropdown yamm">
-                                            <a href="index.php?page=home" data-hover="dropdown" class="dropdown-toggle" data-toggle="dropdown">Desktop</a>
+                                            <a href="{{ path('produits') }}" data-hover="dropdown" class="dropdown-toggle" data-toggle="dropdown">Modules</a>
                                             <ul class="dropdown-menu">
                                                 <li>
                                                     <div class="yamm-content">
@@ -294,8 +190,6 @@
                                                                     <ul class="links">
                                                                         <li><a href="#">Power Supplies Power</a></li>
                                                                         <li><a href="#">Power Supply Testers Sound </a></li>
-                                                                        <li><a href="#">Sound Cards (Internal)</a></li>
-                                                                        <li><a href="#">Video Capture &amp; TV Tuner Cards</a></li>
                                                                         <li><a href="#">Other</a></li>
                                                                     </ul>
                                                                 </div><!-- /.col -->
@@ -306,29 +200,12 @@
                                                                         <li><a href="#">Computer Cases &amp; Accessories</a></li>
                                                                         <li><a href="#">CPUs, Processors</a></li>
                                                                         <li><a href="#">Fans, Heatsinks &amp; Cooling</a></li>
-                                                                        <li><a href="#">Graphics, Video Cards</a></li>
-                                                                        <li><a href="#">Interface, Add-On Cards</a></li>
-                                                                        <li><a href="#">Laptop Replacement Parts</a></li>
-                                                                        <li><a href="#">Memory (RAM)</a></li>
-                                                                        <li><a href="#">Motherboards</a></li>
-                                                                        <li><a href="#">Motherboard &amp; CPU Combos</a></li>
-                                                                        <li><a href="#">Motherboard Components &amp; Accs</a></li>
-                                                                    </ul>
-                                                                </div><!-- /.col -->
-
-                                                                <div class="col-xs-12 col-sm-12 col-md-4">
-                                                                    <h2 class="title">Dekstop Parts</h2>
-                                                                    <ul class="links">
-                                                                        <li><a href="#">Power Supplies Power</a></li>
-                                                                        <li><a href="#">Power Supply Testers Sound</a></li>
-                                                                        <li><a href="#">Sound Cards (Internal)</a></li>
-                                                                        <li><a href="#">Video Capture &amp; TV Tuner Cards</a></li>
-                                                                        <li><a href="#">Other</a></li>
                                                                     </ul>
                                                                 </div><!-- /.col -->
                                                             </div>
                                                         </div><!-- /.row -->
-                                                    </div><!-- /.yamm-content -->					</li>
+                                                    </div><!-- /.yamm-content -->					
+                                                </li>
                                             </ul>
                                         </li>
 
@@ -337,16 +214,6 @@
                                             <a href="index.php?page=category">Electronics
 {#                                                <span class="menu-label hot-menu hidden-xs">hot</span>#}
                                             </a>
-                                        </li>
-                                        <li class="dropdown hidden-sm">
-
-                                            <a href="index.php?page=category">Television
-{#                                                <span class="menu-label new-menu hidden-xs">new</span>
-#}                                            </a>
-                                        </li>
-
-                                        <li class="dropdown hidden-sm">
-                                            <a href="index.php?page=category">Smart Phone</a>
                                         </li>
 
                                         <li class="dropdown">
