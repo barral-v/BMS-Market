@@ -1,11 +1,11 @@
-<div class="well col-xs-12 col-sm-12 col-md-3 sidebar">
-    <div class="nav nav-list side-menu animate-dropdown outer-bottom-xs">
-        <div class="head"><i class="icon fa fa-align-justify fa-fw"></i> Categories</div>
-        <nav class="yamm megamenu-horizontal" role="navigation">
-            <ul class="nav">
-                {#<li class="nav-header">Nos produits</li>#}
-                {% render(controller('EcommerceBundle:Categories:menu')) %}
-            </ul>
-        </nav>
-    </div>
+<div class="col-xs-12 col-sm-12 col-md-3 sidebar">
+    {% render(controller('EcommerceBundle:Categories:menu')) %}
+
+    {% if is_granted('IS_AUTHENTICATED_FULLY') %}
+        {% include 'UtilisateursBundle:Default:modulesUsed/utilisateursConnecte.html.twig' %}   
+    {% else %}
+        {% include 'UtilisateursBundle:Default:modulesUsed/utilisateurs.html.twig' %}   
+    {% endif %}
+    
+    {% render(controller('EcommerceBundle:Panier:menu')) %}
 </div>
