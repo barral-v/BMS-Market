@@ -60,6 +60,7 @@ class Utilisateurs extends BaseUser
         $this->commandes = new \Doctrine\Common\Collections\ArrayCollection();
         $this->adresses = new \Doctrine\Common\Collections\ArrayCollection();
     }
+
     
     /**
      * @ORM\OneToMany(targetEntity="Ecommerce\EcommerceBundle\Entity\Commandes", mappedBy="utilisateur", cascade={"remove"})

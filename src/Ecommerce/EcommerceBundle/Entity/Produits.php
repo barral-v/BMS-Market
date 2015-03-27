@@ -22,11 +22,17 @@ class Produits
     private $id;
 
     /**
+     * @ORM\ManyToOne(targetEntity="Utilisateurs\UtilisateursBundle\Entity\Utilisateurs", cascade={"persist"})
+     * @ORM\JoinColumn(nullable=false)
+     */
+    private $utilisateur;
+
+    /**
      * @ORM\OneToOne(targetEntity="Ecommerce\EcommerceBundle\Entity\Media", cascade={"persist","remove"})
      * @ORM\JoinColumn(nullable=false)
      */
     private $image;
-
+    
     /**
      * @ORM\ManyToOne(targetEntity="Ecommerce\EcommerceBundle\Entity\Categories", cascade={"persist"})
      * @ORM\JoinColumn(nullable=false)
@@ -215,6 +221,29 @@ class Produits
     {
         return $this->categorie;
     }
+    
+    /**
+     * Set utilisateur
+     *
+     * @param \Utilisateurs\UtilisateursBundle\Entity\Utilisateurs $utilisateur
+     * @return Utilisateurs
+     */
+    public function setUtilisateur(\Utilisateurs\UtilisateursBundle\Entity\Utilisateurs $utilisateur)
+    {
+        $this->utilisateur = $utilisateur;
+
+        return $this;
+    }
+
+    /**
+     * Get utilisateur
+     *
+     * @return \Utilisateurs\UtilisateursBundle\Entity\Utilisateurs 
+     */
+    public function getUtilisateurs()
+    {
+        return $this->utilisateur;
+    }
 
     /**
      * Set tva
@@ -238,4 +267,5 @@ class Produits
     {
         return $this->tva;
     }
+
 }

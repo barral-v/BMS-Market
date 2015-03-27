@@ -24,7 +24,6 @@ class ProduitsDeveloperController extends Controller
         $em = $this->getDoctrine()->getManager();
 
         $entities = $em->getRepository('EcommerceBundle:Produits')->findBy(array('utilisateur' => $this->getUser()));
-
         return $this->render('EcommerceBundle:Developer:Produits/layout/index.html.twig', array(
             'entities' => $entities,
         ));

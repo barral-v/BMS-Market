@@ -16,7 +16,7 @@ routingProduitsAdmin:
   
 routingProduitsDeveloper:
   resource: "@EcommerceBundle/Resources/config/routing/routingProduitsDeveloper.yml"
-  prefix: /developers/produits
+  prefix: /developer/produits
   
 routingCategoriesAdmin:
     resource: "@EcommerceBundle/Resources/config/routing/routingCategoriesAdmin.yml"
