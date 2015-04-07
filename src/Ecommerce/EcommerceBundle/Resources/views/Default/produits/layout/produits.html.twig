@@ -14,13 +14,19 @@
                                 <div class="product">		
                                     <div class="product-image">
                                         <div class="image">
-                                            <a href="{{ path('presentation', { 'id' : produit.id }) }}"><img src="{{ produit.image.AssetPath|imagine_filter('produit') }}" alt="{{ produit.image.name }}"></a>
+                                            <div class="thumbnail_container">
+                                                <div class="thumbnail">
+                                                    <a href="{{ path('presentation', { 'id' : produit.id }) }}">
+                                                        <img class="img-responsive" src="{{ produit.image.AssetPath|imagine_filter('produit') }}" alt="{{ produit.image.name }}">
+                                                    </a>
+                                                </div>
+                                            </div>
                                         </div><!-- /.image -->			                      		   
                                     </div><!-- /.product-image -->
 
                                     <div class="product-info text-left">
                                         <h3 class="name"><a href="{{ path('presentation', { 'id' : produit.id }) }}">{{ produit.nom }}</a></h3>
-                                        <div class="rating rateit-small rateit"><button style="display: none;" id="rateit-reset-2" data-role="none" class="rateit-reset" aria-label="reset rating" aria-controls="rateit-range-2"></button></div>
+                                        <div class="rating rateit-small rateit"></div>
                                         <div class="description"></div>
 
                                         <div class="product-price">	

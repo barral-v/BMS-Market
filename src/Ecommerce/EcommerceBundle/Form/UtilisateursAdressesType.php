@@ -31,12 +31,12 @@ class UtilisateursAdressesType extends AbstractType
             ->add('adresse')
             ->add('cp',null, array('attr' => array('class' => 'cp',
                                                    'maxlength' => 5)))
-            ->add('ville','choice', array('attr' => array('class' => 'ville')))
+            ->add('ville')
             ->add('pays')
             ->add('complement',null,array('required' => false))
             //->add('utilisateur')
         ;
-        
+        /*
         $city = function(FormInterface $form, $cp) {
             $villeCodePostal = $this->em->getRepository('UtilisateursBundle:Villes')->findBy(array('villeCodePostal' => $cp));
 
@@ -56,6 +56,7 @@ class UtilisateursAdressesType extends AbstractType
         $builder->get('cp')->addEventListener(FormEvents::POST_SUBMIT, function(FormEvent $event) use ($city) {
             $city($event->getForm()->getParent(),$event->getForm()->getData());
         });
+         */
     }
     
     /**

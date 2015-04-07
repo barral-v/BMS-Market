@@ -41,6 +41,7 @@ class ProduitsAdminController extends Controller
 
         if ($form->isValid()) {
             $em = $this->getDoctrine()->getManager();
+            $entity->setUtilisateur($this->getUser());
             $em->persist($entity);
             $em->flush();
 
