@@ -83,10 +83,10 @@
                             <div class="rating-reviews m-t-20">
                                 <div class="row">
                                     <div class="col-sm-3">
-                                        <div class="rating rateit-small rateit"><button style="display: none;" id="rateit-reset-5" data-role="none" class="rateit-reset" aria-label="reset rating" aria-controls="rateit-range-5"></button></div>
+                                        <div class="rating rateit-small rateit">{#<button style="display: none;" id="rateit-reset-5" data-role="none" class="rateit-reset" aria-label="reset rating" aria-controls="rateit-range-5"></button>#}</div>
                                     </div>
                                     <div class="col-sm-8">
-                                        <div class="reviews">
+                                      <div class="reviews">
                                             <a href="#" class="lnk">(06 Reviews)</a>
                                         </div>
                                     </div>
@@ -112,9 +112,9 @@
                                 {{ produit.description }}
                             </div><!-- /.description-container -->
 
-                            {#<div class="description-container m-t-20">
-                                {{ produit.utilisateur.username }}
-                            </div><!-- /.description-container -->#}
+                            <div class="description-container m-t-20">
+                                {{ produit.utilisateurs.username }}
+                            </div><!-- /.description-container -->
                             
                             <div class="price-container info-container m-t-20">
                                 <div class="row">
