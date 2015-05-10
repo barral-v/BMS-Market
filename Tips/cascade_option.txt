@@ -1,0 +1,8 @@
+The following cascade options exist:
+
+persist : Cascades persist operations to the associated entities.
+remove : Cascades remove operations to the associated entities.
+merge : Cascades merge operations to the associated entities.
+detach : Cascades detach operations to the associated entities.
+refresh : Cascades refresh operations to the associated entities.
+all : Cascades persist, remove, merge, refresh and detach operations to associated entities.

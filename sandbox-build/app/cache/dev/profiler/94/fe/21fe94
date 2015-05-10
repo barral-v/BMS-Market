@@ -1,0 +1,2780 @@
+a:8:{s:5:"token";s:6:"21fe94";s:6:"parent";N;s:8:"children";a:1:{i:0;s:6:"72ab15";}s:4:"data";a:14:{s:6:"config";C:62:"Symfony\Component\HttpKernel\DataCollector\ConfigDataCollector":8008:{a:16:{s:8:"app_name";N;s:11:"app_version";N;s:5:"token";s:6:"21fe94";s:15:"symfony_version";s:5:"2.6.5";s:4:"name";s:3:"app";s:3:"env";s:3:"dev";s:5:"debug";b:1;s:11:"php_version";s:6:"5.5.12";s:14:"xdebug_enabled";b:1;s:14:"eaccel_enabled";b:0;s:11:"apc_enabled";b:0;s:14:"xcache_enabled";b:0;s:16:"wincache_enabled";b:0;s:20:"zend_opcache_enabled";b:0;s:7:"bundles";a:72:{s:15:"FrameworkBundle";s:83:"E:\wamp\www\sandbox-build\vendor\symfony\symfony\src\Symfony\Bundle\FrameworkBundle";s:14:"SecurityBundle";s:82:"E:\wamp\www\sandbox-build\vendor\symfony\symfony\src\Symfony\Bundle\SecurityBundle";s:10:"TwigBundle";s:78:"E:\wamp\www\sandbox-build\vendor\symfony\symfony\src\Symfony\Bundle\TwigBundle";s:13:"MonologBundle";s:55:"E:\wamp\www\sandbox-build\vendor\symfony\monolog-bundle";s:17:"SwiftmailerBundle";s:59:"E:\wamp\www\sandbox-build\vendor\symfony\swiftmailer-bundle";s:26:"SensioFrameworkExtraBundle";s:97:"E:\wamp\www\sandbox-build\vendor\sensio\framework-extra-bundle\Sensio\Bundle\FrameworkExtraBundle";s:12:"JMSAopBundle";s:61:"E:\wamp\www\sandbox-build\vendor\jms\aop-bundle\JMS\AopBundle";s:22:"JMSSecurityExtraBundle";s:82:"E:\wamp\www\sandbox-build\vendor\jms\security-extra-bundle\JMS\SecurityExtraBundle";s:13:"AsseticBundle";s:55:"E:\wamp\www\sandbox-build\vendor\symfony\assetic-bundle";s:14:"DoctrineBundle";s:57:"E:\wamp\www\sandbox-build\vendor\doctrine\doctrine-bundle";s:24:"DoctrineMigrationsBundle";s:101:"E:\wamp\www\sandbox-build\vendor\doctrine\doctrine-migrations-bundle\Doctrine\Bundle\MigrationsBundle";s:13:"KnpMenuBundle";s:78:"E:\wamp\www\sandbox-build\vendor\knplabs\knp-menu-bundle\Knp\Bundle\MenuBundle";s:17:"KnpMarkdownBundle";s:86:"E:\wamp\www\sandbox-build\vendor\knplabs\knp-markdown-bundle\Knp\Bundle\MarkdownBundle";s:18:"KnpPaginatorBundle";s:88:"E:\wamp\www\sandbox-build\vendor\knplabs\knp-paginator-bundle\Knp\Bundle\PaginatorBundle";s:13:"FOSUserBundle";s:76:"E:\wamp\www\sandbox-build\vendor\friendsofsymfony\user-bundle\FOS\UserBundle";s:16:"SonataUserBundle";s:59:"E:\wamp\www\sandbox-build\vendor\sonata-project\user-bundle";s:27:"ApplicationSonataUserBundle";s:59:"E:\wamp\www\sandbox-build\src\Application\Sonata\UserBundle";s:16:"SonataPageBundle";s:59:"E:\wamp\www\sandbox-build\vendor\sonata-project\page-bundle";s:27:"ApplicationSonataPageBundle";s:59:"E:\wamp\www\sandbox-build\src\Application\Sonata\PageBundle";s:16:"SonataNewsBundle";s:59:"E:\wamp\www\sandbox-build\vendor\sonata-project\news-bundle";s:27:"ApplicationSonataNewsBundle";s:59:"E:\wamp\www\sandbox-build\src\Application\Sonata\NewsBundle";s:17:"SonataMediaBundle";s:60:"E:\wamp\www\sandbox-build\vendor\sonata-project\media-bundle";s:28:"ApplicationSonataMediaBundle";s:60:"E:\wamp\www\sandbox-build\src\Application\Sonata\MediaBundle";s:19:"IvoryCKEditorBundle";s:56:"E:\wamp\www\sandbox-build\vendor\egeloen\ckeditor-bundle";s:17:"SonataAdminBundle";s:60:"E:\wamp\www\sandbox-build\vendor\sonata-project\admin-bundle";s:28:"SonataDoctrineORMAdminBundle";s:73:"E:\wamp\www\sandbox-build\vendor\sonata-project\doctrine-orm-admin-bundle";s:29:"SimpleThingsEntityAuditBundle";s:94:"E:\wamp\www\sandbox-build\vendor\simplethings\entity-audit-bundle\src\SimpleThings\EntityAudit";s:13:"FOSRestBundle";s:76:"E:\wamp\www\sandbox-build\vendor\friendsofsymfony\rest-bundle\FOS\RestBundle";s:18:"NelmioApiDocBundle";s:74:"E:\wamp\www\sandbox-build\vendor\nelmio\api-doc-bundle\Nelmio\ApiDocBundle";s:18:"SonataBasketBundle";s:74:"E:\wamp\www\sandbox-build\vendor\sonata-project\ecommerce\src\BasketBundle";s:29:"ApplicationSonataBasketBundle";s:61:"E:\wamp\www\sandbox-build\src\Application\Sonata\BasketBundle";s:20:"SonataCustomerBundle";s:76:"E:\wamp\www\sandbox-build\vendor\sonata-project\ecommerce\src\CustomerBundle";s:31:"ApplicationSonataCustomerBundle";s:63:"E:\wamp\www\sandbox-build\src\Application\Sonata\CustomerBundle";s:20:"SonataDeliveryBundle";s:76:"E:\wamp\www\sandbox-build\vendor\sonata-project\ecommerce\src\DeliveryBundle";s:31:"ApplicationSonataDeliveryBundle";s:63:"E:\wamp\www\sandbox-build\src\Application\Sonata\DeliveryBundle";s:19:"SonataInvoiceBundle";s:75:"E:\wamp\www\sandbox-build\vendor\sonata-project\ecommerce\src\InvoiceBundle";s:30:"ApplicationSonataInvoiceBundle";s:62:"E:\wamp\www\sandbox-build\src\Application\Sonata\InvoiceBundle";s:17:"SonataOrderBundle";s:73:"E:\wamp\www\sandbox-build\vendor\sonata-project\ecommerce\src\OrderBundle";s:28:"ApplicationSonataOrderBundle";s:60:"E:\wamp\www\sandbox-build\src\Application\Sonata\OrderBundle";s:19:"SonataPaymentBundle";s:75:"E:\wamp\www\sandbox-build\vendor\sonata-project\ecommerce\src\PaymentBundle";s:30:"ApplicationSonataPaymentBundle";s:62:"E:\wamp\www\sandbox-build\src\Application\Sonata\PaymentBundle";s:19:"SonataProductBundle";s:75:"E:\wamp\www\sandbox-build\vendor\sonata-project\ecommerce\src\ProductBundle";s:30:"ApplicationSonataProductBundle";s:62:"E:\wamp\www\sandbox-build\src\Application\Sonata\ProductBundle";s:17:"SonataPriceBundle";s:73:"E:\wamp\www\sandbox-build\vendor\sonata-project\ecommerce\src\PriceBundle";s:19:"JMSSerializerBundle";s:75:"E:\wamp\www\sandbox-build\vendor\jms\serializer-bundle\JMS\SerializerBundle";s:16:"FOSCommentBundle";s:82:"E:\wamp\www\sandbox-build\vendor\friendsofsymfony\comment-bundle\FOS\CommentBundle";s:19:"SonataCommentBundle";s:62:"E:\wamp\www\sandbox-build\vendor\sonata-project\comment-bundle";s:30:"ApplicationSonataCommentBundle";s:62:"E:\wamp\www\sandbox-build\src\Application\Sonata\CommentBundle";s:23:"SonataEasyExtendsBundle";s:67:"E:\wamp\www\sandbox-build\vendor\sonata-project\easy-extends-bundle";s:16:"SonataCoreBundle";s:59:"E:\wamp\www\sandbox-build\vendor\sonata-project\core-bundle";s:16:"SonataIntlBundle";s:59:"E:\wamp\www\sandbox-build\vendor\sonata-project\intl-bundle";s:21:"SonataFormatterBundle";s:64:"E:\wamp\www\sandbox-build\vendor\sonata-project\formatter-bundle";s:17:"SonataCacheBundle";s:60:"E:\wamp\www\sandbox-build\vendor\sonata-project\cache-bundle";s:17:"SonataBlockBundle";s:60:"E:\wamp\www\sandbox-build\vendor\sonata-project\block-bundle";s:15:"SonataSeoBundle";s:58:"E:\wamp\www\sandbox-build\vendor\sonata-project\seo-bundle";s:26:"SonataClassificationBundle";s:69:"E:\wamp\www\sandbox-build\vendor\sonata-project\classification-bundle";s:37:"ApplicationSonataClassificationBundle";s:69:"E:\wamp\www\sandbox-build\src\Application\Sonata\ClassificationBundle";s:24:"SonataNotificationBundle";s:67:"E:\wamp\www\sandbox-build\vendor\sonata-project\notification-bundle";s:35:"ApplicationSonataNotificationBundle";s:67:"E:\wamp\www\sandbox-build\src\Application\Sonata\NotificationBundle";s:26:"ApplicationSonataSeoBundle";s:58:"E:\wamp\www\sandbox-build\src\Application\Sonata\SeoBundle";s:20:"SonataDatagridBundle";s:63:"E:\wamp\www\sandbox-build\vendor\sonata-project\datagrid-bundle";s:16:"CmfRoutingBundle";s:59:"E:\wamp\www\sandbox-build\vendor\symfony-cmf\routing-bundle";s:16:"SonataDemoBundle";s:54:"E:\wamp\www\sandbox-build\src\Sonata\Bundle\DemoBundle";s:14:"SonataQABundle";s:52:"E:\wamp\www\sandbox-build\src\Sonata\Bundle\QABundle";s:17:"SpyTimelineBundle";s:56:"E:\wamp\www\sandbox-build\vendor\stephpy\timeline-bundle";s:20:"SonataTimelineBundle";s:63:"E:\wamp\www\sandbox-build\vendor\sonata-project\timeline-bundle";s:31:"ApplicationSonataTimelineBundle";s:63:"E:\wamp\www\sandbox-build\src\Application\Sonata\TimelineBundle";s:19:"MopaBootstrapBundle";s:82:"E:\wamp\www\sandbox-build\vendor\mopa\bootstrap-bundle\Mopa\Bundle\BootstrapBundle";s:17:"WebProfilerBundle";s:85:"E:\wamp\www\sandbox-build\vendor\symfony\symfony\src\Symfony\Bundle\WebProfilerBundle";s:21:"SensioGeneratorBundle";s:86:"E:\wamp\www\sandbox-build\vendor\sensio\generator-bundle\Sensio\Bundle\GeneratorBundle";s:18:"BazingaFakerBundle";s:83:"E:\wamp\www\sandbox-build\vendor\willdurand\faker-bundle\Bazinga\Bundle\FakerBundle";s:22:"DoctrineFixturesBundle";s:97:"E:\wamp\www\sandbox-build\vendor\doctrine\doctrine-fixtures-bundle\Doctrine\Bundle\FixturesBundle";}s:9:"sapi_name";s:14:"apache2handler";}}s:7:"request";C:63:"Symfony\Component\HttpKernel\DataCollector\RequestDataCollector":4703:{a:18:{s:6:"format";s:4:"html";s:7:"content";s:0:"";s:12:"content_type";s:24:"text/html; charset=UTF-8";s:11:"status_text";s:21:"Internal Server Error";s:11:"status_code";i:500;s:13:"request_query";a:0:{}s:15:"request_request";a:0:{}s:15:"request_headers";a:8:{s:4:"host";a:1:{i:0;s:9:"localhost";}s:10:"connection";a:1:{i:0;s:10:"keep-alive";}s:6:"accept";a:1:{i:0;s:74:"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8";}s:10:"user-agent";a:1:{i:0;s:108:"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36";}s:3:"dnt";a:1:{i:0;s:1:"1";}s:15:"accept-encoding";a:1:{i:0;s:19:"gzip, deflate, sdch";}s:15:"accept-language";a:1:{i:0;s:47:"en-GB,en;q=0.8,en-US;q=0.6,fr-FR;q=0.4,fr;q=0.2";}s:14:"x-php-ob-level";a:1:{i:0;i:1;}}s:14:"request_server";a:36:{s:9:"HTTP_HOST";s:9:"localhost";s:15:"HTTP_CONNECTION";s:10:"keep-alive";s:11:"HTTP_ACCEPT";s:74:"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8";s:15:"HTTP_USER_AGENT";s:108:"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36";s:8:"HTTP_DNT";s:1:"1";s:20:"HTTP_ACCEPT_ENCODING";s:19:"gzip, deflate, sdch";s:20:"HTTP_ACCEPT_LANGUAGE";s:47:"en-GB,en;q=0.8,en-US;q=0.6,fr-FR;q=0.4,fr;q=0.2";s:4:"PATH";s:1365:"C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\ATI Stream\bin\x86_64;C:\Program Files (x86)\ATI Stream\bin\x86;C:\Perl64\site\bin;C:\Perl64\bin;C:\Program Files\MiKTeX 2.9\miktex\bin\x64;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Broadcom\Broadcom 802.11\Driver;C:\Program Files (x86)\Common Files\MDL Shared\ISIS;C:\Program Files (x86)\Objective Caml\bin;c:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\OpenAFS\Common;C:\Program Files (x86)\OpenAFS\Client\Program;C:\Program Files\OpenAFS\Common;C:\Program Files (x86)\MIT\Kerberos\bin;C:\Program Files\OpenAFS\Client\Program;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\CMake 2.8\bin;E:\Program Files (x86)\Druide\Antidote 7\Programmes32;E:\Program Files (x86)\Druide\Antidote 7\Programmes64;E:\wamp\bin\php\php5.5.12;C:\Program Files (x86)\QuickTime\QTSystem\;E:\wamp\bin\php\php5.5.12\php.exe;C:\Program Files (x86)\Tesseract-OCR;C:\Program Files\TortoiseGit\bin;C:\ProgramData\ComposerSetup\bin;C:\Program Files (x86)\Git\cmd;C:\Program Files (x86)\Git\bin;C:\Program Files (x86)\Skype\Phone\;";s:10:"SystemRoot";s:10:"C:\Windows";s:7:"COMSPEC";s:27:"C:\Windows\system32\cmd.exe";s:7:"PATHEXT";s:53:".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC";s:6:"WINDIR";s:10:"C:\Windows";s:16:"SERVER_SIGNATURE";s:79:"<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at localhost Port 80</address>
+";s:15:"SERVER_SOFTWARE";s:31:"Apache/2.4.9 (Win64) PHP/5.5.12";s:11:"SERVER_NAME";s:9:"localhost";s:11:"SERVER_ADDR";s:9:"127.0.0.1";s:11:"SERVER_PORT";s:2:"80";s:11:"REMOTE_ADDR";s:9:"127.0.0.1";s:13:"DOCUMENT_ROOT";s:12:"E:/wamp/www/";s:14:"REQUEST_SCHEME";s:4:"http";s:14:"CONTEXT_PREFIX";s:0:"";s:21:"CONTEXT_DOCUMENT_ROOT";s:12:"E:/wamp/www/";s:12:"SERVER_ADMIN";s:17:"admin@example.com";s:15:"SCRIPT_FILENAME";s:41:"E:/wamp/www/sandbox-build/web/app_dev.php";s:11:"REMOTE_PORT";s:4:"4095";s:17:"GATEWAY_INTERFACE";s:7:"CGI/1.1";s:15:"SERVER_PROTOCOL";s:8:"HTTP/1.1";s:14:"REQUEST_METHOD";s:3:"GET";s:12:"QUERY_STRING";s:0:"";s:11:"REQUEST_URI";s:48:"/sandbox-build/web/app_dev.php/car-rescue-engine";s:11:"SCRIPT_NAME";s:30:"/sandbox-build/web/app_dev.php";s:9:"PATH_INFO";s:18:"/car-rescue-engine";s:15:"PATH_TRANSLATED";s:29:"E:\wamp\www\car-rescue-engine";s:8:"PHP_SELF";s:48:"/sandbox-build/web/app_dev.php/car-rescue-engine";s:18:"REQUEST_TIME_FLOAT";d:1429484264.579;s:12:"REQUEST_TIME";i:1429484264;}s:15:"request_cookies";a:0:{}s:18:"request_attributes";a:0:{}s:16:"response_headers";a:5:{s:13:"cache-control";a:1:{i:0;s:8:"no-cache";}s:4:"date";a:1:{i:0;s:29:"Sun, 19 Apr 2015 22:58:27 GMT";}s:12:"content-type";a:1:{i:0;s:24:"text/html; charset=UTF-8";}s:13:"x-debug-token";a:1:{i:0;s:6:"21fe94";}s:18:"x-debug-token-link";a:1:{i:0;s:47:"/sandbox-build/web/app_dev.php/_profiler/72ab15";}}s:16:"session_metadata";a:3:{s:7:"Created";s:29:"Mon, 20 Apr 15 00:58:24 +0200";s:9:"Last used";s:29:"Mon, 20 Apr 15 00:58:24 +0200";s:8:"Lifetime";s:1:"0";}s:18:"session_attributes";a:0:{}s:7:"flashes";a:0:{}s:9:"path_info";s:18:"/car-rescue-engine";s:10:"controller";s:3:"n/a";s:6:"locale";s:2:"en";}}s:4:"ajax";C:62:"Symfony\Bundle\FrameworkBundle\DataCollector\AjaxDataCollector":6:{a:0:{}}s:9:"exception";C:65:"Symfony\Component\HttpKernel\DataCollector\ExceptionDataCollector":94729:{a:1:{s:9:"exception";O:50:"Symfony\Component\Debug\Exception\FlattenException":10:{s:59:" Symfony\Component\Debug\Exception\FlattenException message";s:287:"Warning: rename(E:\wamp\www\sandbox-build\app\cache\dev/doctrine/orm/Proxies\__CG__ApplicationSonataPageBundleEntityPage.php.55343311bf5602.68424068,E:\wamp\www\sandbox-build\app\cache\dev/doctrine/orm/Proxies\__CG__ApplicationSonataPageBundleEntityPage.php): Access is denied. (code: 5)";s:56:" Symfony\Component\Debug\Exception\FlattenException code";i:0;s:60:" Symfony\Component\Debug\Exception\FlattenException previous";N;s:57:" Symfony\Component\Debug\Exception\FlattenException trace";a:31:{i:0;a:8:{s:9:"namespace";s:0:"";s:11:"short_class";s:0:"";s:5:"class";s:0:"";s:4:"type";s:0:"";s:8:"function";s:0:"";s:4:"file";s:93:"E:\wamp\www\sandbox-build\vendor\doctrine\common\lib\Doctrine\Common\Proxy\ProxyGenerator.php";s:4:"line";i:305;s:4:"args";a:0:{}}i:1;a:8:{s:9:"namespace";s:23:"Symfony\Component\Debug";s:11:"short_class";s:12:"ErrorHandler";s:5:"class";s:36:"Symfony\Component\Debug\ErrorHandler";s:4:"type";s:2:"->";s:8:"function";s:11:"handleError";s:4:"file";N;s:4:"line";N;s:4:"args";a:5:{i:0;a:2:{i:0;s:6:"string";i:1;s:1:"2";}i:1;a:2:{i:0;s:6:"string";i:1;s:278:"rename(E:\wamp\www\sandbox-build\app\cache\dev/doctrine/orm/Proxies\__CG__ApplicationSonataPageBundleEntityPage.php.55343311bf5602.68424068,E:\wamp\www\sandbox-build\app\cache\dev/doctrine/orm/Proxies\__CG__ApplicationSonataPageBundleEntityPage.php): Access is denied. (code: 5)";}i:2;a:2:{i:0;s:6:"string";i:1;s:93:"E:\wamp\www\sandbox-build\vendor\doctrine\common\lib\Doctrine\Common\Proxy\ProxyGenerator.php";}i:3;a:2:{i:0;s:6:"string";i:1;s:3:"305";}i:4;a:2:{i:0;s:5:"array";i:1;a:10:{s:5:"class";a:2:{i:0;s:6:"object";i:1;s:34:"Doctrine\ORM\Mapping\ClassMetadata";}s:8:"fileName";a:2:{i:0;s:6:"string";i:1;s:108:"E:\wamp\www\sandbox-build\app\cache\dev/doctrine/orm/Proxies\__CG__ApplicationSonataPageBundleEntityPage.php";}s:18:"placeholderMatches";a:2:{i:0;s:5:"array";i:1;a:14:{s:11:"<namespace>";a:2:{i:0;s:6:"string";i:1;s:9:"namespace";}s:21:"<proxyShortClassName>";a:2:{i:0;s:6:"string";i:1;s:19:"proxyShortClassName";}s:11:"<className>";a:2:{i:0;s:6:"string";i:1;s:9:"className";}s:20:"<baseProxyInterface>";a:2:{i:0;s:6:"string";i:1;s:18:"baseProxyInterface";}s:24:"<lazyPropertiesDefaults>";a:2:{i:0;s:6:"string";i:1;s:22:"lazyPropertiesDefaults";}s:22:"<additionalProperties>";a:2:{i:0;s:6:"string";i:1;s:20:"additionalProperties";}s:17:"<constructorImpl>";a:2:{i:0;s:6:"string";i:1;s:15:"constructorImpl";}s:10:"<magicGet>";a:2:{i:0;s:6:"string";i:1;s:8:"magicGet";}s:10:"<magicSet>";a:2:{i:0;s:6:"string";i:1;s:8:"magicSet";}s:12:"<magicIsset>";a:2:{i:0;s:6:"string";i:1;s:10:"magicIsset";}s:11:"<sleepImpl>";a:2:{i:0;s:6:"string";i:1;s:9:"sleepImpl";}s:12:"<wakeupImpl>";a:2:{i:0;s:6:"string";i:1;s:10:"wakeupImpl";}s:11:"<cloneImpl>";a:2:{i:0;s:6:"string";i:1;s:9:"cloneImpl";}s:9:"<methods>";a:2:{i:0;s:6:"string";i:1;s:7:"methods";}}}s:12:"placeholders";a:2:{i:0;s:5:"array";i:1;a:14:{s:11:"<namespace>";a:2:{i:0;s:6:"string";i:1;s:51:"Proxies\__CG__\Application\Sonata\PageBundle\Entity";}s:21:"<proxyShortClassName>";a:2:{i:0;s:6:"string";i:1;s:4:"Page";}s:11:"<className>";a:2:{i:0;s:6:"string";i:1;s:41:"Application\Sonata\PageBundle\Entity\Page";}s:20:"<baseProxyInterface>";a:2:{i:0;s:6:"string";i:1;s:24:"Doctrine\ORM\Proxy\Proxy";}s:24:"<lazyPropertiesDefaults>";a:2:{i:0;s:6:"string";i:1;s:0:"";}s:22:"<additionalProperties>";a:2:{i:0;s:6:"string";i:1;s:0:"";}s:17:"<constructorImpl>";a:2:{i:0;s:6:"string";i:1;s:262:"    /**
+     * @param \Closure $initializer
+     * @param \Closure $cloner
+     */
+    public function __construct($initializer = null, $cloner = null)
+    {
+
+        $this->__initializer__ = $initializer;
+        $this->__cloner__      = $cloner;
+    }";}s:10:"<magicGet>";a:2:{i:0;s:6:"string";i:1;s:0:"";}s:10:"<magicSet>";a:2:{i:0;s:6:"string";i:1;s:0:"";}s:12:"<magicIsset>";a:2:{i:0;s:6:"string";i:1;s:0:"";}s:11:"<sleepImpl>";a:2:{i:0;s:6:"string";i:1;s:960:"    /**
+     * 
+     * @return array
+     */
+    public function __sleep()
+    {
+        if ($this->__isInitialized__) {
+            return array('__isInitialized__', 'id', 'createdAt', 'updatedAt', 'routeName', 'pageAlias', 'type', 'name', 'title', 'slug', 'url', 'customUrl', 'requestMethod', 'metaKeyword', 'metaDescription', 'javascript', 'stylesheet', 'rawHeaders', 'headers', 'enabled', 'blocks', 'sources', 'parent', 'parents', 'target', 'children', 'snapshots', 'templateCode', 'position', 'decorate', 'site', 'edited');
+        }
+
+        return array('__isInitialized__', 'id', 'createdAt', 'updatedAt', 'routeName', 'pageAlias', 'type', 'name', 'title', 'slug', 'url', 'customUrl', 'requestMethod', 'metaKeyword', 'metaDescription', 'javascript', 'stylesheet', 'rawHeaders', 'headers', 'enabled', 'blocks', 'sources', 'parent', 'parents', 'target', 'children', 'snapshots', 'templateCode', 'position', 'decorate', 'site', 'edited');
+    }";}s:12:"<wakeupImpl>";a:2:{i:0;s:6:"string";i:1;s:637:"    /**
+     * 
+     */
+    public function __wakeup()
+    {
+        if ( ! $this->__isInitialized__) {
+            $this->__initializer__ = function (Page $proxy) {
+                $proxy->__setInitializer(null);
+                $proxy->__setCloner(null);
+
+                $existingProperties = get_object_vars($proxy);
+
+                foreach ($proxy->__getLazyProperties() as $property => $defaultValue) {
+                    if ( ! array_key_exists($property, $existingProperties)) {
+                        $proxy->$property = $defaultValue;
+                    }
+                }
+            };
+
+        }
+    }";}s:11:"<cloneImpl>";a:2:{i:0;s:6:"string";i:1;s:156:"    /**
+     * 
+     */
+    public function __clone()
+    {
+        $this->__cloner__ && $this->__cloner__->__invoke($this, '__clone', array());
+    }";}s:9:"<methods>";a:2:{i:0;s:6:"string";i:1;s:18540:"
+    /**
+     * {@inheritDoc}
+     */
+    public function getId()
+    {
+        if ($this->__isInitialized__ === false) {
+            return (int)  parent::getId();
+        }
+
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getId', array());
+
+        return parent::getId();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function prePersist()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'prePersist', array());
+
+        return parent::prePersist();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function preUpdate()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'preUpdate', array());
+
+        return parent::preUpdate();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function setId($id)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setId', array($id));
+
+        return parent::setId($id);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function setRouteName($routeName)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setRouteName', array($routeName));
+
+        return parent::setRouteName($routeName);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getRouteName()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getRouteName', array());
+
+        return parent::getRouteName();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function setPageAlias($pageAlias)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setPageAlias', array($pageAlias));
+
+        return parent::setPageAlias($pageAlias);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getPageAlias()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getPageAlias', array());
+
+        return parent::getPageAlias();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function setType($type)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setType', array($type));
+
+        return parent::setType($type);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getType()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getType', array());
+
+        return parent::getType();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function setEnabled($enabled)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setEnabled', array($enabled));
+
+        return parent::setEnabled($enabled);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getEnabled()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getEnabled', array());
+
+        return parent::getEnabled();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function setName($name)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setName', array($name));
+
+        return parent::setName($name);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getName()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getName', array());
+
+        return parent::getName();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function setSlug($slug)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setSlug', array($slug));
+
+        return parent::setSlug($slug);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getSlug()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getSlug', array());
+
+        return parent::getSlug();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function setCustomUrl($customUrl)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setCustomUrl', array($customUrl));
+
+        return parent::setCustomUrl($customUrl);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getCustomUrl()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getCustomUrl', array());
+
+        return parent::getCustomUrl();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function setRequestMethod($requestMethod)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setRequestMethod', array($requestMethod));
+
+        return parent::setRequestMethod($requestMethod);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getRequestMethod()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getRequestMethod', array());
+
+        return parent::getRequestMethod();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function setMetaKeyword($metaKeyword)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setMetaKeyword', array($metaKeyword));
+
+        return parent::setMetaKeyword($metaKeyword);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getMetaKeyword()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getMetaKeyword', array());
+
+        return parent::getMetaKeyword();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function setMetaDescription($metaDescription)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setMetaDescription', array($metaDescription));
+
+        return parent::setMetaDescription($metaDescription);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getMetaDescription()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getMetaDescription', array());
+
+        return parent::getMetaDescription();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function setJavascript($javascript)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setJavascript', array($javascript));
+
+        return parent::setJavascript($javascript);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getJavascript()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getJavascript', array());
+
+        return parent::getJavascript();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function setStylesheet($stylesheet)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setStylesheet', array($stylesheet));
+
+        return parent::setStylesheet($stylesheet);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getStylesheet()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getStylesheet', array());
+
+        return parent::getStylesheet();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function setRawHeaders($rawHeaders)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setRawHeaders', array($rawHeaders));
+
+        return parent::setRawHeaders($rawHeaders);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getRawHeaders()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getRawHeaders', array());
+
+        return parent::getRawHeaders();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function addHeader($name, $header)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'addHeader', array($name, $header));
+
+        return parent::addHeader($name, $header);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function setHeaders(array $headers = array (
+))
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setHeaders', array($headers));
+
+        return parent::setHeaders($headers);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getHeaders()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getHeaders', array());
+
+        return parent::getHeaders();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function setCreatedAt(\DateTime $createdAt = NULL)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setCreatedAt', array($createdAt));
+
+        return parent::setCreatedAt($createdAt);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getCreatedAt()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getCreatedAt', array());
+
+        return parent::getCreatedAt();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function setUpdatedAt(\DateTime $updatedAt = NULL)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setUpdatedAt', array($updatedAt));
+
+        return parent::setUpdatedAt($updatedAt);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getUpdatedAt()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getUpdatedAt', array());
+
+        return parent::getUpdatedAt();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function addChildren(\Sonata\PageBundle\Model\PageInterface $children)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'addChildren', array($children));
+
+        return parent::addChildren($children);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getChildren()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getChildren', array());
+
+        return parent::getChildren();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function setChildren($children)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setChildren', array($children));
+
+        return parent::setChildren($children);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getSnapshot()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getSnapshot', array());
+
+        return parent::getSnapshot();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getSnapshots()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getSnapshots', array());
+
+        return parent::getSnapshots();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function setSnapshots($snapshots)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setSnapshots', array($snapshots));
+
+        return parent::setSnapshots($snapshots);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getTarget()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getTarget', array());
+
+        return parent::getTarget();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function addSnapshot(\Sonata\PageBundle\Model\SnapshotInterface $snapshot)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'addSnapshot', array($snapshot));
+
+        return parent::addSnapshot($snapshot);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function setTarget(\Sonata\PageBundle\Model\PageInterface $target = NULL)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setTarget', array($target));
+
+        return parent::setTarget($target);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function addBlocks(\Sonata\PageBundle\Model\PageBlockInterface $blocs)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'addBlocks', array($blocs));
+
+        return parent::addBlocks($blocs);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getBlocks()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getBlocks', array());
+
+        return parent::getBlocks();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function setParent(\Sonata\PageBundle\Model\PageInterface $parent = NULL)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setParent', array($parent));
+
+        return parent::setParent($parent);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getParent($level = -1)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getParent', array($level));
+
+        return parent::getParent($level);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function setParents(array $parents)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setParents', array($parents));
+
+        return parent::setParents($parents);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getParents()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getParents', array());
+
+        return parent::getParents();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function setTemplateCode($templateCode)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setTemplateCode', array($templateCode));
+
+        return parent::setTemplateCode($templateCode);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getTemplateCode()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getTemplateCode', array());
+
+        return parent::getTemplateCode();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function disableBlockLazyLoading()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'disableBlockLazyLoading', array());
+
+        return parent::disableBlockLazyLoading();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function disableChildrenLazyLoading()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'disableChildrenLazyLoading', array());
+
+        return parent::disableChildrenLazyLoading();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function setDecorate($decorate)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setDecorate', array($decorate));
+
+        return parent::setDecorate($decorate);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getDecorate()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getDecorate', array());
+
+        return parent::getDecorate();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function isHybrid()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'isHybrid', array());
+
+        return parent::isHybrid();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function isCms()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'isCms', array());
+
+        return parent::isCms();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function isInternal()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'isInternal', array());
+
+        return parent::isInternal();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function isDynamic()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'isDynamic', array());
+
+        return parent::isDynamic();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function isError()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'isError', array());
+
+        return parent::isError();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function __toString()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, '__toString', array());
+
+        return parent::__toString();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function setPosition($position)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setPosition', array($position));
+
+        return parent::setPosition($position);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getPosition()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getPosition', array());
+
+        return parent::getPosition();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function setUrl($url)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setUrl', array($url));
+
+        return parent::setUrl($url);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getUrl()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getUrl', array());
+
+        return parent::getUrl();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getContainerByCode($code)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getContainerByCode', array($code));
+
+        return parent::getContainerByCode($code);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getBlocksByType($type)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getBlocksByType', array($type));
+
+        return parent::getBlocksByType($type);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function hasRequestMethod($method)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'hasRequestMethod', array($method));
+
+        return parent::hasRequestMethod($method);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function setSite(\Sonata\PageBundle\Model\SiteInterface $site)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setSite', array($site));
+
+        return parent::setSite($site);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getSite()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getSite', array());
+
+        return parent::getSite();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function setEdited($edited)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setEdited', array($edited));
+
+        return parent::setEdited($edited);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getEdited()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getEdited', array());
+
+        return parent::getEdited();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function setTitle($title)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setTitle', array($title));
+
+        return parent::setTitle($title);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getTitle()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getTitle', array());
+
+        return parent::getTitle();
+    }
+";}}}s:11:"placeholder";a:2:{i:0;s:6:"string";i:1;s:18540:"
+    /**
+     * {@inheritDoc}
+     */
+    public function getId()
+    {
+        if ($this->__isInitialized__ === false) {
+            return (int)  parent::getId();
+        }
+
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getId', array());
+
+        return parent::getId();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function prePersist()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'prePersist', array());
+
+        return parent::prePersist();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function preUpdate()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'preUpdate', array());
+
+        return parent::preUpdate();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function setId($id)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setId', array($id));
+
+        return parent::setId($id);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function setRouteName($routeName)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setRouteName', array($routeName));
+
+        return parent::setRouteName($routeName);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getRouteName()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getRouteName', array());
+
+        return parent::getRouteName();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function setPageAlias($pageAlias)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setPageAlias', array($pageAlias));
+
+        return parent::setPageAlias($pageAlias);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getPageAlias()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getPageAlias', array());
+
+        return parent::getPageAlias();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function setType($type)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setType', array($type));
+
+        return parent::setType($type);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getType()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getType', array());
+
+        return parent::getType();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function setEnabled($enabled)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setEnabled', array($enabled));
+
+        return parent::setEnabled($enabled);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getEnabled()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getEnabled', array());
+
+        return parent::getEnabled();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function setName($name)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setName', array($name));
+
+        return parent::setName($name);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getName()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getName', array());
+
+        return parent::getName();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function setSlug($slug)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setSlug', array($slug));
+
+        return parent::setSlug($slug);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getSlug()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getSlug', array());
+
+        return parent::getSlug();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function setCustomUrl($customUrl)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setCustomUrl', array($customUrl));
+
+        return parent::setCustomUrl($customUrl);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getCustomUrl()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getCustomUrl', array());
+
+        return parent::getCustomUrl();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function setRequestMethod($requestMethod)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setRequestMethod', array($requestMethod));
+
+        return parent::setRequestMethod($requestMethod);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getRequestMethod()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getRequestMethod', array());
+
+        return parent::getRequestMethod();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function setMetaKeyword($metaKeyword)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setMetaKeyword', array($metaKeyword));
+
+        return parent::setMetaKeyword($metaKeyword);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getMetaKeyword()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getMetaKeyword', array());
+
+        return parent::getMetaKeyword();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function setMetaDescription($metaDescription)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setMetaDescription', array($metaDescription));
+
+        return parent::setMetaDescription($metaDescription);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getMetaDescription()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getMetaDescription', array());
+
+        return parent::getMetaDescription();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function setJavascript($javascript)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setJavascript', array($javascript));
+
+        return parent::setJavascript($javascript);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getJavascript()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getJavascript', array());
+
+        return parent::getJavascript();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function setStylesheet($stylesheet)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setStylesheet', array($stylesheet));
+
+        return parent::setStylesheet($stylesheet);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getStylesheet()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getStylesheet', array());
+
+        return parent::getStylesheet();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function setRawHeaders($rawHeaders)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setRawHeaders', array($rawHeaders));
+
+        return parent::setRawHeaders($rawHeaders);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getRawHeaders()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getRawHeaders', array());
+
+        return parent::getRawHeaders();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function addHeader($name, $header)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'addHeader', array($name, $header));
+
+        return parent::addHeader($name, $header);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function setHeaders(array $headers = array (
+))
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setHeaders', array($headers));
+
+        return parent::setHeaders($headers);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getHeaders()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getHeaders', array());
+
+        return parent::getHeaders();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function setCreatedAt(\DateTime $createdAt = NULL)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setCreatedAt', array($createdAt));
+
+        return parent::setCreatedAt($createdAt);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getCreatedAt()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getCreatedAt', array());
+
+        return parent::getCreatedAt();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function setUpdatedAt(\DateTime $updatedAt = NULL)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setUpdatedAt', array($updatedAt));
+
+        return parent::setUpdatedAt($updatedAt);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getUpdatedAt()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getUpdatedAt', array());
+
+        return parent::getUpdatedAt();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function addChildren(\Sonata\PageBundle\Model\PageInterface $children)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'addChildren', array($children));
+
+        return parent::addChildren($children);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getChildren()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getChildren', array());
+
+        return parent::getChildren();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function setChildren($children)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setChildren', array($children));
+
+        return parent::setChildren($children);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getSnapshot()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getSnapshot', array());
+
+        return parent::getSnapshot();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getSnapshots()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getSnapshots', array());
+
+        return parent::getSnapshots();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function setSnapshots($snapshots)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setSnapshots', array($snapshots));
+
+        return parent::setSnapshots($snapshots);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getTarget()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getTarget', array());
+
+        return parent::getTarget();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function addSnapshot(\Sonata\PageBundle\Model\SnapshotInterface $snapshot)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'addSnapshot', array($snapshot));
+
+        return parent::addSnapshot($snapshot);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function setTarget(\Sonata\PageBundle\Model\PageInterface $target = NULL)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setTarget', array($target));
+
+        return parent::setTarget($target);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function addBlocks(\Sonata\PageBundle\Model\PageBlockInterface $blocs)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'addBlocks', array($blocs));
+
+        return parent::addBlocks($blocs);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getBlocks()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getBlocks', array());
+
+        return parent::getBlocks();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function setParent(\Sonata\PageBundle\Model\PageInterface $parent = NULL)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setParent', array($parent));
+
+        return parent::setParent($parent);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getParent($level = -1)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getParent', array($level));
+
+        return parent::getParent($level);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function setParents(array $parents)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setParents', array($parents));
+
+        return parent::setParents($parents);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getParents()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getParents', array());
+
+        return parent::getParents();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function setTemplateCode($templateCode)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setTemplateCode', array($templateCode));
+
+        return parent::setTemplateCode($templateCode);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getTemplateCode()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getTemplateCode', array());
+
+        return parent::getTemplateCode();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function disableBlockLazyLoading()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'disableBlockLazyLoading', array());
+
+        return parent::disableBlockLazyLoading();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function disableChildrenLazyLoading()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'disableChildrenLazyLoading', array());
+
+        return parent::disableChildrenLazyLoading();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function setDecorate($decorate)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setDecorate', array($decorate));
+
+        return parent::setDecorate($decorate);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getDecorate()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getDecorate', array());
+
+        return parent::getDecorate();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function isHybrid()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'isHybrid', array());
+
+        return parent::isHybrid();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function isCms()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'isCms', array());
+
+        return parent::isCms();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function isInternal()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'isInternal', array());
+
+        return parent::isInternal();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function isDynamic()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'isDynamic', array());
+
+        return parent::isDynamic();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function isError()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'isError', array());
+
+        return parent::isError();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function __toString()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, '__toString', array());
+
+        return parent::__toString();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function setPosition($position)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setPosition', array($position));
+
+        return parent::setPosition($position);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getPosition()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getPosition', array());
+
+        return parent::getPosition();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function setUrl($url)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setUrl', array($url));
+
+        return parent::setUrl($url);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getUrl()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getUrl', array());
+
+        return parent::getUrl();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getContainerByCode($code)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getContainerByCode', array($code));
+
+        return parent::getContainerByCode($code);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getBlocksByType($type)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getBlocksByType', array($type));
+
+        return parent::getBlocksByType($type);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function hasRequestMethod($method)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'hasRequestMethod', array($method));
+
+        return parent::hasRequestMethod($method);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function setSite(\Sonata\PageBundle\Model\SiteInterface $site)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setSite', array($site));
+
+        return parent::setSite($site);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getSite()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getSite', array());
+
+        return parent::getSite();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function setEdited($edited)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setEdited', array($edited));
+
+        return parent::setEdited($edited);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getEdited()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getEdited', array());
+
+        return parent::getEdited();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function setTitle($title)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setTitle', array($title));
+
+        return parent::setTitle($title);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getTitle()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getTitle', array());
+
+        return parent::getTitle();
+    }
+";}s:4:"name";a:2:{i:0;s:6:"string";i:1;s:7:"methods";}s:4:"this";a:2:{i:0;s:6:"object";i:1;s:36:"Doctrine\Common\Proxy\ProxyGenerator";}s:9:"proxyCode";a:2:{i:0;s:6:"string";i:1;s:23987:"<?php
+
+namespace Proxies\__CG__\Application\Sonata\PageBundle\Entity;
+
+/**
+ * DO NOT EDIT THIS FILE - IT WAS CREATED BY DOCTRINE'S PROXY GENERATOR
+ */
+class Page extends \Application\Sonata\PageBundle\Entity\Page implements \Doctrine\ORM\Proxy\Proxy
+{
+    /**
+     * @var \Closure the callback responsible for loading properties in the proxy object. This callback is called with
+     *      three parameters, being respectively the proxy object to be initialized, the method that triggered the
+     *      initialization process and an array of ordered parameters that were passed to that method.
+     *
+     * @see \Doctrine\Common\Persistence\Proxy::__setInitializer
+     */
+    public $__initializer__;
+
+    /**
+     * @var \Closure the callback responsible of loading properties that need to be copied in the cloned object
+     *
+     * @see \Doctrine\Common\Persistence\Proxy::__setCloner
+     */
+    public $__cloner__;
+
+    /**
+     * @var boolean flag indicating if this object was already initialized
+     *
+     * @see \Doctrine\Common\Persistence\Proxy::__isInitialized
+     */
+    public $__isInitialized__ = false;
+
+    /**
+     * @var array properties to be lazy loaded, with keys being the property
+     *            names and values being their default values
+     *
+     * @see \Doctrine\Common\Persistence\Proxy::__getLazyProperties
+     */
+    public static $lazyPropertiesDefaults = array();
+
+
+
+    /**
+     * @param \Closure $initializer
+     * @param \Closure $cloner
+     */
+    public function __construct($initializer = null, $cloner = null)
+    {
+
+        $this->__initializer__ = $initializer;
+        $this->__cloner__      = $cloner;
+    }
+
+
+
+
+
+
+
+    /**
+     * 
+     * @return array
+     */
+    public function __sleep()
+    {
+        if ($this->__isInitialized__) {
+            return array('__isInitialized__', 'id', 'createdAt', 'updatedAt', 'routeName', 'pageAlias', 'type', 'name', 'title', 'slug', 'url', 'customUrl', 'requestMethod', 'metaKeyword', 'metaDescription', 'javascript', 'stylesheet', 'rawHeaders', 'headers', 'enabled', 'blocks', 'sources', 'parent', 'parents', 'target', 'children', 'snapshots', 'templateCode', 'position', 'decorate', 'site', 'edited');
+        }
+
+        return array('__isInitialized__', 'id', 'createdAt', 'updatedAt', 'routeName', 'pageAlias', 'type', 'name', 'title', 'slug', 'url', 'customUrl', 'requestMethod', 'metaKeyword', 'metaDescription', 'javascript', 'stylesheet', 'rawHeaders', 'headers', 'enabled', 'blocks', 'sources', 'parent', 'parents', 'target', 'children', 'snapshots', 'templateCode', 'position', 'decorate', 'site', 'edited');
+    }
+
+    /**
+     * 
+     */
+    public function __wakeup()
+    {
+        if ( ! $this->__isInitialized__) {
+            $this->__initializer__ = function (Page $proxy) {
+                $proxy->__setInitializer(null);
+                $proxy->__setCloner(null);
+
+                $existingProperties = get_object_vars($proxy);
+
+                foreach ($proxy->__getLazyProperties() as $property => $defaultValue) {
+                    if ( ! array_key_exists($property, $existingProperties)) {
+                        $proxy->$property = $defaultValue;
+                    }
+                }
+            };
+
+        }
+    }
+
+    /**
+     * 
+     */
+    public function __clone()
+    {
+        $this->__cloner__ && $this->__cloner__->__invoke($this, '__clone', array());
+    }
+
+    /**
+     * Forces initialization of the proxy
+     */
+    public function __load()
+    {
+        $this->__initializer__ && $this->__initializer__->__invoke($this, '__load', array());
+    }
+
+    /**
+     * {@inheritDoc}
+     * @internal generated method: use only when explicitly handling proxy specific loading logic
+     */
+    public function __isInitialized()
+    {
+        return $this->__isInitialized__;
+    }
+
+    /**
+     * {@inheritDoc}
+     * @internal generated method: use only when explicitly handling proxy specific loading logic
+     */
+    public function __setInitialized($initialized)
+    {
+        $this->__isInitialized__ = $initialized;
+    }
+
+    /**
+     * {@inheritDoc}
+     * @internal generated method: use only when explicitly handling proxy specific loading logic
+     */
+    public function __setInitializer(\Closure $initializer = null)
+    {
+        $this->__initializer__ = $initializer;
+    }
+
+    /**
+     * {@inheritDoc}
+     * @internal generated method: use only when explicitly handling proxy specific loading logic
+     */
+    public function __getInitializer()
+    {
+        return $this->__initializer__;
+    }
+
+    /**
+     * {@inheritDoc}
+     * @internal generated method: use only when explicitly handling proxy specific loading logic
+     */
+    public function __setCloner(\Closure $cloner = null)
+    {
+        $this->__cloner__ = $cloner;
+    }
+
+    /**
+     * {@inheritDoc}
+     * @internal generated method: use only when explicitly handling proxy specific cloning logic
+     */
+    public function __getCloner()
+    {
+        return $this->__cloner__;
+    }
+
+    /**
+     * {@inheritDoc}
+     * @internal generated method: use only when explicitly handling proxy specific loading logic
+     * @static
+     */
+    public function __getLazyProperties()
+    {
+        return self::$lazyPropertiesDefaults;
+    }
+
+    
+    /**
+     * {@inheritDoc}
+     */
+    public function getId()
+    {
+        if ($this->__isInitialized__ === false) {
+            return (int)  parent::getId();
+        }
+
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getId', array());
+
+        return parent::getId();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function prePersist()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'prePersist', array());
+
+        return parent::prePersist();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function preUpdate()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'preUpdate', array());
+
+        return parent::preUpdate();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function setId($id)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setId', array($id));
+
+        return parent::setId($id);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function setRouteName($routeName)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setRouteName', array($routeName));
+
+        return parent::setRouteName($routeName);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getRouteName()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getRouteName', array());
+
+        return parent::getRouteName();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function setPageAlias($pageAlias)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setPageAlias', array($pageAlias));
+
+        return parent::setPageAlias($pageAlias);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getPageAlias()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getPageAlias', array());
+
+        return parent::getPageAlias();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function setType($type)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setType', array($type));
+
+        return parent::setType($type);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getType()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getType', array());
+
+        return parent::getType();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function setEnabled($enabled)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setEnabled', array($enabled));
+
+        return parent::setEnabled($enabled);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getEnabled()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getEnabled', array());
+
+        return parent::getEnabled();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function setName($name)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setName', array($name));
+
+        return parent::setName($name);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getName()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getName', array());
+
+        return parent::getName();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function setSlug($slug)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setSlug', array($slug));
+
+        return parent::setSlug($slug);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getSlug()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getSlug', array());
+
+        return parent::getSlug();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function setCustomUrl($customUrl)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setCustomUrl', array($customUrl));
+
+        return parent::setCustomUrl($customUrl);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getCustomUrl()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getCustomUrl', array());
+
+        return parent::getCustomUrl();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function setRequestMethod($requestMethod)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setRequestMethod', array($requestMethod));
+
+        return parent::setRequestMethod($requestMethod);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getRequestMethod()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getRequestMethod', array());
+
+        return parent::getRequestMethod();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function setMetaKeyword($metaKeyword)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setMetaKeyword', array($metaKeyword));
+
+        return parent::setMetaKeyword($metaKeyword);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getMetaKeyword()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getMetaKeyword', array());
+
+        return parent::getMetaKeyword();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function setMetaDescription($metaDescription)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setMetaDescription', array($metaDescription));
+
+        return parent::setMetaDescription($metaDescription);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getMetaDescription()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getMetaDescription', array());
+
+        return parent::getMetaDescription();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function setJavascript($javascript)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setJavascript', array($javascript));
+
+        return parent::setJavascript($javascript);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getJavascript()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getJavascript', array());
+
+        return parent::getJavascript();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function setStylesheet($stylesheet)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setStylesheet', array($stylesheet));
+
+        return parent::setStylesheet($stylesheet);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getStylesheet()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getStylesheet', array());
+
+        return parent::getStylesheet();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function setRawHeaders($rawHeaders)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setRawHeaders', array($rawHeaders));
+
+        return parent::setRawHeaders($rawHeaders);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getRawHeaders()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getRawHeaders', array());
+
+        return parent::getRawHeaders();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function addHeader($name, $header)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'addHeader', array($name, $header));
+
+        return parent::addHeader($name, $header);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function setHeaders(array $headers = array (
+))
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setHeaders', array($headers));
+
+        return parent::setHeaders($headers);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getHeaders()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getHeaders', array());
+
+        return parent::getHeaders();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function setCreatedAt(\DateTime $createdAt = NULL)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setCreatedAt', array($createdAt));
+
+        return parent::setCreatedAt($createdAt);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getCreatedAt()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getCreatedAt', array());
+
+        return parent::getCreatedAt();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function setUpdatedAt(\DateTime $updatedAt = NULL)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setUpdatedAt', array($updatedAt));
+
+        return parent::setUpdatedAt($updatedAt);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getUpdatedAt()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getUpdatedAt', array());
+
+        return parent::getUpdatedAt();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function addChildren(\Sonata\PageBundle\Model\PageInterface $children)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'addChildren', array($children));
+
+        return parent::addChildren($children);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getChildren()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getChildren', array());
+
+        return parent::getChildren();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function setChildren($children)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setChildren', array($children));
+
+        return parent::setChildren($children);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getSnapshot()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getSnapshot', array());
+
+        return parent::getSnapshot();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getSnapshots()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getSnapshots', array());
+
+        return parent::getSnapshots();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function setSnapshots($snapshots)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setSnapshots', array($snapshots));
+
+        return parent::setSnapshots($snapshots);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getTarget()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getTarget', array());
+
+        return parent::getTarget();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function addSnapshot(\Sonata\PageBundle\Model\SnapshotInterface $snapshot)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'addSnapshot', array($snapshot));
+
+        return parent::addSnapshot($snapshot);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function setTarget(\Sonata\PageBundle\Model\PageInterface $target = NULL)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setTarget', array($target));
+
+        return parent::setTarget($target);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function addBlocks(\Sonata\PageBundle\Model\PageBlockInterface $blocs)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'addBlocks', array($blocs));
+
+        return parent::addBlocks($blocs);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getBlocks()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getBlocks', array());
+
+        return parent::getBlocks();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function setParent(\Sonata\PageBundle\Model\PageInterface $parent = NULL)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setParent', array($parent));
+
+        return parent::setParent($parent);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getParent($level = -1)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getParent', array($level));
+
+        return parent::getParent($level);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function setParents(array $parents)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setParents', array($parents));
+
+        return parent::setParents($parents);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getParents()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getParents', array());
+
+        return parent::getParents();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function setTemplateCode($templateCode)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setTemplateCode', array($templateCode));
+
+        return parent::setTemplateCode($templateCode);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getTemplateCode()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getTemplateCode', array());
+
+        return parent::getTemplateCode();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function disableBlockLazyLoading()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'disableBlockLazyLoading', array());
+
+        return parent::disableBlockLazyLoading();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function disableChildrenLazyLoading()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'disableChildrenLazyLoading', array());
+
+        return parent::disableChildrenLazyLoading();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function setDecorate($decorate)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setDecorate', array($decorate));
+
+        return parent::setDecorate($decorate);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getDecorate()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getDecorate', array());
+
+        return parent::getDecorate();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function isHybrid()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'isHybrid', array());
+
+        return parent::isHybrid();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function isCms()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'isCms', array());
+
+        return parent::isCms();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function isInternal()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'isInternal', array());
+
+        return parent::isInternal();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function isDynamic()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'isDynamic', array());
+
+        return parent::isDynamic();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function isError()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'isError', array());
+
+        return parent::isError();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function __toString()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, '__toString', array());
+
+        return parent::__toString();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function setPosition($position)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setPosition', array($position));
+
+        return parent::setPosition($position);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getPosition()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getPosition', array());
+
+        return parent::getPosition();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function setUrl($url)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setUrl', array($url));
+
+        return parent::setUrl($url);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getUrl()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getUrl', array());
+
+        return parent::getUrl();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getContainerByCode($code)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getContainerByCode', array($code));
+
+        return parent::getContainerByCode($code);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getBlocksByType($type)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getBlocksByType', array($type));
+
+        return parent::getBlocksByType($type);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function hasRequestMethod($method)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'hasRequestMethod', array($method));
+
+        return parent::hasRequestMethod($method);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function setSite(\Sonata\PageBundle\Model\SiteInterface $site)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setSite', array($site));
+
+        return parent::setSite($site);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getSite()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getSite', array());
+
+        return parent::getSite();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function setEdited($edited)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setEdited', array($edited));
+
+        return parent::setEdited($edited);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getEdited()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getEdited', array());
+
+        return parent::getEdited();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function setTitle($title)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setTitle', array($title));
+
+        return parent::setTitle($title);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getTitle()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getTitle', array());
+
+        return parent::getTitle();
+    }
+
+}
+";}s:15:"parentDirectory";a:2:{i:0;s:6:"string";i:1;s:60:"E:\wamp\www\sandbox-build\app\cache\dev/doctrine/orm/Proxies";}s:11:"tmpFileName";a:2:{i:0;s:6:"string";i:1;s:132:"E:\wamp\www\sandbox-build\app\cache\dev/doctrine/orm/Proxies\__CG__ApplicationSonataPageBundleEntityPage.php.55343311bf5602.68424068";}}}}}i:2;a:8:{s:9:"namespace";s:0:"";s:11:"short_class";s:0:"";s:5:"class";s:0:"";s:4:"type";s:0:"";s:8:"function";s:6:"rename";s:4:"file";s:93:"E:\wamp\www\sandbox-build\vendor\doctrine\common\lib\Doctrine\Common\Proxy\ProxyGenerator.php";s:4:"line";i:305;s:4:"args";a:2:{i:0;a:2:{i:0;s:6:"string";i:1;s:132:"E:\wamp\www\sandbox-build\app\cache\dev/doctrine/orm/Proxies\__CG__ApplicationSonataPageBundleEntityPage.php.55343311bf5602.68424068";}i:1;a:2:{i:0;s:6:"string";i:1;s:108:"E:\wamp\www\sandbox-build\app\cache\dev/doctrine/orm/Proxies\__CG__ApplicationSonataPageBundleEntityPage.php";}}}i:3;a:8:{s:9:"namespace";s:21:"Doctrine\Common\Proxy";s:11:"short_class";s:14:"ProxyGenerator";s:5:"class";s:36:"Doctrine\Common\Proxy\ProxyGenerator";s:4:"type";s:2:"->";s:8:"function";s:18:"generateProxyClass";s:4:"file";s:99:"E:\wamp\www\sandbox-build\vendor\doctrine\common\lib\Doctrine\Common\Proxy\AbstractProxyFactory.php";s:4:"line";i:218;s:4:"args";a:2:{i:0;a:2:{i:0;s:6:"object";i:1;s:34:"Doctrine\ORM\Mapping\ClassMetadata";}i:1;a:2:{i:0;s:6:"string";i:1;s:108:"E:\wamp\www\sandbox-build\app\cache\dev/doctrine/orm/Proxies\__CG__ApplicationSonataPageBundleEntityPage.php";}}}i:4;a:8:{s:9:"namespace";s:21:"Doctrine\Common\Proxy";s:11:"short_class";s:20:"AbstractProxyFactory";s:5:"class";s:42:"Doctrine\Common\Proxy\AbstractProxyFactory";s:4:"type";s:2:"->";s:8:"function";s:18:"getProxyDefinition";s:4:"file";s:99:"E:\wamp\www\sandbox-build\vendor\doctrine\common\lib\Doctrine\Common\Proxy\AbstractProxyFactory.php";s:4:"line";i:119;s:4:"args";a:1:{i:0;a:2:{i:0;s:6:"string";i:1;s:41:"Application\Sonata\PageBundle\Entity\Page";}}}i:5;a:8:{s:9:"namespace";s:21:"Doctrine\Common\Proxy";s:11:"short_class";s:20:"AbstractProxyFactory";s:5:"class";s:42:"Doctrine\Common\Proxy\AbstractProxyFactory";s:4:"type";s:2:"->";s:8:"function";s:8:"getProxy";s:4:"file";s:77:"E:\wamp\www\sandbox-build\vendor\doctrine\orm\lib\Doctrine\ORM\UnitOfWork.php";s:4:"line";i:2677;s:4:"args";a:2:{i:0;a:2:{i:0;s:6:"string";i:1;s:41:"Application\Sonata\PageBundle\Entity\Page";}i:1;a:2:{i:0;s:5:"array";i:1;a:1:{s:2:"id";a:2:{i:0;s:6:"string";i:1;s:1:"5";}}}}}i:6;a:8:{s:9:"namespace";s:12:"Doctrine\ORM";s:11:"short_class";s:10:"UnitOfWork";s:5:"class";s:23:"Doctrine\ORM\UnitOfWork";s:4:"type";s:2:"->";s:8:"function";s:12:"createEntity";s:4:"file";s:100:"E:\wamp\www\sandbox-build\vendor\doctrine\orm\lib\Doctrine\ORM\Internal\Hydration\ObjectHydrator.php";s:4:"line";i:286;s:4:"args";a:3:{i:0;a:2:{i:0;s:6:"string";i:1;s:45:"Application\Sonata\PageBundle\Entity\Snapshot";}i:1;a:2:{i:0;s:5:"array";i:1;a:18:{s:9:"routeName";a:2:{i:0;s:6:"string";i:1;s:22:"sonata_demo_car_rescue";}s:9:"pageAlias";a:2:{i:0;s:4:"null";i:1;N;}s:4:"type";a:2:{i:0;s:4:"null";i:1;N;}s:8:"position";a:2:{i:0;s:6:"string";i:1;s:1:"1";}s:7:"enabled";a:2:{i:0;s:7:"boolean";i:1;b:1;}s:8:"decorate";a:2:{i:0;s:7:"boolean";i:1;b:1;}s:4:"name";a:2:{i:0;s:6:"string";i:1;s:22:"sonata_demo_car_rescue";}s:3:"url";a:2:{i:0;s:6:"string";i:1;s:18:"/car-rescue-engine";}s:8:"parentId";a:2:{i:0;s:6:"string";i:1;s:1:"2";}s:8:"targetId";a:2:{i:0;s:4:"null";i:1;N;}s:7:"content";a:2:{i:0;s:5:"array";i:1;a:16:{s:2:"id";a:2:{i:0;s:6:"string";i:1;s:1:"5";}s:4:"name";a:2:{i:0;s:6:"string";i:1;s:22:"sonata_demo_car_rescue";}s:10:"javascript";a:2:{i:0;s:4:"null";i:1;N;}s:10:"stylesheet";a:2:{i:0;s:4:"null";i:1;N;}s:11:"raw_headers";a:2:{i:0;s:4:"null";i:1;N;}s:5:"title";a:2:{i:0;s:4:"null";i:1;N;}s:16:"meta_description";a:2:{i:0;s:4:"null";i:1;N;}s:12:"meta_keyword";a:2:{i:0;s:4:"null";i:1;N;}s:13:"template_code";a:2:{i:0;s:6:"string";i:1;s:7:"default";}s:14:"request_method";a:2:{i:0;s:6:"string";i:1;s:24:"GET|POST|HEAD|DELETE|PUT";}s:10:"created_at";a:2:{i:0;s:6:"string";i:1;s:10:"1429126153";}s:10:"updated_at";a:2:{i:0;s:6:"string";i:1;s:10:"1429126153";}s:4:"slug";a:2:{i:0;s:6:"string";i:1;s:17:"car-rescue-engine";}s:9:"parent_id";a:2:{i:0;s:6:"string";i:1;s:1:"2";}s:9:"target_id";a:2:{i:0;s:4:"null";i:1;N;}s:6:"blocks";a:2:{i:0;s:5:"array";i:1;a:0:{}}}}s:20:"publicationDateStart";a:2:{i:0;s:6:"object";i:1;s:8:"DateTime";}s:18:"publicationDateEnd";a:2:{i:0;s:4:"null";i:1;N;}s:9:"createdAt";a:2:{i:0;s:6:"object";i:1;s:8:"DateTime";}s:9:"updatedAt";a:2:{i:0;s:6:"object";i:1;s:8:"DateTime";}s:2:"id";a:2:{i:0;s:6:"string";i:1;s:1:"5";}s:7:"site_id";a:2:{i:0;s:6:"string";i:1;s:1:"1";}s:7:"page_id";a:2:{i:0;s:6:"string";i:1;s:1:"5";}}}i:2;a:2:{i:0;s:5:"array";i:1;a:3:{s:14:"deferEagerLoad";a:2:{i:0;s:7:"boolean";i:1;b:1;}s:10:"fetchAlias";a:2:{i:0;s:6:"string";i:1;s:1:"s";}s:9:"fetchMode";a:2:{i:0;s:5:"array";i:1;a:1:{s:45:"Application\Sonata\PageBundle\Entity\Snapshot";a:2:{i:0;s:5:"array";i:1;a:2:{s:4:"site";a:2:{i:0;s:6:"string";i:1;s:1:"2";}s:4:"page";a:2:{i:0;s:6:"string";i:1;s:1:"2";}}}}}}}}}i:7;a:8:{s:9:"namespace";s:31:"Doctrine\ORM\Internal\Hydration";s:11:"short_class";s:14:"ObjectHydrator";s:5:"class";s:46:"Doctrine\ORM\Internal\Hydration\ObjectHydrator";s:4:"type";s:2:"->";s:8:"function";s:9:"getEntity";s:4:"file";s:100:"E:\wamp\www\sandbox-build\vendor\doctrine\orm\lib\Doctrine\ORM\Internal\Hydration\ObjectHydrator.php";s:4:"line";i:534;s:4:"args";a:2:{i:0;a:2:{i:0;s:5:"array";i:1;a:18:{s:9:"routeName";a:2:{i:0;s:6:"string";i:1;s:22:"sonata_demo_car_rescue";}s:9:"pageAlias";a:2:{i:0;s:4:"null";i:1;N;}s:4:"type";a:2:{i:0;s:4:"null";i:1;N;}s:8:"position";a:2:{i:0;s:6:"string";i:1;s:1:"1";}s:7:"enabled";a:2:{i:0;s:7:"boolean";i:1;b:1;}s:8:"decorate";a:2:{i:0;s:7:"boolean";i:1;b:1;}s:4:"name";a:2:{i:0;s:6:"string";i:1;s:22:"sonata_demo_car_rescue";}s:3:"url";a:2:{i:0;s:6:"string";i:1;s:18:"/car-rescue-engine";}s:8:"parentId";a:2:{i:0;s:6:"string";i:1;s:1:"2";}s:8:"targetId";a:2:{i:0;s:4:"null";i:1;N;}s:7:"content";a:2:{i:0;s:5:"array";i:1;a:16:{s:2:"id";a:2:{i:0;s:6:"string";i:1;s:1:"5";}s:4:"name";a:2:{i:0;s:6:"string";i:1;s:22:"sonata_demo_car_rescue";}s:10:"javascript";a:2:{i:0;s:4:"null";i:1;N;}s:10:"stylesheet";a:2:{i:0;s:4:"null";i:1;N;}s:11:"raw_headers";a:2:{i:0;s:4:"null";i:1;N;}s:5:"title";a:2:{i:0;s:4:"null";i:1;N;}s:16:"meta_description";a:2:{i:0;s:4:"null";i:1;N;}s:12:"meta_keyword";a:2:{i:0;s:4:"null";i:1;N;}s:13:"template_code";a:2:{i:0;s:6:"string";i:1;s:7:"default";}s:14:"request_method";a:2:{i:0;s:6:"string";i:1;s:24:"GET|POST|HEAD|DELETE|PUT";}s:10:"created_at";a:2:{i:0;s:6:"string";i:1;s:10:"1429126153";}s:10:"updated_at";a:2:{i:0;s:6:"string";i:1;s:10:"1429126153";}s:4:"slug";a:2:{i:0;s:6:"string";i:1;s:17:"car-rescue-engine";}s:9:"parent_id";a:2:{i:0;s:6:"string";i:1;s:1:"2";}s:9:"target_id";a:2:{i:0;s:4:"null";i:1;N;}s:6:"blocks";a:2:{i:0;s:5:"array";i:1;a:0:{}}}}s:20:"publicationDateStart";a:2:{i:0;s:6:"object";i:1;s:8:"DateTime";}s:18:"publicationDateEnd";a:2:{i:0;s:4:"null";i:1;N;}s:9:"createdAt";a:2:{i:0;s:6:"object";i:1;s:8:"DateTime";}s:9:"updatedAt";a:2:{i:0;s:6:"object";i:1;s:8:"DateTime";}s:2:"id";a:2:{i:0;s:6:"string";i:1;s:1:"5";}s:7:"site_id";a:2:{i:0;s:6:"string";i:1;s:1:"1";}s:7:"page_id";a:2:{i:0;s:6:"string";i:1;s:1:"5";}}}i:1;a:2:{i:0;s:6:"string";i:1;s:1:"s";}}}i:8;a:8:{s:9:"namespace";s:31:"Doctrine\ORM\Internal\Hydration";s:11:"short_class";s:14:"ObjectHydrator";s:5:"class";s:46:"Doctrine\ORM\Internal\Hydration\ObjectHydrator";s:4:"type";s:2:"->";s:8:"function";s:14:"hydrateRowData";s:4:"file";s:100:"E:\wamp\www\sandbox-build\vendor\doctrine\orm\lib\Doctrine\ORM\Internal\Hydration\ObjectHydrator.php";s:4:"line";i:179;s:4:"args";a:3:{i:0;a:2:{i:0;s:5:"array";i:1;a:18:{s:11:"route_name0";a:2:{i:0;s:6:"string";i:1;s:22:"sonata_demo_car_rescue";}s:11:"page_alias1";a:2:{i:0;s:4:"null";i:1;N;}s:5:"type2";a:2:{i:0;s:4:"null";i:1;N;}s:9:"position3";a:2:{i:0;s:6:"string";i:1;s:1:"1";}s:8:"enabled4";a:2:{i:0;s:6:"string";i:1;s:1:"1";}s:9:"decorate5";a:2:{i:0;s:6:"string";i:1;s:1:"1";}s:5:"name6";a:2:{i:0;s:6:"string";i:1;s:22:"sonata_demo_car_rescue";}s:4:"url7";a:2:{i:0;s:6:"string";i:1;s:18:"/car-rescue-engine";}s:10:"parent_id8";a:2:{i:0;s:6:"string";i:1;s:1:"2";}s:10:"target_id9";a:2:{i:0;s:4:"null";i:1;N;}s:9:"content10";a:2:{i:0;s:6:"string";i:1;s:344:"{"id":5,"name":"sonata_demo_car_rescue","javascript":null,"stylesheet":null,"raw_headers":null,"title":null,"meta_description":null,"meta_keyword":null,"template_code":"default","request_method":"GET|POST|HEAD|DELETE|PUT","created_at":"1429126153","updated_at":"1429126153","slug":"car-rescue-engine","parent_id":2,"target_id":null,"blocks":[]}";}s:24:"publication_date_start11";a:2:{i:0;s:6:"string";i:1;s:19:"2015-04-15 21:29:41";}s:22:"publication_date_end12";a:2:{i:0;s:4:"null";i:1;N;}s:12:"created_at13";a:2:{i:0;s:6:"string";i:1;s:19:"2015-04-15 21:29:41";}s:12:"updated_at14";a:2:{i:0;s:6:"string";i:1;s:19:"2015-04-15 21:29:41";}s:4:"id15";a:2:{i:0;s:6:"string";i:1;s:1:"5";}s:9:"site_id16";a:2:{i:0;s:6:"string";i:1;s:1:"1";}s:9:"page_id17";a:2:{i:0;s:6:"string";i:1;s:1:"5";}}}i:1;a:2:{i:0;s:5:"array";i:1;a:18:{s:11:"route_name0";a:2:{i:0;s:5:"array";i:1;a:4:{s:9:"fieldName";a:2:{i:0;s:6:"string";i:1;s:9:"routeName";}s:4:"type";a:2:{i:0;s:6:"object";i:1;s:30:"Doctrine\DBAL\Types\StringType";}s:12:"isIdentifier";a:2:{i:0;s:7:"boolean";i:1;b:0;}s:8:"dqlAlias";a:2:{i:0;s:6:"string";i:1;s:1:"s";}}}s:11:"page_alias1";a:2:{i:0;s:5:"array";i:1;a:4:{s:9:"fieldName";a:2:{i:0;s:6:"string";i:1;s:9:"pageAlias";}s:4:"type";a:2:{i:0;s:6:"object";i:1;s:30:"Doctrine\DBAL\Types\StringType";}s:12:"isIdentifier";a:2:{i:0;s:7:"boolean";i:1;b:0;}s:8:"dqlAlias";a:2:{i:0;s:6:"string";i:1;s:1:"s";}}}s:5:"type2";a:2:{i:0;s:5:"array";i:1;a:4:{s:9:"fieldName";a:2:{i:0;s:6:"string";i:1;s:4:"type";}s:4:"type";a:2:{i:0;s:6:"object";i:1;s:30:"Doctrine\DBAL\Types\StringType";}s:12:"isIdentifier";a:2:{i:0;s:7:"boolean";i:1;b:0;}s:8:"dqlAlias";a:2:{i:0;s:6:"string";i:1;s:1:"s";}}}s:9:"position3";a:2:{i:0;s:5:"array";i:1;a:4:{s:9:"fieldName";a:2:{i:0;s:6:"string";i:1;s:8:"position";}s:4:"type";a:2:{i:0;s:6:"object";i:1;s:31:"Doctrine\DBAL\Types\IntegerType";}s:12:"isIdentifier";a:2:{i:0;s:7:"boolean";i:1;b:0;}s:8:"dqlAlias";a:2:{i:0;s:6:"string";i:1;s:1:"s";}}}s:8:"enabled4";a:2:{i:0;s:5:"array";i:1;a:4:{s:9:"fieldName";a:2:{i:0;s:6:"string";i:1;s:7:"enabled";}s:4:"type";a:2:{i:0;s:6:"object";i:1;s:31:"Doctrine\DBAL\Types\BooleanType";}s:12:"isIdentifier";a:2:{i:0;s:7:"boolean";i:1;b:0;}s:8:"dqlAlias";a:2:{i:0;s:6:"string";i:1;s:1:"s";}}}s:9:"decorate5";a:2:{i:0;s:5:"array";i:1;a:4:{s:9:"fieldName";a:2:{i:0;s:6:"string";i:1;s:8:"decorate";}s:4:"type";a:2:{i:0;s:6:"object";i:1;s:31:"Doctrine\DBAL\Types\BooleanType";}s:12:"isIdentifier";a:2:{i:0;s:7:"boolean";i:1;b:0;}s:8:"dqlAlias";a:2:{i:0;s:6:"string";i:1;s:1:"s";}}}s:5:"name6";a:2:{i:0;s:5:"array";i:1;a:4:{s:9:"fieldName";a:2:{i:0;s:6:"string";i:1;s:4:"name";}s:4:"type";a:2:{i:0;s:6:"object";i:1;s:30:"Doctrine\DBAL\Types\StringType";}s:12:"isIdentifier";a:2:{i:0;s:7:"boolean";i:1;b:0;}s:8:"dqlAlias";a:2:{i:0;s:6:"string";i:1;s:1:"s";}}}s:4:"url7";a:2:{i:0;s:5:"array";i:1;a:4:{s:9:"fieldName";a:2:{i:0;s:6:"string";i:1;s:3:"url";}s:4:"type";a:2:{i:0;s:6:"object";i:1;s:28:"Doctrine\DBAL\Types\TextType";}s:12:"isIdentifier";a:2:{i:0;s:7:"boolean";i:1;b:0;}s:8:"dqlAlias";a:2:{i:0;s:6:"string";i:1;s:1:"s";}}}s:10:"parent_id8";a:2:{i:0;s:5:"array";i:1;a:4:{s:9:"fieldName";a:2:{i:0;s:6:"string";i:1;s:8:"parentId";}s:4:"type";a:2:{i:0;s:6:"object";i:1;s:31:"Doctrine\DBAL\Types\IntegerType";}s:12:"isIdentifier";a:2:{i:0;s:7:"boolean";i:1;b:0;}s:8:"dqlAlias";a:2:{i:0;s:6:"string";i:1;s:1:"s";}}}s:10:"target_id9";a:2:{i:0;s:5:"array";i:1;a:4:{s:9:"fieldName";a:2:{i:0;s:6:"string";i:1;s:8:"targetId";}s:4:"type";a:2:{i:0;s:6:"object";i:1;s:31:"Doctrine\DBAL\Types\IntegerType";}s:12:"isIdentifier";a:2:{i:0;s:7:"boolean";i:1;b:0;}s:8:"dqlAlias";a:2:{i:0;s:6:"string";i:1;s:1:"s";}}}s:9:"content10";a:2:{i:0;s:5:"array";i:1;a:4:{s:9:"fieldName";a:2:{i:0;s:6:"string";i:1;s:7:"content";}s:4:"type";a:2:{i:0;s:6:"object";i:1;s:30:"Sonata\Doctrine\Types\JsonType";}s:12:"isIdentifier";a:2:{i:0;s:7:"boolean";i:1;b:0;}s:8:"dqlAlias";a:2:{i:0;s:6:"string";i:1;s:1:"s";}}}s:24:"publication_date_start11";a:2:{i:0;s:5:"array";i:1;a:4:{s:9:"fieldName";a:2:{i:0;s:6:"string";i:1;s:20:"publicationDateStart";}s:4:"type";a:2:{i:0;s:6:"object";i:1;s:32:"Doctrine\DBAL\Types\DateTimeType";}s:12:"isIdentifier";a:2:{i:0;s:7:"boolean";i:1;b:0;}s:8:"dqlAlias";a:2:{i:0;s:6:"string";i:1;s:1:"s";}}}s:22:"publication_date_end12";a:2:{i:0;s:5:"array";i:1;a:4:{s:9:"fieldName";a:2:{i:0;s:6:"string";i:1;s:18:"publicationDateEnd";}s:4:"type";a:2:{i:0;s:6:"object";i:1;s:32:"Doctrine\DBAL\Types\DateTimeType";}s:12:"isIdentifier";a:2:{i:0;s:7:"boolean";i:1;b:0;}s:8:"dqlAlias";a:2:{i:0;s:6:"string";i:1;s:1:"s";}}}s:12:"created_at13";a:2:{i:0;s:5:"array";i:1;a:4:{s:9:"fieldName";a:2:{i:0;s:6:"string";i:1;s:9:"createdAt";}s:4:"type";a:2:{i:0;s:6:"object";i:1;s:32:"Doctrine\DBAL\Types\DateTimeType";}s:12:"isIdentifier";a:2:{i:0;s:7:"boolean";i:1;b:0;}s:8:"dqlAlias";a:2:{i:0;s:6:"string";i:1;s:1:"s";}}}s:12:"updated_at14";a:2:{i:0;s:5:"array";i:1;a:4:{s:9:"fieldName";a:2:{i:0;s:6:"string";i:1;s:9:"updatedAt";}s:4:"type";a:2:{i:0;s:6:"object";i:1;s:32:"Doctrine\DBAL\Types\DateTimeType";}s:12:"isIdentifier";a:2:{i:0;s:7:"boolean";i:1;b:0;}s:8:"dqlAlias";a:2:{i:0;s:6:"string";i:1;s:1:"s";}}}s:4:"id15";a:2:{i:0;s:5:"array";i:1;a:4:{s:9:"fieldName";a:2:{i:0;s:6:"string";i:1;s:2:"id";}s:4:"type";a:2:{i:0;s:6:"object";i:1;s:31:"Doctrine\DBAL\Types\IntegerType";}s:12:"isIdentifier";a:2:{i:0;s:7:"boolean";i:1;b:1;}s:8:"dqlAlias";a:2:{i:0;s:6:"string";i:1;s:1:"s";}}}s:9:"site_id16";a:2:{i:0;s:5:"array";i:1;a:4:{s:12:"isMetaColumn";a:2:{i:0;s:7:"boolean";i:1;b:1;}s:9:"fieldName";a:2:{i:0;s:6:"string";i:1;s:7:"site_id";}s:8:"dqlAlias";a:2:{i:0;s:6:"string";i:1;s:1:"s";}s:12:"isIdentifier";a:2:{i:0;s:7:"boolean";i:1;b:0;}}}s:9:"page_id17";a:2:{i:0;s:5:"array";i:1;a:4:{s:12:"isMetaColumn";a:2:{i:0;s:7:"boolean";i:1;b:1;}s:9:"fieldName";a:2:{i:0;s:6:"string";i:1;s:7:"page_id";}s:8:"dqlAlias";a:2:{i:0;s:6:"string";i:1;s:1:"s";}s:12:"isIdentifier";a:2:{i:0;s:7:"boolean";i:1;b:0;}}}}}i:2;a:2:{i:0;s:5:"array";i:1;a:0:{}}}}i:9;a:8:{s:9:"namespace";s:31:"Doctrine\ORM\Internal\Hydration";s:11:"short_class";s:14:"ObjectHydrator";s:5:"class";s:46:"Doctrine\ORM\Internal\Hydration\ObjectHydrator";s:4:"type";s:2:"->";s:8:"function";s:14:"hydrateAllData";s:4:"file";s:102:"E:\wamp\www\sandbox-build\vendor\doctrine\orm\lib\Doctrine\ORM\Internal\Hydration\AbstractHydrator.php";s:4:"line";i:140;s:4:"args";a:0:{}}i:10;a:8:{s:9:"namespace";s:31:"Doctrine\ORM\Internal\Hydration";s:11:"short_class";s:16:"AbstractHydrator";s:5:"class";s:48:"Doctrine\ORM\Internal\Hydration\AbstractHydrator";s:4:"type";s:2:"->";s:8:"function";s:10:"hydrateAll";s:4:"file";s:80:"E:\wamp\www\sandbox-build\vendor\doctrine\orm\lib\Doctrine\ORM\AbstractQuery.php";s:4:"line";i:804;s:4:"args";a:3:{i:0;a:2:{i:0;s:6:"object";i:1;s:33:"Doctrine\DBAL\Driver\PDOStatement";}i:1;a:2:{i:0;s:6:"object";i:1;s:35:"Doctrine\ORM\Query\ResultSetMapping";}i:2;a:2:{i:0;s:5:"array";i:1;a:0:{}}}}i:11;a:8:{s:9:"namespace";s:12:"Doctrine\ORM";s:11:"short_class";s:13:"AbstractQuery";s:5:"class";s:26:"Doctrine\ORM\AbstractQuery";s:4:"type";s:2:"->";s:8:"function";s:7:"execute";s:4:"file";s:80:"E:\wamp\www\sandbox-build\vendor\doctrine\orm\lib\Doctrine\ORM\AbstractQuery.php";s:4:"line";i:612;s:4:"args";a:2:{i:0;a:2:{i:0;s:4:"null";i:1;N;}i:1;a:2:{i:0;s:4:"null";i:1;N;}}}i:12;a:8:{s:9:"namespace";s:12:"Doctrine\ORM";s:11:"short_class";s:13:"AbstractQuery";s:5:"class";s:26:"Doctrine\ORM\AbstractQuery";s:4:"type";s:2:"->";s:8:"function";s:18:"getOneOrNullResult";s:4:"file";s:86:"E:\wamp\www\sandbox-build\vendor\sonata-project\page-bundle\Entity\SnapshotManager.php";s:4:"line";i:139;s:4:"args";a:0:{}}i:13;a:8:{s:9:"namespace";s:24:"Sonata\PageBundle\Entity";s:11:"short_class";s:15:"SnapshotManager";s:5:"class";s:40:"Sonata\PageBundle\Entity\SnapshotManager";s:4:"type";s:2:"->";s:8:"function";s:18:"findEnableSnapshot";s:4:"file";s:93:"E:\wamp\www\sandbox-build\vendor\sonata-project\page-bundle\CmsManager\CmsSnapshotManager.php";s:4:"line";i:125;s:4:"args";a:1:{i:0;a:2:{i:0;s:5:"array";i:1;a:2:{s:3:"url";a:2:{i:0;s:6:"string";i:1;s:18:"/car-rescue-engine";}s:4:"site";a:2:{i:0;s:6:"string";i:1;s:1:"1";}}}}}i:14;a:8:{s:9:"namespace";s:28:"Sonata\PageBundle\CmsManager";s:11:"short_class";s:18:"CmsSnapshotManager";s:5:"class";s:47:"Sonata\PageBundle\CmsManager\CmsSnapshotManager";s:4:"type";s:2:"->";s:8:"function";s:9:"getPageBy";s:4:"file";s:93:"E:\wamp\www\sandbox-build\vendor\sonata-project\page-bundle\CmsManager\BaseCmsPageManager.php";s:4:"line";i:57;s:4:"args";a:3:{i:0;a:2:{i:0;s:6:"object";i:1;s:41:"Application\Sonata\PageBundle\Entity\Site";}i:1;a:2:{i:0;s:6:"string";i:1;s:3:"url";}i:2;a:2:{i:0;s:6:"string";i:1;s:18:"/car-rescue-engine";}}}i:15;a:8:{s:9:"namespace";s:28:"Sonata\PageBundle\CmsManager";s:11:"short_class";s:18:"BaseCmsPageManager";s:5:"class";s:47:"Sonata\PageBundle\CmsManager\BaseCmsPageManager";s:4:"type";s:2:"->";s:8:"function";s:12:"getPageByUrl";s:4:"file";s:83:"E:\wamp\www\sandbox-build\vendor\sonata-project\page-bundle\Route\CmsPageRouter.php";s:4:"line";i:163;s:4:"args";a:2:{i:0;a:2:{i:0;s:6:"object";i:1;s:41:"Application\Sonata\PageBundle\Entity\Site";}i:1;a:2:{i:0;s:6:"string";i:1;s:18:"/car-rescue-engine";}}}i:16;a:8:{s:9:"namespace";s:23:"Sonata\PageBundle\Route";s:11:"short_class";s:13:"CmsPageRouter";s:5:"class";s:37:"Sonata\PageBundle\Route\CmsPageRouter";s:4:"type";s:2:"->";s:8:"function";s:5:"match";s:4:"file";s:68:"E:\wamp\www\sandbox-build\vendor\symfony-cmf\routing\ChainRouter.php";s:4:"line";i:188;s:4:"args";a:1:{i:0;a:2:{i:0;s:6:"string";i:1;s:18:"/car-rescue-engine";}}}i:17;a:8:{s:9:"namespace";s:29:"Symfony\Cmf\Component\Routing";s:11:"short_class";s:11:"ChainRouter";s:5:"class";s:41:"Symfony\Cmf\Component\Routing\ChainRouter";s:4:"type";s:2:"->";s:8:"function";s:7:"doMatch";s:4:"file";s:68:"E:\wamp\www\sandbox-build\vendor\symfony-cmf\routing\ChainRouter.php";s:4:"line";i:155;s:4:"args";a:2:{i:0;a:2:{i:0;s:6:"string";i:1;s:18:"/car-rescue-engine";}i:1;a:2:{i:0;s:6:"object";i:1;s:37:"Sonata\PageBundle\Request\SiteRequest";}}}i:18;a:8:{s:9:"namespace";s:29:"Symfony\Cmf\Component\Routing";s:11:"short_class";s:11:"ChainRouter";s:5:"class";s:41:"Symfony\Cmf\Component\Routing\ChainRouter";s:4:"type";s:2:"->";s:8:"function";s:12:"matchRequest";s:4:"file";s:114:"E:\wamp\www\sandbox-build\vendor\symfony\symfony\src\Symfony\Component\HttpKernel\EventListener\RouterListener.php";s:4:"line";i:125;s:4:"args";a:1:{i:0;a:2:{i:0;s:6:"object";i:1;s:37:"Sonata\PageBundle\Request\SiteRequest";}}}i:19;a:8:{s:9:"namespace";s:42:"Symfony\Component\HttpKernel\EventListener";s:11:"short_class";s:14:"RouterListener";s:5:"class";s:57:"Symfony\Component\HttpKernel\EventListener\RouterListener";s:4:"type";s:2:"->";s:8:"function";s:15:"onKernelRequest";s:4:"file";N;s:4:"line";N;s:4:"args";a:3:{i:0;a:2:{i:0;s:6:"object";i:1;s:51:"Symfony\Component\HttpKernel\Event\GetResponseEvent";}i:1;a:2:{i:0;s:6:"string";i:1;s:14:"kernel.request";}i:2;a:2:{i:0;s:6:"object";i:1;s:59:"Symfony\Component\HttpKernel\Debug\TraceableEventDispatcher";}}}i:20;a:8:{s:9:"namespace";s:0:"";s:11:"short_class";s:0:"";s:5:"class";s:0:"";s:4:"type";s:0:"";s:8:"function";s:14:"call_user_func";s:4:"file";s:112:"E:\wamp\www\sandbox-build\vendor\symfony\symfony\src\Symfony\Component\EventDispatcher\Debug\WrappedListener.php";s:4:"line";i:61;s:4:"args";a:4:{i:0;a:2:{i:0;s:5:"array";i:1;a:2:{i:0;a:2:{i:0;s:6:"object";i:1;s:57:"Symfony\Component\HttpKernel\EventListener\RouterListener";}i:1;a:2:{i:0;s:6:"string";i:1;s:15:"onKernelRequest";}}}i:1;a:2:{i:0;s:6:"object";i:1;s:51:"Symfony\Component\HttpKernel\Event\GetResponseEvent";}i:2;a:2:{i:0;s:6:"string";i:1;s:14:"kernel.request";}i:3;a:2:{i:0;s:6:"object";i:1;s:59:"Symfony\Component\HttpKernel\Debug\TraceableEventDispatcher";}}}i:21;a:8:{s:9:"namespace";s:39:"Symfony\Component\EventDispatcher\Debug";s:11:"short_class";s:15:"WrappedListener";s:5:"class";s:55:"Symfony\Component\EventDispatcher\Debug\WrappedListener";s:4:"type";s:2:"->";s:8:"function";s:8:"__invoke";s:4:"file";N;s:4:"line";N;s:4:"args";a:3:{i:0;a:2:{i:0;s:6:"object";i:1;s:51:"Symfony\Component\HttpKernel\Event\GetResponseEvent";}i:1;a:2:{i:0;s:6:"string";i:1;s:14:"kernel.request";}i:2;a:2:{i:0;s:6:"object";i:1;s:63:"Symfony\Component\EventDispatcher\ContainerAwareEventDispatcher";}}}i:22;a:8:{s:9:"namespace";s:0:"";s:11:"short_class";s:0:"";s:5:"class";s:0:"";s:4:"type";s:0:"";s:8:"function";s:14:"call_user_func";s:4:"file";s:106:"E:\wamp\www\sandbox-build\vendor\symfony\symfony\src\Symfony\Component\EventDispatcher\EventDispatcher.php";s:4:"line";i:164;s:4:"args";a:4:{i:0;a:2:{i:0;s:6:"object";i:1;s:55:"Symfony\Component\EventDispatcher\Debug\WrappedListener";}i:1;a:2:{i:0;s:6:"object";i:1;s:51:"Symfony\Component\HttpKernel\Event\GetResponseEvent";}i:2;a:2:{i:0;s:6:"string";i:1;s:14:"kernel.request";}i:3;a:2:{i:0;s:6:"object";i:1;s:63:"Symfony\Component\EventDispatcher\ContainerAwareEventDispatcher";}}}i:23;a:8:{s:9:"namespace";s:33:"Symfony\Component\EventDispatcher";s:11:"short_class";s:15:"EventDispatcher";s:5:"class";s:49:"Symfony\Component\EventDispatcher\EventDispatcher";s:4:"type";s:2:"->";s:8:"function";s:10:"doDispatch";s:4:"file";s:106:"E:\wamp\www\sandbox-build\vendor\symfony\symfony\src\Symfony\Component\EventDispatcher\EventDispatcher.php";s:4:"line";i:53;s:4:"args";a:3:{i:0;a:2:{i:0;s:5:"array";i:1;a:17:{i:0;a:2:{i:0;s:6:"object";i:1;s:55:"Symfony\Component\EventDispatcher\Debug\WrappedListener";}i:1;a:2:{i:0;s:6:"object";i:1;s:55:"Symfony\Component\EventDispatcher\Debug\WrappedListener";}i:2;a:2:{i:0;s:6:"object";i:1;s:55:"Symfony\Component\EventDispatcher\Debug\WrappedListener";}i:3;a:2:{i:0;s:6:"object";i:1;s:55:"Symfony\Component\EventDispatcher\Debug\WrappedListener";}i:4;a:2:{i:0;s:6:"object";i:1;s:55:"Symfony\Component\EventDispatcher\Debug\WrappedListener";}i:5;a:2:{i:0;s:6:"object";i:1;s:55:"Symfony\Component\EventDispatcher\Debug\WrappedListener";}i:6;a:2:{i:0;s:6:"object";i:1;s:55:"Symfony\Component\EventDispatcher\Debug\WrappedListener";}i:7;a:2:{i:0;s:6:"object";i:1;s:55:"Symfony\Component\EventDispatcher\Debug\WrappedListener";}i:8;a:2:{i:0;s:6:"object";i:1;s:55:"Symfony\Component\EventDispatcher\Debug\WrappedListener";}i:9;a:2:{i:0;s:6:"object";i:1;s:55:"Symfony\Component\EventDispatcher\Debug\WrappedListener";}i:10;a:2:{i:0;s:6:"object";i:1;s:55:"Symfony\Component\EventDispatcher\Debug\WrappedListener";}i:11;a:2:{i:0;s:6:"object";i:1;s:55:"Symfony\Component\EventDispatcher\Debug\WrappedListener";}i:12;a:2:{i:0;s:6:"object";i:1;s:55:"Symfony\Component\EventDispatcher\Debug\WrappedListener";}i:13;a:2:{i:0;s:6:"object";i:1;s:55:"Symfony\Component\EventDispatcher\Debug\WrappedListener";}i:14;a:2:{i:0;s:6:"object";i:1;s:55:"Symfony\Component\EventDispatcher\Debug\WrappedListener";}i:15;a:2:{i:0;s:6:"object";i:1;s:55:"Symfony\Component\EventDispatcher\Debug\WrappedListener";}i:16;a:2:{i:0;s:6:"object";i:1;s:55:"Symfony\Component\EventDispatcher\Debug\WrappedListener";}}}i:1;a:2:{i:0;s:6:"string";i:1;s:14:"kernel.request";}i:2;a:2:{i:0;s:6:"object";i:1;s:51:"Symfony\Component\HttpKernel\Event\GetResponseEvent";}}}i:24;a:8:{s:9:"namespace";s:33:"Symfony\Component\EventDispatcher";s:11:"short_class";s:15:"EventDispatcher";s:5:"class";s:49:"Symfony\Component\EventDispatcher\EventDispatcher";s:4:"type";s:2:"->";s:8:"function";s:8:"dispatch";s:4:"file";s:120:"E:\wamp\www\sandbox-build\vendor\symfony\symfony\src\Symfony\Component\EventDispatcher\ContainerAwareEventDispatcher.php";s:4:"line";i:167;s:4:"args";a:2:{i:0;a:2:{i:0;s:6:"string";i:1;s:14:"kernel.request";}i:1;a:2:{i:0;s:6:"object";i:1;s:51:"Symfony\Component\HttpKernel\Event\GetResponseEvent";}}}i:25;a:8:{s:9:"namespace";s:33:"Symfony\Component\EventDispatcher";s:11:"short_class";s:29:"ContainerAwareEventDispatcher";s:5:"class";s:63:"Symfony\Component\EventDispatcher\ContainerAwareEventDispatcher";s:4:"type";s:2:"->";s:8:"function";s:8:"dispatch";s:4:"file";s:121:"E:\wamp\www\sandbox-build\vendor\symfony\symfony\src\Symfony\Component\EventDispatcher\Debug\TraceableEventDispatcher.php";s:4:"line";i:112;s:4:"args";a:2:{i:0;a:2:{i:0;s:6:"string";i:1;s:14:"kernel.request";}i:1;a:2:{i:0;s:6:"object";i:1;s:51:"Symfony\Component\HttpKernel\Event\GetResponseEvent";}}}i:26;a:8:{s:9:"namespace";s:39:"Symfony\Component\EventDispatcher\Debug";s:11:"short_class";s:24:"TraceableEventDispatcher";s:5:"class";s:64:"Symfony\Component\EventDispatcher\Debug\TraceableEventDispatcher";s:4:"type";s:2:"->";s:8:"function";s:8:"dispatch";s:4:"file";s:49:"E:\wamp\www\sandbox-build\app\bootstrap.php.cache";s:4:"line";i:3011;s:4:"args";a:2:{i:0;a:2:{i:0;s:6:"string";i:1;s:14:"kernel.request";}i:1;a:2:{i:0;s:6:"object";i:1;s:51:"Symfony\Component\HttpKernel\Event\GetResponseEvent";}}}i:27;a:8:{s:9:"namespace";s:28:"Symfony\Component\HttpKernel";s:11:"short_class";s:10:"HttpKernel";s:5:"class";s:39:"Symfony\Component\HttpKernel\HttpKernel";s:4:"type";s:2:"->";s:8:"function";s:9:"handleRaw";s:4:"file";s:49:"E:\wamp\www\sandbox-build\app\bootstrap.php.cache";s:4:"line";i:2984;s:4:"args";a:2:{i:0;a:2:{i:0;s:6:"object";i:1;s:37:"Sonata\PageBundle\Request\SiteRequest";}i:1;a:2:{i:0;s:6:"string";i:1;s:1:"1";}}}i:28;a:8:{s:9:"namespace";s:28:"Symfony\Component\HttpKernel";s:11:"short_class";s:10:"HttpKernel";s:5:"class";s:39:"Symfony\Component\HttpKernel\HttpKernel";s:4:"type";s:2:"->";s:8:"function";s:6:"handle";s:4:"file";s:49:"E:\wamp\www\sandbox-build\app\bootstrap.php.cache";s:4:"line";i:3133;s:4:"args";a:3:{i:0;a:2:{i:0;s:6:"object";i:1;s:37:"Sonata\PageBundle\Request\SiteRequest";}i:1;a:2:{i:0;s:6:"string";i:1;s:1:"1";}i:2;a:2:{i:0;s:7:"boolean";i:1;b:1;}}}i:29;a:8:{s:9:"namespace";s:48:"Symfony\Component\HttpKernel\DependencyInjection";s:11:"short_class";s:24:"ContainerAwareHttpKernel";s:5:"class";s:73:"Symfony\Component\HttpKernel\DependencyInjection\ContainerAwareHttpKernel";s:4:"type";s:2:"->";s:8:"function";s:6:"handle";s:4:"file";s:49:"E:\wamp\www\sandbox-build\app\bootstrap.php.cache";s:4:"line";i:2377;s:4:"args";a:3:{i:0;a:2:{i:0;s:6:"object";i:1;s:37:"Sonata\PageBundle\Request\SiteRequest";}i:1;a:2:{i:0;s:6:"string";i:1;s:1:"1";}i:2;a:2:{i:0;s:7:"boolean";i:1;b:1;}}}i:30;a:8:{s:9:"namespace";s:28:"Symfony\Component\HttpKernel";s:11:"short_class";s:6:"Kernel";s:5:"class";s:35:"Symfony\Component\HttpKernel\Kernel";s:4:"type";s:2:"->";s:8:"function";s:6:"handle";s:4:"file";s:41:"E:\wamp\www\sandbox-build\web\app_dev.php";s:4:"line";i:30;s:4:"args";a:1:{i:0;a:2:{i:0;s:6:"object";i:1;s:37:"Sonata\PageBundle\Request\SiteRequest";}}}}s:57:" Symfony\Component\Debug\Exception\FlattenException class";s:55:"Symfony\Component\Debug\Exception\ContextErrorException";s:62:" Symfony\Component\Debug\Exception\FlattenException statusCode";i:500;s:59:" Symfony\Component\Debug\Exception\FlattenException headers";a:0:{}s:56:" Symfony\Component\Debug\Exception\FlattenException file";s:93:"E:\wamp\www\sandbox-build\vendor\doctrine\common\lib\Doctrine\Common\Proxy\ProxyGenerator.php";s:56:" Symfony\Component\Debug\Exception\FlattenException line";i:305;s:64:" Symfony\Component\HttpKernel\Exception\FlattenException handler";N;}}}s:6:"events";C:61:"Symfony\Component\HttpKernel\DataCollector\EventDataCollector":23453:{a:2:{s:16:"called_listeners";a:23:{s:80:"kernel.request.Symfony\Component\EventDispatcher\Debug\WrappedListener::__invoke";a:7:{s:5:"event";s:14:"kernel.request";s:4:"type";s:6:"Method";s:5:"class";s:55:"Symfony\Component\EventDispatcher\Debug\WrappedListener";s:6:"method";s:8:"__invoke";s:4:"file";s:112:"E:\wamp\www\sandbox-build\vendor\symfony\symfony\src\Symfony\Component\EventDispatcher\Debug\WrappedListener.php";s:4:"line";i:55;s:6:"pretty";s:65:"Symfony\Component\EventDispatcher\Debug\WrappedListener::__invoke";}s:87:"kernel.controller.FOS\RestBundle\EventListener\ParamFetcherListener::onKernelController";a:7:{s:5:"event";s:17:"kernel.controller";s:4:"type";s:6:"Method";s:5:"class";s:49:"FOS\RestBundle\EventListener\ParamFetcherListener";s:6:"method";s:18:"onKernelController";s:4:"file";s:115:"E:\wamp\www\sandbox-build\vendor\friendsofsymfony\rest-bundle\FOS\RestBundle\EventListener\ParamFetcherListener.php";s:4:"line";i:49;s:6:"pretty";s:69:"FOS\RestBundle\EventListener\ParamFetcherListener::onKernelController";}s:102:"kernel.controller.Symfony\Bundle\FrameworkBundle\DataCollector\RouterDataCollector::onKernelController";a:7:{s:5:"event";s:17:"kernel.controller";s:4:"type";s:6:"Method";s:5:"class";s:64:"Symfony\Bundle\FrameworkBundle\DataCollector\RouterDataCollector";s:6:"method";s:18:"onKernelController";s:4:"file";s:119:"E:\wamp\www\sandbox-build\vendor\symfony\symfony\src\Symfony\Component\HttpKernel\DataCollector\RouterDataCollector.php";s:4:"line";i:66;s:6:"pretty";s:84:"Symfony\Bundle\FrameworkBundle\DataCollector\RouterDataCollector::onKernelController";}s:101:"kernel.controller.Symfony\Component\HttpKernel\DataCollector\RequestDataCollector::onKernelController";a:7:{s:5:"event";s:17:"kernel.controller";s:4:"type";s:6:"Method";s:5:"class";s:63:"Symfony\Component\HttpKernel\DataCollector\RequestDataCollector";s:6:"method";s:18:"onKernelController";s:4:"file";s:120:"E:\wamp\www\sandbox-build\vendor\symfony\symfony\src\Symfony\Component\HttpKernel\DataCollector\RequestDataCollector.php";s:4:"line";i:284;s:6:"pretty";s:83:"Symfony\Component\HttpKernel\DataCollector\RequestDataCollector::onKernelController";}s:105:"kernel.controller.Sensio\Bundle\FrameworkExtraBundle\EventListener\ControllerListener::onKernelController";a:7:{s:5:"event";s:17:"kernel.controller";s:4:"type";s:6:"Method";s:5:"class";s:67:"Sensio\Bundle\FrameworkExtraBundle\EventListener\ControllerListener";s:6:"method";s:18:"onKernelController";s:4:"file";s:134:"E:\wamp\www\sandbox-build\vendor\sensio\framework-extra-bundle\Sensio\Bundle\FrameworkExtraBundle\EventListener\ControllerListener.php";s:4:"line";i:51;s:6:"pretty";s:87:"Sensio\Bundle\FrameworkExtraBundle\EventListener\ControllerListener::onKernelController";}s:109:"kernel.controller.Sensio\Bundle\FrameworkExtraBundle\EventListener\ParamConverterListener::onKernelController";a:7:{s:5:"event";s:17:"kernel.controller";s:4:"type";s:6:"Method";s:5:"class";s:71:"Sensio\Bundle\FrameworkExtraBundle\EventListener\ParamConverterListener";s:6:"method";s:18:"onKernelController";s:4:"file";s:138:"E:\wamp\www\sandbox-build\vendor\sensio\framework-extra-bundle\Sensio\Bundle\FrameworkExtraBundle\EventListener\ParamConverterListener.php";s:4:"line";i:47;s:6:"pretty";s:91:"Sensio\Bundle\FrameworkExtraBundle\EventListener\ParamConverterListener::onKernelController";}s:87:"kernel.controller.FOS\RestBundle\EventListener\ViewResponseListener::onKernelController";a:7:{s:5:"event";s:17:"kernel.controller";s:4:"type";s:6:"Method";s:5:"class";s:49:"FOS\RestBundle\EventListener\ViewResponseListener";s:6:"method";s:18:"onKernelController";s:4:"file";s:115:"E:\wamp\www\sandbox-build\vendor\friendsofsymfony\rest-bundle\FOS\RestBundle\EventListener\ViewResponseListener.php";s:4:"line";i:48;s:6:"pretty";s:69:"FOS\RestBundle\EventListener\ViewResponseListener::onKernelController";}s:75:"kernel.response.Sonata\BlockBundle\Cache\HttpCacheHandler::onKernelResponse";a:7:{s:5:"event";s:15:"kernel.response";s:4:"type";s:6:"Method";s:5:"class";s:41:"Sonata\BlockBundle\Cache\HttpCacheHandler";s:6:"method";s:16:"onKernelResponse";s:4:"file";s:87:"E:\wamp\www\sandbox-build\vendor\sonata-project\block-bundle\Cache\HttpCacheHandler.php";s:4:"line";i:61;s:6:"pretty";s:59:"Sonata\BlockBundle\Cache\HttpCacheHandler::onKernelResponse";}s:93:"kernel.response.Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse";a:7:{s:5:"event";s:15:"kernel.response";s:4:"type";s:6:"Method";s:5:"class";s:59:"Symfony\Component\HttpKernel\EventListener\ResponseListener";s:6:"method";s:16:"onKernelResponse";s:4:"file";s:116:"E:\wamp\www\sandbox-build\vendor\symfony\symfony\src\Symfony\Component\HttpKernel\EventListener\ResponseListener.php";s:4:"line";i:37;s:6:"pretty";s:77:"Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse";}s:93:"kernel.response.Symfony\Component\Security\Http\RememberMe\ResponseListener::onKernelResponse";a:7:{s:5:"event";s:15:"kernel.response";s:4:"type";s:6:"Method";s:5:"class";s:59:"Symfony\Component\Security\Http\RememberMe\ResponseListener";s:6:"method";s:16:"onKernelResponse";s:4:"file";s:116:"E:\wamp\www\sandbox-build\vendor\symfony\symfony\src\Symfony\Component\Security\Http\RememberMe\ResponseListener.php";s:4:"line";i:28;s:6:"pretty";s:77:"Symfony\Component\Security\Http\RememberMe\ResponseListener::onKernelResponse";}s:96:"kernel.response.Sensio\Bundle\FrameworkExtraBundle\EventListener\CacheListener::onKernelResponse";a:7:{s:5:"event";s:15:"kernel.response";s:4:"type";s:6:"Method";s:5:"class";s:62:"Sensio\Bundle\FrameworkExtraBundle\EventListener\CacheListener";s:6:"method";s:16:"onKernelResponse";s:4:"file";s:129:"E:\wamp\www\sandbox-build\vendor\sensio\framework-extra-bundle\Sensio\Bundle\FrameworkExtraBundle\EventListener\CacheListener.php";s:4:"line";i:31;s:6:"pretty";s:80:"Sensio\Bundle\FrameworkExtraBundle\EventListener\CacheListener::onKernelResponse";}s:75:"kernel.response.Sonata\PageBundle\Listener\ResponseListener::onCoreResponse";a:7:{s:5:"event";s:15:"kernel.response";s:4:"type";s:6:"Method";s:5:"class";s:43:"Sonata\PageBundle\Listener\ResponseListener";s:6:"method";s:14:"onCoreResponse";s:4:"file";s:89:"E:\wamp\www\sandbox-build\vendor\sonata-project\page-bundle\Listener\ResponseListener.php";s:4:"line";i:79;s:6:"pretty";s:59:"Sonata\PageBundle\Listener\ResponseListener::onCoreResponse";}s:93:"kernel.response.Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelResponse";a:7:{s:5:"event";s:15:"kernel.response";s:4:"type";s:6:"Method";s:5:"class";s:59:"Symfony\Component\HttpKernel\EventListener\ProfilerListener";s:6:"method";s:16:"onKernelResponse";s:4:"file";s:116:"E:\wamp\www\sandbox-build\vendor\symfony\symfony\src\Symfony\Component\HttpKernel\EventListener\ProfilerListener.php";s:4:"line";i:90;s:6:"pretty";s:77:"Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelResponse";}s:104:"kernel.response.Symfony\Bundle\WebProfilerBundle\EventListener\WebDebugToolbarListener::onKernelResponse";a:7:{s:5:"event";s:15:"kernel.response";s:4:"type";s:6:"Method";s:5:"class";s:70:"Symfony\Bundle\WebProfilerBundle\EventListener\WebDebugToolbarListener";s:6:"method";s:16:"onKernelResponse";s:4:"file";s:127:"E:\wamp\www\sandbox-build\vendor\symfony\symfony\src\Symfony\Bundle\WebProfilerBundle\EventListener\WebDebugToolbarListener.php";s:4:"line";i:58;s:6:"pretty";s:88:"Symfony\Bundle\WebProfilerBundle\EventListener\WebDebugToolbarListener::onKernelResponse";}s:96:"kernel.response.Symfony\Component\HttpKernel\EventListener\SaveSessionListener::onKernelResponse";a:7:{s:5:"event";s:15:"kernel.response";s:4:"type";s:6:"Method";s:5:"class";s:62:"Symfony\Component\HttpKernel\EventListener\SaveSessionListener";s:6:"method";s:16:"onKernelResponse";s:4:"file";s:119:"E:\wamp\www\sandbox-build\vendor\symfony\symfony\src\Symfony\Component\HttpKernel\EventListener\SaveSessionListener.php";s:4:"line";i:47;s:6:"pretty";s:80:"Symfony\Component\HttpKernel\EventListener\SaveSessionListener::onKernelResponse";}s:101:"kernel.response.Symfony\Component\HttpKernel\EventListener\StreamedResponseListener::onKernelResponse";a:7:{s:5:"event";s:15:"kernel.response";s:4:"type";s:6:"Method";s:5:"class";s:67:"Symfony\Component\HttpKernel\EventListener\StreamedResponseListener";s:6:"method";s:16:"onKernelResponse";s:4:"file";s:124:"E:\wamp\www\sandbox-build\vendor\symfony\symfony\src\Symfony\Component\HttpKernel\EventListener\StreamedResponseListener.php";s:4:"line";i:32;s:6:"pretty";s:85:"Symfony\Component\HttpKernel\EventListener\StreamedResponseListener::onKernelResponse";}s:102:"kernel.finish_request.Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest";a:7:{s:5:"event";s:21:"kernel.finish_request";s:4:"type";s:6:"Method";s:5:"class";s:57:"Symfony\Component\HttpKernel\EventListener\LocaleListener";s:6:"method";s:21:"onKernelFinishRequest";s:4:"file";s:114:"E:\wamp\www\sandbox-build\vendor\symfony\symfony\src\Symfony\Component\HttpKernel\EventListener\LocaleListener.php";s:4:"line";i:78;s:6:"pretty";s:80:"Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest";}s:106:"kernel.finish_request.Symfony\Component\HttpKernel\EventListener\TranslatorListener::onKernelFinishRequest";a:7:{s:5:"event";s:21:"kernel.finish_request";s:4:"type";s:6:"Method";s:5:"class";s:61:"Symfony\Component\HttpKernel\EventListener\TranslatorListener";s:6:"method";s:21:"onKernelFinishRequest";s:4:"file";s:118:"E:\wamp\www\sandbox-build\vendor\symfony\symfony\src\Symfony\Component\HttpKernel\EventListener\TranslatorListener.php";s:4:"line";i:43;s:6:"pretty";s:84:"Symfony\Component\HttpKernel\EventListener\TranslatorListener::onKernelFinishRequest";}s:102:"kernel.finish_request.Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest";a:7:{s:5:"event";s:21:"kernel.finish_request";s:4:"type";s:6:"Method";s:5:"class";s:57:"Symfony\Component\HttpKernel\EventListener\RouterListener";s:6:"method";s:21:"onKernelFinishRequest";s:4:"file";s:114:"E:\wamp\www\sandbox-build\vendor\symfony\symfony\src\Symfony\Component\HttpKernel\EventListener\RouterListener.php";s:4:"line";i:95;s:6:"pretty";s:80:"Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest";}s:85:"kernel.finish_request.Symfony\Component\Security\Http\Firewall::onKernelFinishRequest";a:7:{s:5:"event";s:21:"kernel.finish_request";s:4:"type";s:6:"Method";s:5:"class";s:40:"Symfony\Component\Security\Http\Firewall";s:6:"method";s:21:"onKernelFinishRequest";s:4:"file";s:97:"E:\wamp\www\sandbox-build\vendor\symfony\symfony\src\Symfony\Component\Security\Http\Firewall.php";s:4:"line";i:77;s:6:"pretty";s:63:"Symfony\Component\Security\Http\Firewall::onKernelFinishRequest";}s:95:"kernel.exception.Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelException";a:7:{s:5:"event";s:16:"kernel.exception";s:4:"type";s:6:"Method";s:5:"class";s:59:"Symfony\Component\HttpKernel\EventListener\ProfilerListener";s:6:"method";s:17:"onKernelException";s:4:"file";s:116:"E:\wamp\www\sandbox-build\vendor\symfony\symfony\src\Symfony\Component\HttpKernel\EventListener\ProfilerListener.php";s:4:"line";i:66;s:6:"pretty";s:78:"Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelException";}s:80:"kernel.exception.Sonata\PageBundle\Listener\ExceptionListener::onKernelException";a:7:{s:5:"event";s:16:"kernel.exception";s:4:"type";s:6:"Method";s:5:"class";s:44:"Sonata\PageBundle\Listener\ExceptionListener";s:6:"method";s:17:"onKernelException";s:4:"file";s:90:"E:\wamp\www\sandbox-build\vendor\sonata-project\page-bundle\Listener\ExceptionListener.php";s:4:"line";i:165;s:6:"pretty";s:63:"Sonata\PageBundle\Listener\ExceptionListener::onKernelException";}s:96:"kernel.exception.Symfony\Component\HttpKernel\EventListener\ExceptionListener::onKernelException";a:7:{s:5:"event";s:16:"kernel.exception";s:4:"type";s:6:"Method";s:5:"class";s:60:"Symfony\Component\HttpKernel\EventListener\ExceptionListener";s:6:"method";s:17:"onKernelException";s:4:"file";s:117:"E:\wamp\www\sandbox-build\vendor\symfony\symfony\src\Symfony\Component\HttpKernel\EventListener\ExceptionListener.php";s:4:"line";i:40;s:6:"pretty";s:79:"Symfony\Component\HttpKernel\EventListener\ExceptionListener::onKernelException";}}s:20:"not_called_listeners";a:21:{s:82:"kernel.terminate.Symfony\Component\EventDispatcher\Debug\WrappedListener::__invoke";a:7:{s:5:"event";s:16:"kernel.terminate";s:4:"type";s:6:"Method";s:5:"class";s:55:"Symfony\Component\EventDispatcher\Debug\WrappedListener";s:6:"method";s:8:"__invoke";s:4:"file";s:112:"E:\wamp\www\sandbox-build\vendor\symfony\symfony\src\Symfony\Component\EventDispatcher\Debug\WrappedListener.php";s:4:"line";i:55;s:6:"pretty";s:65:"Symfony\Component\EventDispatcher\Debug\WrappedListener::__invoke";}s:103:"security.interactive_login.FOS\UserBundle\Security\InteractiveLoginListener::onSecurityInteractiveLogin";a:7:{s:5:"event";s:26:"security.interactive_login";s:4:"type";s:6:"Method";s:5:"class";s:48:"FOS\UserBundle\Security\InteractiveLoginListener";s:6:"method";s:26:"onSecurityInteractiveLogin";s:4:"file";s:114:"E:\wamp\www\sandbox-build\vendor\friendsofsymfony\user-bundle\FOS\UserBundle\Security\InteractiveLoginListener.php";s:4:"line";i:27;s:6:"pretty";s:76:"FOS\UserBundle\Security\InteractiveLoginListener::onSecurityInteractiveLogin";}s:117:"security.interactive_login.Sonata\UserBundle\GoogleAuthenticator\InteractiveLoginListener::onSecurityInteractiveLogin";a:7:{s:5:"event";s:26:"security.interactive_login";s:4:"type";s:6:"Method";s:5:"class";s:62:"Sonata\UserBundle\GoogleAuthenticator\InteractiveLoginListener";s:6:"method";s:26:"onSecurityInteractiveLogin";s:4:"file";s:108:"E:\wamp\www\sandbox-build\vendor\sonata-project\user-bundle\GoogleAuthenticator\InteractiveLoginListener.php";s:4:"line";i:34;s:6:"pretty";s:90:"Sonata\UserBundle\GoogleAuthenticator\InteractiveLoginListener::onSecurityInteractiveLogin";}s:102:"security.interactive_login.Sonata\PageBundle\CmsManager\CmsManagerSelector::onSecurityInteractiveLogin";a:7:{s:5:"event";s:26:"security.interactive_login";s:4:"type";s:6:"Method";s:5:"class";s:47:"Sonata\PageBundle\CmsManager\CmsManagerSelector";s:6:"method";s:26:"onSecurityInteractiveLogin";s:4:"file";s:93:"E:\wamp\www\sandbox-build\vendor\sonata-project\page-bundle\CmsManager\CmsManagerSelector.php";s:4:"line";i:92;s:6:"pretty";s:75:"Sonata\PageBundle\CmsManager\CmsManagerSelector::onSecurityInteractiveLogin";}s:75:"kernel.view.FOS\RestBundle\EventListener\ViewResponseListener::onKernelView";a:7:{s:5:"event";s:11:"kernel.view";s:4:"type";s:6:"Method";s:5:"class";s:49:"FOS\RestBundle\EventListener\ViewResponseListener";s:6:"method";s:12:"onKernelView";s:4:"file";s:115:"E:\wamp\www\sandbox-build\vendor\friendsofsymfony\rest-bundle\FOS\RestBundle\EventListener\ViewResponseListener.php";s:4:"line";i:65;s:6:"pretty";s:63:"FOS\RestBundle\EventListener\ViewResponseListener::onKernelView";}s:96:"sonata.block.event.sonata.comment.Sonata\CommentBundle\Event\CommentThreadAsyncListener::onBlock";a:7:{s:5:"event";s:33:"sonata.block.event.sonata.comment";s:4:"type";s:6:"Method";s:5:"class";s:53:"Sonata\CommentBundle\Event\CommentThreadAsyncListener";s:6:"method";s:7:"onBlock";s:4:"file";s:99:"E:\wamp\www\sandbox-build\vendor\sonata-project\comment-bundle\Event\CommentThreadAsyncListener.php";s:4:"line";i:46;s:6:"pretty";s:62:"Sonata\CommentBundle\Event\CommentThreadAsyncListener::onBlock";}s:80:"sonata.block.event.breadcrumb.Sonata\SeoBundle\Event\BreadcrumbListener::onBlock";a:7:{s:5:"event";s:29:"sonata.block.event.breadcrumb";s:4:"type";s:6:"Method";s:5:"class";s:41:"Sonata\SeoBundle\Event\BreadcrumbListener";s:6:"method";s:7:"onBlock";s:4:"file";s:87:"E:\wamp\www\sandbox-build\vendor\sonata-project\seo-bundle\Event\BreadcrumbListener.php";s:4:"line";i:46;s:6:"pretty";s:50:"Sonata\SeoBundle\Event\BreadcrumbListener::onBlock";}s:113:"sonata.notification.event.message_iterate_event.Sonata\NotificationBundle\Event\DoctrineOptimizeListener::iterate";a:7:{s:5:"event";s:47:"sonata.notification.event.message_iterate_event";s:4:"type";s:6:"Method";s:5:"class";s:56:"Sonata\NotificationBundle\Event\DoctrineOptimizeListener";s:6:"method";s:7:"iterate";s:4:"file";s:102:"E:\wamp\www\sandbox-build\vendor\sonata-project\notification-bundle\Event\DoctrineOptimizeListener.php";s:4:"line";i:43;s:6:"pretty";s:65:"Sonata\NotificationBundle\Event\DoctrineOptimizeListener::iterate";}s:91:"console.command.Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure";a:7:{s:5:"event";s:15:"console.command";s:4:"type";s:6:"Method";s:5:"class";s:64:"Symfony\Component\HttpKernel\EventListener\DebugHandlersListener";s:6:"method";s:9:"configure";s:4:"file";s:121:"E:\wamp\www\sandbox-build\vendor\symfony\symfony\src\Symfony\Component\HttpKernel\EventListener\DebugHandlersListener.php";s:4:"line";i:63;s:6:"pretty";s:75:"Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure";}s:97:"console.terminate.Symfony\Bundle\SwiftmailerBundle\EventListener\EmailSenderListener::onTerminate";a:7:{s:5:"event";s:17:"console.terminate";s:4:"type";s:6:"Method";s:5:"class";s:66:"Symfony\Bundle\SwiftmailerBundle\EventListener\EmailSenderListener";s:6:"method";s:11:"onTerminate";s:4:"file";s:97:"E:\wamp\www\sandbox-build\vendor\symfony\swiftmailer-bundle\EventListener\EmailSenderListener.php";s:4:"line";i:46;s:6:"pretty";s:79:"Symfony\Bundle\SwiftmailerBundle\EventListener\EmailSenderListener::onTerminate";}s:100:"fos_comment.vote.pre_persist.FOS\CommentBundle\EventListener\CommentVoteScoreListener::onVotePersist";a:7:{s:5:"event";s:28:"fos_comment.vote.pre_persist";s:4:"type";s:6:"Method";s:5:"class";s:56:"FOS\CommentBundle\EventListener\CommentVoteScoreListener";s:6:"method";s:13:"onVotePersist";s:4:"file";s:125:"E:\wamp\www\sandbox-build\vendor\friendsofsymfony\comment-bundle\FOS\CommentBundle\EventListener\CommentVoteScoreListener.php";s:4:"line";i:26;s:6:"pretty";s:71:"FOS\CommentBundle\EventListener\CommentVoteScoreListener::onVotePersist";}s:86:"fos_comment.vote.pre_persist.FOS\CommentBundle\EventListener\VoteBlamerListener::blame";a:7:{s:5:"event";s:28:"fos_comment.vote.pre_persist";s:4:"type";s:6:"Method";s:5:"class";s:50:"FOS\CommentBundle\EventListener\VoteBlamerListener";s:6:"method";s:5:"blame";s:4:"file";s:119:"E:\wamp\www\sandbox-build\vendor\friendsofsymfony\comment-bundle\FOS\CommentBundle\EventListener\VoteBlamerListener.php";s:4:"line";i:56;s:6:"pretty";s:57:"FOS\CommentBundle\EventListener\VoteBlamerListener::blame";}s:104:"fos_comment.comment.pre_persist.FOS\CommentBundle\EventListener\ThreadCountersListener::onCommentPersist";a:7:{s:5:"event";s:31:"fos_comment.comment.pre_persist";s:4:"type";s:6:"Method";s:5:"class";s:54:"FOS\CommentBundle\EventListener\ThreadCountersListener";s:6:"method";s:16:"onCommentPersist";s:4:"file";s:123:"E:\wamp\www\sandbox-build\vendor\friendsofsymfony\comment-bundle\FOS\CommentBundle\EventListener\ThreadCountersListener.php";s:4:"line";i:46;s:6:"pretty";s:72:"FOS\CommentBundle\EventListener\ThreadCountersListener::onCommentPersist";}s:92:"fos_comment.comment.pre_persist.FOS\CommentBundle\EventListener\CommentBlamerListener::blame";a:7:{s:5:"event";s:31:"fos_comment.comment.pre_persist";s:4:"type";s:6:"Method";s:5:"class";s:53:"FOS\CommentBundle\EventListener\CommentBlamerListener";s:6:"method";s:5:"blame";s:4:"file";s:122:"E:\wamp\www\sandbox-build\vendor\friendsofsymfony\comment-bundle\FOS\CommentBundle\EventListener\CommentBlamerListener.php";s:4:"line";i:56;s:6:"pretty";s:60:"FOS\CommentBundle\EventListener\CommentBlamerListener::blame";}s:102:"fos_comment.comment.pre_persist.FOS\CommentBundle\EventListener\ClosedThreadListener::onCommentPersist";a:7:{s:5:"event";s:31:"fos_comment.comment.pre_persist";s:4:"type";s:6:"Method";s:5:"class";s:52:"FOS\CommentBundle\EventListener\ClosedThreadListener";s:6:"method";s:16:"onCommentPersist";s:4:"file";s:121:"E:\wamp\www\sandbox-build\vendor\friendsofsymfony\comment-bundle\FOS\CommentBundle\EventListener\ClosedThreadListener.php";s:4:"line";i:31;s:6:"pretty";s:70:"FOS\CommentBundle\EventListener\ClosedThreadListener::onCommentPersist";}s:97:"fos_comment.thread.create.FOS\CommentBundle\EventListener\ThreadPermalinkListener::onThreadCreate";a:7:{s:5:"event";s:25:"fos_comment.thread.create";s:4:"type";s:6:"Method";s:5:"class";s:55:"FOS\CommentBundle\EventListener\ThreadPermalinkListener";s:6:"method";s:14:"onThreadCreate";s:4:"file";s:124:"E:\wamp\www\sandbox-build\vendor\friendsofsymfony\comment-bundle\FOS\CommentBundle\EventListener\ThreadPermalinkListener.php";s:4:"line";i:46;s:6:"pretty";s:71:"FOS\CommentBundle\EventListener\ThreadPermalinkListener::onThreadCreate";}s:89:"knp_pager.before.Knp\Component\Pager\Event\Subscriber\Sortable\SortableSubscriber::before";a:7:{s:5:"event";s:16:"knp_pager.before";s:4:"type";s:6:"Method";s:5:"class";s:64:"Knp\Component\Pager\Event\Subscriber\Sortable\SortableSubscriber";s:6:"method";s:6:"before";s:4:"file";s:128:"E:\wamp\www\sandbox-build\vendor\knplabs\knp-components\src\Knp\Component\Pager\Event\Subscriber\Sortable\SortableSubscriber.php";s:4:"line";i:10;s:6:"pretty";s:72:"Knp\Component\Pager\Event\Subscriber\Sortable\SortableSubscriber::before";}s:93:"knp_pager.before.Knp\Component\Pager\Event\Subscriber\Filtration\FiltrationSubscriber::before";a:7:{s:5:"event";s:16:"knp_pager.before";s:4:"type";s:6:"Method";s:5:"class";s:68:"Knp\Component\Pager\Event\Subscriber\Filtration\FiltrationSubscriber";s:6:"method";s:6:"before";s:4:"file";s:132:"E:\wamp\www\sandbox-build\vendor\knplabs\knp-components\src\Knp\Component\Pager\Event\Subscriber\Filtration\FiltrationSubscriber.php";s:4:"line";i:10;s:6:"pretty";s:76:"Knp\Component\Pager\Event\Subscriber\Filtration\FiltrationSubscriber::before";}s:91:"knp_pager.before.Knp\Component\Pager\Event\Subscriber\Paginate\PaginationSubscriber::before";a:7:{s:5:"event";s:16:"knp_pager.before";s:4:"type";s:6:"Method";s:5:"class";s:66:"Knp\Component\Pager\Event\Subscriber\Paginate\PaginationSubscriber";s:6:"method";s:6:"before";s:4:"file";s:130:"E:\wamp\www\sandbox-build\vendor\knplabs\knp-components\src\Knp\Component\Pager\Event\Subscriber\Paginate\PaginationSubscriber.php";s:4:"line";i:18;s:6:"pretty";s:74:"Knp\Component\Pager\Event\Subscriber\Paginate\PaginationSubscriber::before";}s:98:"knp_pager.pagination.Knp\Bundle\PaginatorBundle\Subscriber\SlidingPaginationSubscriber::pagination";a:7:{s:5:"event";s:20:"knp_pager.pagination";s:4:"type";s:6:"Method";s:5:"class";s:65:"Knp\Bundle\PaginatorBundle\Subscriber\SlidingPaginationSubscriber";s:6:"method";s:10:"pagination";s:4:"file";s:131:"E:\wamp\www\sandbox-build\vendor\knplabs\knp-paginator-bundle\Knp\Bundle\PaginatorBundle\Subscriber\SlidingPaginationSubscriber.php";s:4:"line";i:39;s:6:"pretty";s:77:"Knp\Bundle\PaginatorBundle\Subscriber\SlidingPaginationSubscriber::pagination";}s:99:"knp_pager.pagination.Knp\Component\Pager\Event\Subscriber\Paginate\PaginationSubscriber::pagination";a:7:{s:5:"event";s:20:"knp_pager.pagination";s:4:"type";s:6:"Method";s:5:"class";s:66:"Knp\Component\Pager\Event\Subscriber\Paginate\PaginationSubscriber";s:6:"method";s:10:"pagination";s:4:"file";s:130:"E:\wamp\www\sandbox-build\vendor\knplabs\knp-components\src\Knp\Component\Pager\Event\Subscriber\Paginate\PaginationSubscriber.php";s:4:"line";i:12;s:6:"pretty";s:78:"Knp\Component\Pager\Event\Subscriber\Paginate\PaginationSubscriber::pagination";}}}}s:6:"logger";C:62:"Symfony\Component\HttpKernel\DataCollector\LoggerDataCollector":16885:{a:5:{s:11:"error_count";i:1;s:17:"deprecation_count";i:0;s:12:"scream_count";i:0;s:10:"priorities";a:2:{i:100;a:2:{s:5:"count";i:56;s:4:"name";s:5:"DEBUG";}i:500;a:2:{s:5:"count";i:1;s:4:"name";s:8:"CRITICAL";}}s:4:"logs";a:57:{i:0;a:5:{s:9:"timestamp";i:1429484304;s:7:"message";s:481:"SELECT t0.enabled AS enabled1, t0.name AS name2, t0.relative_path AS relative_path3, t0.host AS host4, t0.enabled_from AS enabled_from5, t0.enabled_to AS enabled_to6, t0.is_default AS is_default7, t0.created_at AS created_at8, t0.updated_at AS updated_at9, t0.locale AS locale10, t0.title AS title11, t0.meta_keywords AS meta_keywords12, t0.meta_description AS meta_description13, t0.id AS id14 FROM page__site t0 WHERE t0.host IN (?) AND t0.enabled = ? ORDER BY t0.is_default DESC";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:2:{i:0;a:2:{i:0;s:9:"localhost";i:1;s:9:"localhost";}i:1;b:1;}}i:1;a:5:{s:9:"timestamp";i:1429484305;s:7:"message";s:705:"SELECT p0_.route_name AS route_name0, p0_.page_alias AS page_alias1, p0_.type AS type2, p0_.position AS position3, p0_.enabled AS enabled4, p0_.decorate AS decorate5, p0_.name AS name6, p0_.url AS url7, p0_.parent_id AS parent_id8, p0_.target_id AS target_id9, p0_.content AS content10, p0_.publication_date_start AS publication_date_start11, p0_.publication_date_end AS publication_date_end12, p0_.created_at AS created_at13, p0_.updated_at AS updated_at14, p0_.id AS id15, p0_.site_id AS site_id16, p0_.page_id AS page_id17 FROM page__snapshot p0_ WHERE (p0_.publication_date_start <= ? AND (p0_.publication_date_end IS NULL OR p0_.publication_date_end >= ?)) AND p0_.site_id = ? AND p0_.url = ? LIMIT 1";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:4:{i:0;s:16:"Object(DateTime)";i:1;s:16:"Object(DateTime)";i:2;i:1;i:3;s:18:"/car-rescue-engine";}}i:2;a:5:{s:9:"timestamp";i:1429484305;s:7:"message";s:475:"Uncaught PHP Exception Symfony\Component\Debug\Exception\ContextErrorException: "Warning: rename(E:\wamp\www\sandbox-build\app\cache\dev/doctrine/orm/Proxies\__CG__ApplicationSonataPageBundleEntityPage.php.55343311bf5602.68424068,E:\wamp\www\sandbox-build\app\cache\dev/doctrine/orm/Proxies\__CG__ApplicationSonataPageBundleEntityPage.php): Access is denied. (code: 5)" at E:\wamp\www\sandbox-build\vendor\doctrine\common\lib\Doctrine\Common\Proxy\ProxyGenerator.php line 305";s:8:"priority";i:500;s:12:"priorityName";s:8:"CRITICAL";s:7:"context";a:1:{s:9:"exception";s:63:"Object(Symfony\Component\Debug\Exception\ContextErrorException)";}}i:3;a:5:{s:9:"timestamp";i:1429484305;s:7:"message";s:481:"SELECT t0.enabled AS enabled1, t0.name AS name2, t0.relative_path AS relative_path3, t0.host AS host4, t0.enabled_from AS enabled_from5, t0.enabled_to AS enabled_to6, t0.is_default AS is_default7, t0.created_at AS created_at8, t0.updated_at AS updated_at9, t0.locale AS locale10, t0.title AS title11, t0.meta_keywords AS meta_keywords12, t0.meta_description AS meta_description13, t0.id AS id14 FROM page__site t0 WHERE t0.host IN (?) AND t0.enabled = ? ORDER BY t0.is_default DESC";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:2:{i:0;a:2:{i:0;s:9:"localhost";i:1;s:9:"localhost";}i:1;b:1;}}i:4;a:5:{s:9:"timestamp";i:1429484305;s:7:"message";s:112:"Notified event "kernel.request" to listener "Symfony\Component\EventDispatcher\Debug\WrappedListener::__invoke".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:5;a:5:{s:9:"timestamp";i:1429484305;s:7:"message";s:112:"Notified event "kernel.request" to listener "Symfony\Component\EventDispatcher\Debug\WrappedListener::__invoke".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:6;a:5:{s:9:"timestamp";i:1429484305;s:7:"message";s:112:"Notified event "kernel.request" to listener "Symfony\Component\EventDispatcher\Debug\WrappedListener::__invoke".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:7;a:5:{s:9:"timestamp";i:1429484305;s:7:"message";s:112:"Notified event "kernel.request" to listener "Symfony\Component\EventDispatcher\Debug\WrappedListener::__invoke".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:8;a:5:{s:9:"timestamp";i:1429484305;s:7:"message";s:112:"Notified event "kernel.request" to listener "Symfony\Component\EventDispatcher\Debug\WrappedListener::__invoke".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:9;a:5:{s:9:"timestamp";i:1429484305;s:7:"message";s:112:"Notified event "kernel.request" to listener "Symfony\Component\EventDispatcher\Debug\WrappedListener::__invoke".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:10;a:5:{s:9:"timestamp";i:1429484305;s:7:"message";s:112:"Notified event "kernel.request" to listener "Symfony\Component\EventDispatcher\Debug\WrappedListener::__invoke".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:11;a:5:{s:9:"timestamp";i:1429484305;s:7:"message";s:112:"Notified event "kernel.request" to listener "Symfony\Component\EventDispatcher\Debug\WrappedListener::__invoke".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:12;a:5:{s:9:"timestamp";i:1429484305;s:7:"message";s:112:"Notified event "kernel.request" to listener "Symfony\Component\EventDispatcher\Debug\WrappedListener::__invoke".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:13;a:5:{s:9:"timestamp";i:1429484305;s:7:"message";s:112:"Notified event "kernel.request" to listener "Symfony\Component\EventDispatcher\Debug\WrappedListener::__invoke".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:14;a:5:{s:9:"timestamp";i:1429484305;s:7:"message";s:112:"Notified event "kernel.request" to listener "Symfony\Component\EventDispatcher\Debug\WrappedListener::__invoke".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:15;a:5:{s:9:"timestamp";i:1429484305;s:7:"message";s:112:"Notified event "kernel.request" to listener "Symfony\Component\EventDispatcher\Debug\WrappedListener::__invoke".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:16;a:5:{s:9:"timestamp";i:1429484305;s:7:"message";s:112:"Notified event "kernel.request" to listener "Symfony\Component\EventDispatcher\Debug\WrappedListener::__invoke".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:17;a:5:{s:9:"timestamp";i:1429484305;s:7:"message";s:112:"Notified event "kernel.request" to listener "Symfony\Component\EventDispatcher\Debug\WrappedListener::__invoke".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:18;a:5:{s:9:"timestamp";i:1429484305;s:7:"message";s:112:"Notified event "kernel.request" to listener "Symfony\Component\EventDispatcher\Debug\WrappedListener::__invoke".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:19;a:5:{s:9:"timestamp";i:1429484305;s:7:"message";s:112:"Notified event "kernel.request" to listener "Symfony\Component\EventDispatcher\Debug\WrappedListener::__invoke".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:20;a:5:{s:9:"timestamp";i:1429484305;s:7:"message";s:112:"Notified event "kernel.request" to listener "Symfony\Component\EventDispatcher\Debug\WrappedListener::__invoke".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:21;a:5:{s:9:"timestamp";i:1429484306;s:7:"message";s:119:"Notified event "kernel.controller" to listener "FOS\RestBundle\EventListener\ParamFetcherListener::onKernelController".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:22;a:5:{s:9:"timestamp";i:1429484306;s:7:"message";s:134:"Notified event "kernel.controller" to listener "Symfony\Bundle\FrameworkBundle\DataCollector\RouterDataCollector::onKernelController".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:23;a:5:{s:9:"timestamp";i:1429484306;s:7:"message";s:133:"Notified event "kernel.controller" to listener "Symfony\Component\HttpKernel\DataCollector\RequestDataCollector::onKernelController".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:24;a:5:{s:9:"timestamp";i:1429484306;s:7:"message";s:137:"Notified event "kernel.controller" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\ControllerListener::onKernelController".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:25;a:5:{s:9:"timestamp";i:1429484306;s:7:"message";s:141:"Notified event "kernel.controller" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\ParamConverterListener::onKernelController".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:26;a:5:{s:9:"timestamp";i:1429484306;s:7:"message";s:119:"Notified event "kernel.controller" to listener "FOS\RestBundle\EventListener\ViewResponseListener::onKernelController".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:27;a:5:{s:9:"timestamp";i:1429484308;s:7:"message";s:107:"Notified event "kernel.response" to listener "Sonata\BlockBundle\Cache\HttpCacheHandler::onKernelResponse".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:28;a:5:{s:9:"timestamp";i:1429484308;s:7:"message";s:125:"Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:29;a:5:{s:9:"timestamp";i:1429484308;s:7:"message";s:125:"Notified event "kernel.response" to listener "Symfony\Component\Security\Http\RememberMe\ResponseListener::onKernelResponse".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:30;a:5:{s:9:"timestamp";i:1429484308;s:7:"message";s:128:"Notified event "kernel.response" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\CacheListener::onKernelResponse".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:31;a:5:{s:9:"timestamp";i:1429484308;s:7:"message";s:107:"Notified event "kernel.response" to listener "Sonata\PageBundle\Listener\ResponseListener::onCoreResponse".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:32;a:5:{s:9:"timestamp";i:1429484308;s:7:"message";s:125:"Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelResponse".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:33;a:5:{s:9:"timestamp";i:1429484308;s:7:"message";s:136:"Notified event "kernel.response" to listener "Symfony\Bundle\WebProfilerBundle\EventListener\WebDebugToolbarListener::onKernelResponse".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:34;a:5:{s:9:"timestamp";i:1429484308;s:7:"message";s:128:"Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SaveSessionListener::onKernelResponse".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:35;a:5:{s:9:"timestamp";i:1429484308;s:7:"message";s:133:"Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\StreamedResponseListener::onKernelResponse".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:36;a:5:{s:9:"timestamp";i:1429484308;s:7:"message";s:134:"Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:37;a:5:{s:9:"timestamp";i:1429484308;s:7:"message";s:138:"Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\TranslatorListener::onKernelFinishRequest".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:38;a:5:{s:9:"timestamp";i:1429484308;s:7:"message";s:134:"Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:39;a:5:{s:9:"timestamp";i:1429484308;s:7:"message";s:117:"Notified event "kernel.finish_request" to listener "Symfony\Component\Security\Http\Firewall::onKernelFinishRequest".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:40;a:5:{s:9:"timestamp";i:1429484308;s:7:"message";s:127:"Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelException".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:41;a:5:{s:9:"timestamp";i:1429484308;s:7:"message";s:112:"Notified event "kernel.exception" to listener "Sonata\PageBundle\Listener\ExceptionListener::onKernelException".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:42;a:5:{s:9:"timestamp";i:1429484308;s:7:"message";s:128:"Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ExceptionListener::onKernelException".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:43;a:5:{s:9:"timestamp";i:1429484308;s:7:"message";s:143:"Listener "Symfony\Component\HttpKernel\EventListener\ExceptionListener::onKernelException" stopped propagation of the event "kernel.exception".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:44;a:5:{s:9:"timestamp";i:1429484308;s:7:"message";s:107:"Notified event "kernel.response" to listener "Sonata\BlockBundle\Cache\HttpCacheHandler::onKernelResponse".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:45;a:5:{s:9:"timestamp";i:1429484308;s:7:"message";s:125:"Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:46;a:5:{s:9:"timestamp";i:1429484308;s:7:"message";s:125:"Notified event "kernel.response" to listener "Symfony\Component\Security\Http\RememberMe\ResponseListener::onKernelResponse".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:47;a:5:{s:9:"timestamp";i:1429484308;s:7:"message";s:128:"Notified event "kernel.response" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\CacheListener::onKernelResponse".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:48;a:5:{s:9:"timestamp";i:1429484308;s:7:"message";s:107:"Notified event "kernel.response" to listener "Sonata\PageBundle\Listener\ResponseListener::onCoreResponse".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:49;a:5:{s:9:"timestamp";i:1429484308;s:7:"message";s:125:"Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelResponse".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:50;a:5:{s:9:"timestamp";i:1429484308;s:7:"message";s:136:"Notified event "kernel.response" to listener "Symfony\Bundle\WebProfilerBundle\EventListener\WebDebugToolbarListener::onKernelResponse".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:51;a:5:{s:9:"timestamp";i:1429484308;s:7:"message";s:128:"Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SaveSessionListener::onKernelResponse".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:52;a:5:{s:9:"timestamp";i:1429484308;s:7:"message";s:133:"Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\StreamedResponseListener::onKernelResponse".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:53;a:5:{s:9:"timestamp";i:1429484308;s:7:"message";s:134:"Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:54;a:5:{s:9:"timestamp";i:1429484308;s:7:"message";s:138:"Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\TranslatorListener::onKernelFinishRequest".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:55;a:5:{s:9:"timestamp";i:1429484308;s:7:"message";s:134:"Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:56;a:5:{s:9:"timestamp";i:1429484308;s:7:"message";s:117:"Notified event "kernel.finish_request" to listener "Symfony\Component\Security\Http\Firewall::onKernelFinishRequest".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}}}}s:4:"time";C:60:"Symfony\Component\HttpKernel\DataCollector\TimeDataCollector":20420:{a:2:{s:10:"start_time";d:1429484268977.6069;s:6:"events";a:29:{s:11:"__section__";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:2:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:1;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:6086;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:45613056;}i:1;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:6145;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:6836;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:47448064;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1429484302856.5;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:7:"default";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:14:"kernel.request";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:1;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:6837;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:47448064;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1429484302856.5;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:7:"section";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:64:"Symfony\Component\HttpKernel\EventListener\DebugHandlersListener";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:1;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:4;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:34078720;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1429484302856.5;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:59:"Symfony\Component\HttpKernel\EventListener\ProfilerListener";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:4:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:5;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:5;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:34078720;}i:1;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:2954;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:2954;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:38535168;}i:2;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:5917;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:5929;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:45350912;}i:3;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:6147;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:6837;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:47448064;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1429484302856.5;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:60:"Symfony\Bundle\FrameworkBundle\EventListener\SessionListener";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:6;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:6;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:34078720;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1429484302856.5;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:59:"Symfony\Component\HttpKernel\EventListener\FragmentListener";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:7;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:8;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:34078720;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1429484302856.5;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:43:"Sonata\PageBundle\Site\HostPathSiteSelector";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:9;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:1425;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:35389440;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1429484302856.5;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:8:"doctrine";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:2:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:1314;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:1397;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:35127296;}i:1;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:2683;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:2753;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:37748736;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1429484302856.5;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:8:"doctrine";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:57:"Symfony\Component\HttpKernel\EventListener\RouterListener";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:2:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:5889;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:5890;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:45350912;}i:1;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:1425;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:6837;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:47448064;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1429484302856.5;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:16:"kernel.exception";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:2954;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:5899;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:45350912;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1429484302856.5;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:7:"section";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:44:"Sonata\PageBundle\Listener\ExceptionListener";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:2954;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:2955;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:38535168;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1429484302856.5;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:60:"Symfony\Component\HttpKernel\EventListener\ExceptionListener";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:2955;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:5899;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:45350912;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1429484302856.5;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:17:"__section__.child";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:3032;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:5864;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:45350912;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1429484302856.5;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:7:"section";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:21:"kernel.finish_request";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:5888;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:5891;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:45350912;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1429484302856.5;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:7:"section";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:57:"Symfony\Component\HttpKernel\EventListener\LocaleListener";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:5888;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:5889;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:45350912;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1429484302856.5;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:61:"Symfony\Component\HttpKernel\EventListener\TranslatorListener";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:5889;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:5889;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:45350912;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1429484302856.5;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:40:"Symfony\Component\Security\Http\Firewall";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:5890;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:5890;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:45350912;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1429484302856.5;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:15:"kernel.response";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:5913;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:6086;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:45613056;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1429484302856.5;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:7:"section";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:41:"Sonata\BlockBundle\Cache\HttpCacheHandler";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:5913;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:5914;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:45350912;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1429484302856.5;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:59:"Symfony\Component\HttpKernel\EventListener\ResponseListener";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:5914;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:5915;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:45350912;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1429484302856.5;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:59:"Symfony\Component\Security\Http\RememberMe\ResponseListener";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:5915;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:5916;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:45350912;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1429484302856.5;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:62:"Sensio\Bundle\FrameworkExtraBundle\EventListener\CacheListener";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:5917;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:5917;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:45350912;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1429484302856.5;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:43:"Sonata\PageBundle\Listener\ResponseListener";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:5917;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:5917;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:45350912;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1429484302856.5;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:70:"Symfony\Bundle\WebProfilerBundle\EventListener\WebDebugToolbarListener";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:5929;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:6085;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:45613056;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1429484302856.5;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:62:"Symfony\Component\HttpKernel\EventListener\SaveSessionListener";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:6085;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:6085;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:45613056;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1429484302856.5;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:67:"Symfony\Component\HttpKernel\EventListener\StreamedResponseListener";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:6086;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:6086;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:45613056;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1429484302856.5;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:16:"kernel.terminate";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:6146;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:6838;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:47448064;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1429484302856.5;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:7:"section";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:56:"Sonata\NotificationBundle\Backend\PostponeRuntimeBackend";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:6146;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:6147;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:45613056;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1429484302856.5;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:66:"Symfony\Bundle\SwiftmailerBundle\EventListener\EmailSenderListener";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:6147;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:6147;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:45613056;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1429484302856.5;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}}}}s:6:"memory";C:62:"Symfony\Component\HttpKernel\DataCollector\MemoryDataCollector":62:{a:2:{s:6:"memory";i:47710208;s:12:"memory_limit";i:134217728;}}s:6:"router";C:64:"Symfony\Bundle\FrameworkBundle\DataCollector\RouterDataCollector":51:{a:3:{s:8:"redirect";b:0;s:3:"url";N;s:5:"route";N;}}s:4:"form";C:64:"Symfony\Component\Form\Extension\DataCollector\FormDataCollector":71:{a:3:{s:5:"forms";a:0:{}s:13:"forms_by_hash";a:0:{}s:9:"nb_errors";i:0;}}s:8:"security";C:65:"Symfony\Bundle\SecurityBundle\DataCollector\SecurityDataCollector":106:{a:5:{s:7:"enabled";b:1;s:13:"authenticated";b:0;s:11:"token_class";N;s:4:"user";s:0:"";s:5:"roles";a:0:{}}}s:11:"swiftmailer";C:67:"Symfony\Bundle\SwiftmailerBundle\DataCollector\MessageDataCollector":77:{a:3:{s:6:"mailer";a:0:{}s:12:"messageCount";i:0;s:13:"defaultMailer";s:0:"";}}s:2:"db";C:66:"Doctrine\Bundle\DoctrineBundle\DataCollector\DoctrineDataCollector":4050:{a:6:{s:7:"queries";a:1:{s:7:"default";a:3:{i:1;a:5:{s:3:"sql";s:481:"SELECT t0.enabled AS enabled1, t0.name AS name2, t0.relative_path AS relative_path3, t0.host AS host4, t0.enabled_from AS enabled_from5, t0.enabled_to AS enabled_to6, t0.is_default AS is_default7, t0.created_at AS created_at8, t0.updated_at AS updated_at9, t0.locale AS locale10, t0.title AS title11, t0.meta_keywords AS meta_keywords12, t0.meta_description AS meta_description13, t0.id AS id14 FROM page__site t0 WHERE t0.host IN (?) AND t0.enabled = ? ORDER BY t0.is_default DESC";s:6:"params";a:2:{i:0;a:2:{i:0;s:9:"localhost";i:1;s:9:"localhost";}i:1;i:1;}s:5:"types";a:2:{i:0;i:102;i:1;i:5;}s:11:"executionMS";d:0.069004058837890625;s:11:"explainable";b:1;}i:2;a:5:{s:3:"sql";s:705:"SELECT p0_.route_name AS route_name0, p0_.page_alias AS page_alias1, p0_.type AS type2, p0_.position AS position3, p0_.enabled AS enabled4, p0_.decorate AS decorate5, p0_.name AS name6, p0_.url AS url7, p0_.parent_id AS parent_id8, p0_.target_id AS target_id9, p0_.content AS content10, p0_.publication_date_start AS publication_date_start11, p0_.publication_date_end AS publication_date_end12, p0_.created_at AS created_at13, p0_.updated_at AS updated_at14, p0_.id AS id15, p0_.site_id AS site_id16, p0_.page_id AS page_id17 FROM page__snapshot p0_ WHERE (p0_.publication_date_start <= ? AND (p0_.publication_date_end IS NULL OR p0_.publication_date_end >= ?)) AND p0_.site_id = ? AND p0_.url = ? LIMIT 1";s:6:"params";a:4:{i:0;s:19:"2015-04-20 00:58:24";i:1;s:19:"2015-04-20 00:58:24";i:2;i:1;i:3;s:18:"/car-rescue-engine";}s:5:"types";a:4:{i:0;i:2;i:1;i:2;i:2;i:1;i:3;i:2;}s:11:"executionMS";d:0.068004131317138672;s:11:"explainable";b:1;}i:3;a:5:{s:3:"sql";s:481:"SELECT t0.enabled AS enabled1, t0.name AS name2, t0.relative_path AS relative_path3, t0.host AS host4, t0.enabled_from AS enabled_from5, t0.enabled_to AS enabled_to6, t0.is_default AS is_default7, t0.created_at AS created_at8, t0.updated_at AS updated_at9, t0.locale AS locale10, t0.title AS title11, t0.meta_keywords AS meta_keywords12, t0.meta_description AS meta_description13, t0.id AS id14 FROM page__site t0 WHERE t0.host IN (?) AND t0.enabled = ? ORDER BY t0.is_default DESC";s:6:"params";a:2:{i:0;a:2:{i:0;s:9:"localhost";i:1;s:9:"localhost";}i:1;i:1;}s:5:"types";a:2:{i:0;i:102;i:1;i:5;}s:11:"executionMS";d:0.0020000934600830078;s:11:"explainable";b:1;}}}s:11:"connections";a:1:{s:7:"default";s:32:"doctrine.dbal.default_connection";}s:8:"managers";a:1:{s:7:"default";s:35:"doctrine.orm.default_entity_manager";}s:8:"entities";a:1:{s:7:"default";a:14:{s:26:"FOS\UserBundle\Entity\User";s:26:"FOS\UserBundle\Entity\User";s:33:"Sonata\UserBundle\Entity\BaseUser";s:33:"Sonata\UserBundle\Entity\BaseUser";s:41:"Application\Sonata\UserBundle\Entity\User";s:41:"Application\Sonata\UserBundle\Entity\User";s:33:"Sonata\PageBundle\Entity\BaseSite";s:33:"Sonata\PageBundle\Entity\BaseSite";s:41:"Application\Sonata\PageBundle\Entity\Site";s:41:"Application\Sonata\PageBundle\Entity\Site";s:37:"Sonata\PageBundle\Entity\BaseSnapshot";s:37:"Sonata\PageBundle\Entity\BaseSnapshot";s:45:"Application\Sonata\PageBundle\Entity\Snapshot";s:45:"Application\Sonata\PageBundle\Entity\Snapshot";s:33:"Sonata\PageBundle\Entity\BasePage";s:33:"Sonata\PageBundle\Entity\BasePage";s:41:"Application\Sonata\PageBundle\Entity\Page";s:41:"Application\Sonata\PageBundle\Entity\Page";s:27:"FOS\UserBundle\Entity\Group";s:27:"FOS\UserBundle\Entity\Group";s:34:"Sonata\UserBundle\Entity\BaseGroup";s:34:"Sonata\UserBundle\Entity\BaseGroup";s:42:"Application\Sonata\UserBundle\Entity\Group";s:42:"Application\Sonata\UserBundle\Entity\Group";s:34:"Sonata\PageBundle\Entity\BaseBlock";s:34:"Sonata\PageBundle\Entity\BaseBlock";s:42:"Application\Sonata\PageBundle\Entity\Block";s:42:"Application\Sonata\PageBundle\Entity\Block";}}s:6:"errors";a:0:{}s:6:"caches";a:4:{s:7:"enabled";b:0;s:11:"log_enabled";b:0;s:6:"counts";a:3:{s:4:"puts";i:0;s:4:"hits";i:0;s:6:"misses";i:0;}s:7:"regions";a:3:{s:4:"puts";a:0:{}s:4:"hits";a:0:{}s:6:"misses";a:0:{}}}}}s:5:"block";C:60:"Sonata\BlockBundle\Profiler\DataCollector\BlockDataCollector":112:{a:4:{s:6:"blocks";a:1:{s:7:"_events";a:0:{}}s:10:"containers";a:0:{}s:10:"realBlocks";a:0:{}s:6:"events";a:0:{}}}}s:2:"ip";s:9:"127.0.0.1";s:6:"method";s:3:"GET";s:3:"url";s:64:"http://localhost/sandbox-build/web/app_dev.php/car-rescue-engine";s:4:"time";i:1429484308;}
