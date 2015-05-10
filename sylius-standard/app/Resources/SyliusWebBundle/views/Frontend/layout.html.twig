@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+{% set settings = sylius_settings_all('general') %}
+<html>
+    {% include 'SyliusWebBundle::Frontend/head.html.twig' %}
+    <body>
+        {# javascripts... #}
+        {% block javascripts %}
+            <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+            <script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+            {% javascripts output='assets/compiled/frontend.js'
+                'bundles/syliusweb/js/jquery.blueimp-gallery.min.js'
+                'bundles/syliusweb/js/confirm-modal.js'
+                'bundles/syliusweb/js/frontend.js'
+            %}
+                <script type="text/javascript" src="{{ asset_url }}"></script>
+            {% endjavascripts %}
+        {% endblock %}
+        <br><br>
+        {% block header %}
+            {% include 'SyliusWebBundle::Frontend/header.html.twig' %}
+        {% endblock %}
+        <div class="container">
+        {% block flashes %}
+            {% for type in ['success', 'error', 'fos_user_success', 'notice'] %}
+                {% for flash in app.session.flashbag.get(type) %}
+                    <div class="alert alert-{{ type == 'fos_user_success' ? 'success' : type == 'error' ? 'danger' : type == 'notice' ? 'warning' : type }}">
+                        <a class="close" data-dismiss="alert" href="#">×</a>
+                        {{ flash|trans }}
+                    </div>
+                {% endfor %}
+            {% endfor %}
+        {% endblock %}
+
+        {% block main %}
+        <hr>
+        {% block slideshow_full %}{% endblock %}
+        <div class="row">
+            <div class="col-md-3" id="sidebar">
+                {% block sidebar %}
+                <div class="pull-left" style="margin-bottom: 10px;">
+                    {% render controller('sylius.controller.search:formAction', {'request':app.request}) %}
+                </div>
+                <h4>{{ 'sylius.shop_by'|trans }}</h4><br>
+                {% include 'SyliusSearchBundle::filter_form.html.twig' %}<br>
+
+                {{ knp_menu_render('sylius.frontend.taxonomies', {'template': 'SyliusWebBundle:Frontend:menu.html.twig'}) }}
+                {{ render(url('sylius_partial_product_latest', {'limit': 5, 'template': 'SyliusWebBundle:Frontend/Product:latestSidebar.html.twig'})) }}
+                {{ sonata_block_render({'name': '/cms/blocks/contact'}) }}
+                {{ sonata_block_render({'name': '/cms/blocks/banner'}) }}
+                {% block slideshow_sidebar %}{% endblock %}
+
+                {% set links = cmf_children(cmf_find('/cms/pages')) %}
+                {% if links is not empty %}
+                <h2>{{ 'sylius.frontend.menu.sidebar.links'|trans }}</h2>
+                <ul>
+                  {% for link in links %}
+                    <li>
+                      <a href="{{ path(link) }}">{{ link.title|striptags }}</a>
+                    </li>
+                  {% endfor %}
+                </ul>
+                {% endif %}
+                {% endblock %}
+            </div>
+            <div class="col-md-9">
+                {% block content %}
+                {% endblock %}
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            {% for i in 1..3 %}
+                <div class="col-md-4">
+                    {{ sonata_block_render({'name': '/cms/blocks/block-' ~ i}) }}
+                </div>
+            {% endfor %}
+        </div>
+        <hr>
+        {% endblock %}
+
+        {% block gallery %}
+            {# Gallery modal #}
+            {% include 'SyliusWebBundle::gallery.html.twig' %}
+        {% endblock %}
+
+        {# Confirmation modal #}
+        {% include 'SyliusWebBundle::confirm-modal.html.twig' %}
+
+        {% block footer %}
+            <div class="footer">
+                <p class="text-muted">
+                    &copy; Sylius, 2011 - {{ 'now'|date('Y') }}.
+                </p>
+                {{ knp_menu_render('sylius.frontend.social', {'template': 'SyliusWebBundle:Frontend:menu.html.twig'}) }}
+            </div>
+        {% endblock %}
+        </div>
+
+        {% if is_granted('ROLE_SYLIUS_ADMIN') %}
+            {% render(controller(
+                "cmf_create.jsloader.controller:includeJSFilesAction",
+                {'_locale': app.request.locale, 'editor': 'hallo'}
+            )) %}
+        {% endif %}
+    </body>
+</html>

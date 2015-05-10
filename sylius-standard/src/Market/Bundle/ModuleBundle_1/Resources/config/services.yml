@@ -1,0 +1,4 @@
+services:
+#    module.example:
+#        class: Market\Bundle\ModuleBundle\Example
+#        arguments: [@service_id, "plain_value", %parameter%]

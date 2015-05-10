@@ -1,0 +1,65 @@
+{% set cart = sylius_cart_get() %}
+{% set totalTTC = cart.total|sylius_price %}
+{% set nbItem = cart.items|length %}
+<div class="dropdown dropdown-cart">
+    <a href="#" class="dropdown-toggle lnk-cart" data-toggle="dropdown">
+        <div class="items-cart-inner">
+            <div class="total-price-basket">
+                <span class="lbl">Cart </span>
+                <span class="total-price">
+                    <span class="value">{{ totalTTC }}</span>
+                </span>
+            </div>
+            <div class="basket">
+                <i class="glyphicon glyphicon-shopping-cart"></i>
+            </div>
+            <div class="basket-item-count">
+                <span class="count">
+                    {{ nbItem }}
+                </span>
+            </div>
+        </div>
+    </a>
+    <ul class="dropdown-menu">
+        <li>
+            <div class="cart-item product-summary">
+                {% for item in cart.items %}
+                    {% set variant = item.variant %}
+                    {% set product = item.variant.product %}
+                    <div class="row">
+                        <div class="col-xs-4">
+                            <div class="image">
+                                <a href="{{ path('sylius_cart_summary') }}">
+                                    <img width="60" height="60" src="{{ variant.image ? variant.image.path|imagine_filter('sylius_small') : 'http://placehold.it/60x60' }}" alt="{{ product.name }}" />
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-xs-7">
+
+                            <h3 class="name"><a href="{{ path('sylius_cart_summary') }}">{{ product.name }}</a></h3>
+                            <div class="price">{{ item.total|sylius_price }}</div>
+                        </div>
+                        <div class="col-xs-1 action">
+                            <a href="{{ path('sylius_cart_item_remove', {'id': item.id}) }}"><i class="fa fa-trash"></i></a>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div><!-- /.cart-item -->
+            <div class="clearfix"></div>
+            <hr>
+
+            <div class="clearfix cart-total">
+                <div class="pull-right">
+
+                    <span class="text">Total :</span><span class="price">{{ totalTTC }}</span>
+
+                </div>
+                <div class="clearfix"></div>
+
+                <a href="{{ path('sylius_checkout_start') }}" class="btn btn-upper btn-primary btn-block m-t-20">Checkout</a>	
+            </div><!-- /.cart-total-->
+
+
+        </li>
+    </ul><!-- /.dropdown-menu-->
+</div><!-- /.dropdown-cart -->
