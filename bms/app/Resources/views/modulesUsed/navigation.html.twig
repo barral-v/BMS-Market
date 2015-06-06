@@ -1,0 +1,11 @@
+<div class="col-xs-12 col-sm-12 col-md-3 sidebar">
+    {% render(controller('EcommerceBundle:Categories:menu')) %}
+
+    {% if is_granted('IS_AUTHENTICATED_FULLY') %}
+        {% include 'UtilisateursBundle:Default:modulesUsed/utilisateursConnecte.html.twig' %}   
+    {% else %}
+        {% include 'UtilisateursBundle:Default:modulesUsed/utilisateurs.html.twig' %}   
+    {% endif %}
+    
+    {% render(controller('EcommerceBundle:Panier:menu')) %}
+</div>

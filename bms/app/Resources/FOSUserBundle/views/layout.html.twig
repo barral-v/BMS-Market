@@ -1,0 +1,23 @@
+{% extends "::layout/layout.html.twig" %}        
+
+{% block body %}
+<div class="container">
+    <div class="row">
+
+        {% include '::modulesUsed/navigation.html.twig' %}
+
+        <div class="col-xs-12 col-sm-12 col-md-9">
+            {% for type, messages in app.session.flashbag.all() %}
+                {% for message in messages %}
+                    <div class="alert alert-{{ type }}">
+                        <strong>{{ message }}</strong>
+                    </div>
+                {% endfor %}
+            {% endfor %}
+
+            {% block fos_user_content %}
+            {% endblock fos_user_content %}
+        </div>
+    </div>
+</div>
+{% endblock %}

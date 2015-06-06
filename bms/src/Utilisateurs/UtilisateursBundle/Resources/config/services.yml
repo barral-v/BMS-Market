@@ -1,0 +1,11 @@
+parameters:
+#    utilisateurs.example.class: Utilisateurs\UtilisateursBundle\Example
+
+services:
+#    utilisateurs.example:
+#        class: %utilisateurs.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]
+    bms_user.registration.form.type:
+        class: Utilisateurs\UtilisateursBundle\Form\Type\RegistrationFormType
+        tags:
+            - { name: form.type, alias: bms_user_registration }
