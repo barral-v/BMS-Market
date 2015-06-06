@@ -1,0 +1,12 @@
+<div class="nav nav-list side-menu outer-bottom-xs">
+    <div class="head"><i class="icon fa fa-align-justify fa-fw"></i> Categories</div>
+    <nav class="yamm megamenu-horizontal" role="navigation">
+        <ul class="nav">
+            {% for categorie in categories %}
+                <li class="menu-item">
+                    <a href="{{ path('categorieProduits', { 'categorie' : categorie.id }) }}" class="">{{ categorie.nom }}</a>
+                </li>
+            {% endfor %}
+        </ul>
+    </nav>
+</div>

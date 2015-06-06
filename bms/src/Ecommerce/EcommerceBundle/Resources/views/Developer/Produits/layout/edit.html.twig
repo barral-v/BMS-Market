@@ -1,0 +1,18 @@
+{% extends '::layout/layoutDeveloper.html.twig' %}
+
+{% block body -%}
+    <h1>Produits edit</h1>
+    
+    <form action="{{ path('developerProduits_update', { 'id' : entity.id }) }}" method="POST" {{ form_enctype(edit_form) }}>
+    {{ form(edit_form) }}
+    </form>
+
+        <ul class="record_actions">
+    <li>
+        <a href="{{ path('developerProduits') }}">
+            Back to the list
+        </a>
+    </li>
+    <li>{{ form(delete_form) }}</li>
+</ul>
+{% endblock %}

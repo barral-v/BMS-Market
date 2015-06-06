@@ -1,0 +1,30 @@
+developerProduits:
+    pattern:  /
+    defaults: { _controller: "EcommerceBundle:ProduitsDeveloper:index" }
+
+developerProduits_show:
+    pattern:  /{id}/show
+    defaults: { _controller: "EcommerceBundle:ProduitsDeveloper:show" }
+
+developerProduits_new:
+    pattern:  /new
+    defaults: { _controller: "EcommerceBundle:ProduitsDeveloper:new" }
+
+developerProduits_create:
+    pattern:  /create
+    defaults: { _controller: "EcommerceBundle:ProduitsDeveloper:create" }
+    requirements: { _method: post }
+
+developerProduits_edit:
+    pattern:  /{id}/edit
+    defaults: { _controller: "EcommerceBundle:ProduitsDeveloper:edit" }
+
+developerProduits_update:
+    pattern:  /{id}/update
+    defaults: { _controller: "EcommerceBundle:ProduitsDeveloper:update" }
+    requirements: { _method: post|put }
+
+developerProduits_delete:
+    pattern:  /{id}/delete
+    defaults: { _controller: "EcommerceBundle:ProduitsDeveloper:delete" }
+    requirements: { _method: post|delete }

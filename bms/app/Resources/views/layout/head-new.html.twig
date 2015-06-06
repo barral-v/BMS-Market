@@ -1,0 +1,57 @@
+<head>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="description" content="{% block description %}{% endblock %}">
+    <meta name="author" content="">
+    <meta name="keywords" content="{% block motsCles %}{% endblock %}">
+    <meta name="robots" content="all">
+
+    <title>{% block titre %}B.M.S. - Business Management Software{%endblock %}</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
+
+    <!-- Customizable CSS -->
+    <link rel="stylesheet" href="{{ asset('css/main.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/blue.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/owl.carousel.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/owl.transitions.css') }}">
+    <!--<link rel="stylesheet" href="{{ asset('css/owl.theme.css') }}">-->
+    <link rel="stylesheet" href="{{ asset('css/lightbox.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/animate.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/rateit.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/bootstrap-select.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+{% block stylesheets %}{% endblock %}
+
+<!-- Demo Purpose Only. Should be removed in production -->
+<link rel="stylesheet" href="{{ asset('css/config.css') }}">
+
+<link href="{{ asset('css/green.css') }}" rel="alternate stylesheet" title="Green color">
+<link href="{{ asset('css/blue.css') }}" rel="alternate stylesheet" title="Blue color">
+<link href="{{ asset('css/red.css') }}" rel="alternate stylesheet" title="Red color">
+<link href="{{ asset('css/orange.css') }}" rel="alternate stylesheet" title="Orange color">
+<link href="{{ asset('css/dark-green.css') }}" rel="alternate stylesheet" title="Darkgreen color">
+<!-- Demo Purpose Only. Should be removed in production : END -->
+
+
+<!-- Icons/Glyphs -->
+<link rel="stylesheet" href="{{ asset('css/font-awesome.min.css') }}" />
+
+<!-- Fonts --> 
+<link href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet" type="text/css">
+<link href='http://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
+
+<!-- Favicon -->
+<link rel="shortcut icon" href="{{ asset('images/favicon.ico') }}">
+<link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+
+<!-- HTML5 elements and media queries Support for IE8 : HTML5 shim and Respond.js -->
+<!--[if lt IE 9]>
+        <script src="{{ asset('js/html5shiv.js') }}"></script>
+        <script src="{{ asset('js/respond.min.js') }}"></script>
+<![endif]-->
+
+</head>

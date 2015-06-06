@@ -1,0 +1,17 @@
+{% extends '::layout/layoutDeveloper.html.twig' %}
+
+{% block body -%}
+    <h1>Produits creation</h1>
+
+    <form action="{{ path('developerProduits_create') }}" method="POST" {{ form_enctype(form) }}>
+    {{ form(form) }}
+    </form>
+    
+        <ul class="record_actions">
+    <li>
+        <a href="{{ path('developerProduits') }}">
+            Back to the list
+        </a>
+    </li>
+</ul>
+{% endblock %}

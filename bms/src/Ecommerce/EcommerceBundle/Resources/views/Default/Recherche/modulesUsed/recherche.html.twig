@@ -1,0 +1,16 @@
+{#<div class="search-area">
+    <form action="{{ path('rechercheProduits') }}" method="POST" class="navbar-form form-search pull-right">
+    {{ form_widget(form.recherche) }}
+    <button type="submit" class="btn">Rechercher</button>
+    {{ form_widget(form) }}
+</form>
+#}
+    <form>
+        <div class="control-group">
+            <input class="search-field" placeholder="Search here...">
+
+            <a class="search-button" href="#"></a>    
+
+        </div>
+    </form>
+</div><!-- /.search-area -->

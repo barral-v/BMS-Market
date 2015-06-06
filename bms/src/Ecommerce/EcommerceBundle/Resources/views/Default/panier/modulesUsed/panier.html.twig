@@ -1,0 +1,18 @@
+<div class="nav nav-list side-menu animate-dropdown outer-bottom-xs">
+    <div class="head"><i class="icon glyphicon glyphicon-shopping-cart"></i> Panier</div>
+    <nav>
+        <ul class="nav nav-list">
+            <li>
+                <a href="{{ path('panier') }}">
+                    {% if articles == 0 %}
+                        Aucun article{# dans votre panier#}
+                    {% elseif articles == 1 %}
+                        1 article{# dans votre panier#}
+                    {% else %}
+                        {{ articles }} articles{# articles dans votre panier#}
+                    {% endif %}
+                </a>
+            </li>
+        </ul>
+    </nav>
+</div>
