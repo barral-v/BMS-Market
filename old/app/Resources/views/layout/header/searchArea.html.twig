@@ -10,15 +10,23 @@
 </div><!-- /.search-area -->#}
 
 {#{% render(controller('EcommerceBundle:Default:Recherche/modulesUsed/recherche.html.twig')) %}#}
-                            <div class="search-area">
-                                <form>
-                                    <div class="control-group">
-
-                                        <input class="search-field" placeholder="Search here...">
-
-                                        <a class="search-button" href="#"></a>    
-
-                                    </div>
-                                </form>
-                            </div><!-- /.search-area -->
+<div class="search-area" style="margin-top: 30px; margin-left: 55px">
+    <form>
+        <div class="control-group">
+            <ul class="categories-filter animate-dropdown">
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="index.php?page=category">Categories <b class="caret"></b></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li class="menu-header">BMS</li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="index.php?page=category">- Modules</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="index.php?page=category">- Electronics</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="index.php?page=category">- Contact</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <input class="search-field" placeholder="Search here...">
+            <a class="search-button" href="#"></a>    
+        </div>
+    </form>
+</div>
 {#{% render(controller('EcommerceBundle:Produits:recherche')) %}#}

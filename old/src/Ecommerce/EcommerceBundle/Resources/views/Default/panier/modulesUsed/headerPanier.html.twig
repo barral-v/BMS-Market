@@ -1,7 +1,4 @@
 {% set totalTTC = 0%}
-{% for produit in articles %}
-    {% set totalTTC = totalTTC + (produit.prix)|tva(produit.tva.multiplicate)z %}
-{% endfor %}
 <div class="dropdown dropdown-cart">
     <a href="#" class="dropdown-toggle lnk-cart" data-toggle="dropdown">
         <div class="items-cart-inner">
