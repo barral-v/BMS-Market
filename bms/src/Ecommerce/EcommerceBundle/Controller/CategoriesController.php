@@ -13,4 +13,12 @@ class CategoriesController extends Controller
         
         return $this->render('EcommerceBundle:Default:categories/modulesUsed/menu.html.twig', array('categories' => $categories));
     }
+    
+        public function menuTopAction()
+    {
+        $em = $this->getDoctrine()->getManager();
+        $categories = $em->getRepository('EcommerceBundle:Categories')->findAll();
+        
+        return $this->render('EcommerceBundle:Default:categories/modulesUsed/menuTop.html.twig', array('categories' => $categories));
+    }
 }

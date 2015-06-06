@@ -14,9 +14,12 @@ class PanierController extends Controller
         $session = $this->getRequest()->getSession();
         if (!$session->has('panier'))
             $articles = 0;
-        else
-            $articles = count($session->get('panier'));
-        
+        else {
+            $arrays = ($session->has('panier') ? array_keys($session->get('panier')) : array());
+            $em = $this->getDoctrine()->getManager();
+            $articles = $em->getRepository('EcommerceBundle:Produits')->findArray($arrays);
+            $articles = count($articles);
+        }        
         return $this->render('EcommerceBundle:Default:panier/modulesUsed/panier.html.twig', array('articles' => $articles));
     }
     
@@ -30,7 +33,7 @@ class PanierController extends Controller
             $articles = count($session->get('panier'));
         */
         $em = $this->getDoctrine()->getManager();
-        $arrays = ($session->get('panier') ? array_keys($session->get('panier')) : array());
+        $arrays = ($session->has('panier') ? array_keys($session->get('panier')) : array());
         $articles = $em->getRepository('EcommerceBundle:Produits')->findArray($arrays);
         
         return $this->render('EcommerceBundle:Default:panier/modulesUsed/headerPanier.html.twig', array('articles' => $articles));

@@ -17,10 +17,10 @@ class ProduitsType extends AbstractType
     {
         $builder
             ->add('nom')
+            ->add('image', new MediaType())
             ->add('description')
             ->add('prix')
             ->add('disponible')
-            ->add('image', new MediaType())
             ->add('module', new ModuleType())
             ->add('categorie')
             ->add('tva')

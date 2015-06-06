@@ -18,7 +18,7 @@ class ProduitsController extends Controller
         else 
             $findProduits = $em->getRepository('EcommerceBundle:Produits')->findBy(array('disponible' => 1));
 
-        $produits = $this->get('knp_paginator')->paginate($findProduits,$this->get('request')->query->get('page', 1), 6);
+        $produits = $this->get('knp_paginator')->paginate($findProduits,$this->get('request')->query->get('page', 1), 3);
         
         return $this->render('EcommerceBundle:Default:produits/layout/produits.html.twig', array('produits' => $produits));
     }
